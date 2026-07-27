@@ -89,36 +89,24 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
       </article>
 
       <div class="cases-showcase__rail">
-        <div class="cases-showcase__arrow-panel">
-          <button
-            type="button"
-            class="cases-showcase__arrow"
-            aria-label="向前浏览案例缩略图"
-            @click="scrollPrevious"
-          >
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="m15 5-7 7 7 7" />
-            </svg>
-          </button>
-          <button
-            type="button"
-            class="cases-showcase__arrow"
-            aria-label="向后浏览案例缩略图"
-            @click="scrollNext"
-          >
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="m9 5 7 7-7 7" />
-            </svg>
-          </button>
-        </div>
+        <button
+          type="button"
+          class="cases-showcase__arrow"
+          aria-label="向前浏览案例缩略图"
+          @click="scrollPrevious"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m15 5-7 7 7 7" />
+          </svg>
+        </button>
 
         <Swiper
           class="cases-showcase__swiper"
           :slides-per-view="2.35"
-          :space-between="16"
+          :space-between="10"
           :breakpoints="{
-            640: { slidesPerView: 2.5, spaceBetween: 20 },
-            1000: { slidesPerView: 2.9, spaceBetween: 32 },
+            640: { slidesPerView: 3.2, spaceBetween: 12 },
+            1000: { slidesPerView: 3.7, spaceBetween: 14 },
           }"
           :watch-slides-progress="true"
           @swiper="setSwiper"
@@ -142,6 +130,17 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
             </button>
           </SwiperSlide>
         </Swiper>
+
+        <button
+          type="button"
+          class="cases-showcase__arrow"
+          aria-label="向后浏览案例缩略图"
+          @click="scrollNext"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 5 7 7-7 7" />
+          </svg>
+        </button>
       </div>
     </div>
   </section>
@@ -229,12 +228,12 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 .cases-showcase__controls {
   position: absolute;
   z-index: 5;
-  right: 0;
+  right: 6%;
   bottom: 40px;
   left: 0;
   display: grid;
   height: 200px;
-  grid-template-columns: 36% 64%;
+  grid-template-columns: 38% 62%;
   align-items: end;
 }
 
@@ -302,33 +301,21 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 .cases-showcase__rail {
   display: grid;
   min-width: 0;
-  height: 200px;
-  grid-template-columns: 130px minmax(0, 1fr);
+  grid-template-columns: 38px minmax(0, 1fr) 38px;
   align-items: center;
-  gap: 0;
-}
-
-.cases-showcase__arrow-panel {
-  z-index: 2;
-  display: flex;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(90deg, rgb(24 16 14 / 42%), rgb(8 7 7 / 92%));
+  gap: 12px;
 }
 
 .cases-showcase__swiper {
   width: 100%;
-  height: 200px;
   min-width: 0;
-  overflow: visible;
 }
 
 .cases-showcase__thumb {
   position: relative;
   display: block;
   width: 100%;
-  height: 200px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   padding: 0;
   border: 2px solid transparent;
@@ -362,13 +349,13 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
 .cases-showcase__arrow {
   display: grid;
-  width: 46px;
-  height: 46px;
+  width: 38px;
+  height: 38px;
   place-items: center;
   padding: 0;
-  border: 0;
-  background: transparent;
-  color: var(--nydk-rosewood);
+  border: 1px solid rgb(255 255 255 / 42%);
+  background: rgb(35 24 21 / 28%);
+  color: #fff;
   cursor: pointer;
   transition:
     color 0.3s ease,
@@ -388,8 +375,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
 .cases-showcase__arrow:hover,
 .cases-showcase__arrow:focus-visible {
-  background: transparent;
-  color: #fff;
+  border-color: var(--nydk-rosewood);
+  background: var(--nydk-rosewood);
   outline: none;
 }
 
@@ -478,21 +465,11 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   }
 
   .cases-showcase__rail {
-    grid-template-columns: 68px minmax(0, 1fr);
-    gap: 0;
-    height: 86px;
+    grid-template-columns: 30px minmax(0, 1fr) 30px;
+    gap: 7px;
     min-height: 86px;
     padding: 10px 3%;
     background: #302725;
-  }
-
-  .cases-showcase__arrow-panel {
-    height: 66px;
-  }
-
-  .cases-showcase__swiper,
-  .cases-showcase__thumb {
-    height: 66px;
   }
 
   .cases-showcase__arrow {

@@ -195,7 +195,7 @@ export const caseSlides: readonly CaseSlide[] = [
       "以全案系统思维打破单品堆砌的桎梏，用高级定制回应多元生活场景，怀全球视野与理想生活重逢，与您共赴美学新境界。",
     image: asset("7e96edc9-790a-4e60-9949-79259ec934eb.png"),
     href:
-      "http://2306275016.p.make.dcloud.portal1.portal.thefastmake.com/home_decoration_p1.html",
+      "",
     external: true,
   },
   {
@@ -205,7 +205,7 @@ export const caseSlides: readonly CaseSlide[] = [
       "“宅中有园，园中有屋，屋中有院，院中有树”是林语堂笔下对理想庭院的诗意描述，闲雅逸致，让人心生向往，一步一景，层层嵌套，自然与生活的界限在此悄然消融。",
     image: asset("02070298-fcc8-48dc-a40c-c3f0e8c53f4d.jpg"),
     href:
-      "http://2306275016.p.make.dcloud.portal1.portal.thefastmake.com/home_decoration_p1.html",
+      "",
     external: true,
   },
   {
@@ -214,7 +214,7 @@ export const caseSlides: readonly CaseSlide[] = [
     description:
       "以雅木为基，辅以极简设计，融现代简约与东方美学，打造出一个既符合年轻人审美，又充满国际时尚氛围的居住空间。",
     image: asset("deab19e6-4a1c-42b7-afed-dc1eacd01e68.jpg"),
-    href: "/case/tianji.html",
+    href: "",
   },
   {
     id: "yu-lin",
@@ -222,7 +222,7 @@ export const caseSlides: readonly CaseSlide[] = [
     description:
       "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
     image: asset("05e06fec-e017-42ee-8cb7-76e38337633b.jpg"),
-    href: "/case/yulin.html",
+    href: "",
   },
   {
     id: "high-tech",
@@ -230,7 +230,7 @@ export const caseSlides: readonly CaseSlide[] = [
     description:
       "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
     image: asset("ca80a867-98e9-4392-937b-31866e6224bc.jpg"),
-    href: "/case/gaoxin.html",
+    href: "",
   },
 ] as const;
 
