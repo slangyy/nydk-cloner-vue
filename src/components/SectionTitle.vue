@@ -5,10 +5,14 @@ withDefaults(
     chinese: string;
     theme?: "light" | "dark";
     align?: "center" | "left";
+    variant?: "default" | "feature";
+    watermarkImage?: string;
   }>(),
   {
     theme: "light",
     align: "center",
+    variant: "default",
+    watermarkImage: "",
   },
 );
 </script>
@@ -16,9 +20,20 @@ withDefaults(
 <template>
   <div
     class="section-title"
-    :class="[`section-title--${theme}`, `section-title--${align}`]"
+    :class="[
+      `section-title--${theme}`,
+      `section-title--${align}`,
+      `section-title--${variant}`,
+    ]"
   >
-    <span class="section-title__watermark" aria-hidden="true">N</span>
+    <img
+      v-if="watermarkImage"
+      class="section-title__watermark section-title__watermark--image"
+      :src="watermarkImage"
+      alt=""
+      aria-hidden="true"
+    />
+    <span v-else class="section-title__watermark" aria-hidden="true">N</span>
     <p class="section-title__english bank">
       {{ english }}
     </p>
@@ -54,6 +69,12 @@ withDefaults(
   transform: translate(-50%, -50%);
 }
 
+.section-title__watermark--image {
+  width: 160px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .section-title__english {
   margin: 0;
   color: var(--nydk-walnut);
@@ -78,6 +99,23 @@ withDefaults(
   line-height: 1;
   letter-spacing: 0.25em;
   text-indent: 0.25em;
+}
+
+.section-title--feature {
+  min-height: 205px;
+  padding-top: 0;
+}
+
+.section-title--feature .section-title__watermark--image {
+  transform: translate(-50%, -74%);
+}
+
+.section-title--feature .section-title__english {
+  font-size: clamp(26px, 2.5vw, 36px);
+}
+
+.section-title--feature .section-title__chinese {
+  font-size: clamp(20px, 1.8vw, 26px);
 }
 
 .section-title--dark .section-title__watermark {
@@ -113,6 +151,11 @@ withDefaults(
     font-size: 80px;
   }
 
+  .section-title__watermark--image {
+    width: 100px;
+    height: 101px;
+  }
+
   .section-title__english {
     font-size: 18px;
   }
@@ -125,6 +168,22 @@ withDefaults(
 
   .section-title__chinese {
     font-size: 15px;
+  }
+
+  .section-title--feature {
+    min-height: 106px;
+  }
+
+  .section-title--feature .section-title__watermark--image {
+    transform: translate(-50%, -70%);
+  }
+
+  .section-title--feature .section-title__english {
+    font-size: clamp(20px, 3.5vw, 26px);
+  }
+
+  .section-title--feature .section-title__chinese {
+    font-size: clamp(17px, 2.7vw, 21px);
   }
 }
 </style>

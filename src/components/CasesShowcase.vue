@@ -61,7 +61,13 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     </div>
 
     <div id="cases-showcase-title" class="cases-showcase__heading">
-      <SectionTitle english="CASE" chinese="案例" theme="dark" align="left" />
+      <SectionTitle
+        english="CASE"
+        chinese="案例"
+        theme="dark"
+        align="left"
+        watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
+      />
     </div>
 
     <div class="cases-showcase__controls">
@@ -83,24 +89,36 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
       </article>
 
       <div class="cases-showcase__rail">
-        <button
-          type="button"
-          class="cases-showcase__arrow"
-          aria-label="向前浏览案例缩略图"
-          @click="scrollPrevious"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m15 5-7 7 7 7" />
-          </svg>
-        </button>
+        <div class="cases-showcase__arrow-panel">
+          <button
+            type="button"
+            class="cases-showcase__arrow"
+            aria-label="向前浏览案例缩略图"
+            @click="scrollPrevious"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m15 5-7 7 7 7" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="cases-showcase__arrow"
+            aria-label="向后浏览案例缩略图"
+            @click="scrollNext"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 5 7 7-7 7" />
+            </svg>
+          </button>
+        </div>
 
         <Swiper
           class="cases-showcase__swiper"
           :slides-per-view="2.35"
-          :space-between="10"
+          :space-between="16"
           :breakpoints="{
-            640: { slidesPerView: 3.2, spaceBetween: 12 },
-            1000: { slidesPerView: 3.7, spaceBetween: 14 },
+            640: { slidesPerView: 2.5, spaceBetween: 20 },
+            1000: { slidesPerView: 2.9, spaceBetween: 32 },
           }"
           :watch-slides-progress="true"
           @swiper="setSwiper"
@@ -124,17 +142,6 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
             </button>
           </SwiperSlide>
         </Swiper>
-
-        <button
-          type="button"
-          class="cases-showcase__arrow"
-          aria-label="向后浏览案例缩略图"
-          @click="scrollNext"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m9 5 7 7-7 7" />
-          </svg>
-        </button>
       </div>
     </div>
   </section>
@@ -145,6 +152,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   position: relative;
   width: 100%;
   aspect-ratio: 1.77 / 1;
+  margin-top: clamp(72px, 5vw, 100px);
   overflow: hidden;
   background: var(--nydk-brown);
   color: #fff;
@@ -182,9 +190,9 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 .cases-showcase__heading {
   position: absolute;
   z-index: 4;
-  top: 8%;
+  top: 27%;
   left: 6%;
-  width: min(330px, 28vw);
+  width: min(390px, 30vw);
 }
 
 .cases-showcase__heading :deep(.section-title) {
@@ -193,31 +201,63 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   padding: 0;
 }
 
-.cases-showcase__heading :deep(.section-title__watermark) {
+.cases-showcase__heading :deep(.section-title__watermark--image) {
   left: -4px;
+  width: clamp(150px, 10.5vw, 210px);
+  height: auto;
+  opacity: 0.82;
+  transform: translateY(-50%);
+}
+
+.cases-showcase__heading :deep(.section-title__english) {
+  font-size: clamp(24px, 2vw, 38px);
+  letter-spacing: 0.12em;
+}
+
+.cases-showcase__heading :deep(.section-title__line) {
+  width: clamp(46px, 3.2vw, 64px);
+  height: 3px;
+  margin-block: 15px 13px;
+}
+
+.cases-showcase__heading :deep(.section-title__chinese) {
+  font-size: clamp(24px, 1.8vw, 34px);
+  letter-spacing: 0.14em;
+  text-indent: 0.14em;
 }
 
 .cases-showcase__controls {
   position: absolute;
   z-index: 5;
-  right: 6%;
+  right: 0;
   bottom: 40px;
-  left: 6%;
+  left: 0;
   display: grid;
-  height: 160px;
-  grid-template-columns: 45% 55%;
+  height: 200px;
+  grid-template-columns: 36% 64%;
   align-items: end;
 }
 
 .cases-showcase__copy {
-  max-width: 560px;
-  padding-right: 7%;
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  max-width: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 12% 24px 16%;
+  background: linear-gradient(
+    90deg,
+    rgb(188 148 128 / 72%) 0%,
+    rgb(75 50 41 / 84%) 62%,
+    rgb(35 24 21 / 28%) 100%
+  );
 }
 
 .cases-showcase__copy h3 {
   margin: 0 0 13px;
   font-size: clamp(20px, 1.65vw, 25px);
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.08em;
 }
@@ -226,7 +266,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   display: -webkit-box;
   overflow: hidden;
   margin: 0;
-  font-size: 14px;
+  font-size: clamp(13px, 0.9vw, 16px);
   line-height: 1.9;
   opacity: 0.82;
   -webkit-box-orient: vertical;
@@ -262,21 +302,33 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 .cases-showcase__rail {
   display: grid;
   min-width: 0;
-  grid-template-columns: 38px minmax(0, 1fr) 38px;
+  height: 200px;
+  grid-template-columns: 130px minmax(0, 1fr);
   align-items: center;
-  gap: 12px;
+  gap: 0;
+}
+
+.cases-showcase__arrow-panel {
+  z-index: 2;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(24 16 14 / 42%), rgb(8 7 7 / 92%));
 }
 
 .cases-showcase__swiper {
   width: 100%;
+  height: 200px;
   min-width: 0;
+  overflow: visible;
 }
 
 .cases-showcase__thumb {
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 200px;
   overflow: hidden;
   padding: 0;
   border: 2px solid transparent;
@@ -310,13 +362,13 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
 .cases-showcase__arrow {
   display: grid;
-  width: 38px;
-  height: 38px;
+  width: 46px;
+  height: 46px;
   place-items: center;
   padding: 0;
-  border: 1px solid rgb(255 255 255 / 42%);
-  background: rgb(35 24 21 / 28%);
-  color: #fff;
+  border: 0;
+  background: transparent;
+  color: var(--nydk-rosewood);
   cursor: pointer;
   transition:
     color 0.3s ease,
@@ -336,8 +388,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
 .cases-showcase__arrow:hover,
 .cases-showcase__arrow:focus-visible {
-  border-color: var(--nydk-rosewood);
-  background: var(--nydk-rosewood);
+  background: transparent;
+  color: #fff;
   outline: none;
 }
 
@@ -347,6 +399,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     min-height: 443px;
     aspect-ratio: auto;
     flex-direction: column;
+    margin-top: 44px;
     overflow: hidden;
   }
 
@@ -364,13 +417,13 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   }
 
   .cases-showcase__heading {
-    top: 22px;
+    top: 18%;
     left: 5%;
     width: 190px;
   }
 
-  .cases-showcase__heading :deep(.section-title__watermark) {
-    font-size: 64px;
+  .cases-showcase__heading :deep(.section-title__watermark--image) {
+    width: 100px;
   }
 
   .cases-showcase__heading :deep(.section-title__english) {
@@ -403,7 +456,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     max-width: none;
     padding: 16px 5% 12px;
     background:
-      linear-gradient(110deg, rgb(35 24 21 / 52%), transparent),
+      linear-gradient(100deg, rgb(188 148 128 / 64%), rgb(35 24 21 / 38%)),
       var(--nydk-brown);
   }
 
@@ -425,11 +478,21 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   }
 
   .cases-showcase__rail {
-    grid-template-columns: 30px minmax(0, 1fr) 30px;
-    gap: 7px;
+    grid-template-columns: 68px minmax(0, 1fr);
+    gap: 0;
+    height: 86px;
     min-height: 86px;
     padding: 10px 3%;
     background: #302725;
+  }
+
+  .cases-showcase__arrow-panel {
+    height: 66px;
+  }
+
+  .cases-showcase__swiper,
+  .cases-showcase__thumb {
+    height: 66px;
   }
 
   .cases-showcase__arrow {

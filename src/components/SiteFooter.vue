@@ -68,7 +68,7 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
 <template>
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <div class="site-footer__top">
+      <!-- <div class="site-footer__top">
         <section class="site-footer__brand" aria-label="南洋迪克品牌信息">
           <img class="site-footer__wordmark" :src="footerBrandLogo" alt="南洋迪克" />
           <div class="site-footer__social" aria-label="社交媒体">
@@ -131,7 +131,7 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
             </ul>
           </section>
         </nav>
-      </div>
+      </div> -->
 
       <address class="site-footer__contacts">
         <div
@@ -150,7 +150,7 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
         </div>
       </address>
 
-      <div class="site-footer__legal">
+      <!-- <div class="site-footer__legal">
         <p>Copyright © 南洋迪克家居有限公司</p>
         <div class="site-footer__legal-links">
           <a
@@ -174,14 +174,14 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
             隐私条款
           </RouterLink>
         </div>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>
 
 <style scoped>
 .site-footer {
-  min-height: 534px;
+  min-height: 134px;
   padding: 68px 0 26px;
   background: #f4f2f1;
   color: #3c312f;

@@ -99,8 +99,10 @@ onBeforeUnmount(() => {
   >
     <SectionTitle
       id="systems-heading"
-      english="HOME IMPROVEMENT SYSTEM"
+      english="HOME DECORATION SYSTEM"
       chinese="家装系统"
+      variant="feature"
+      watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
     />
 
     <div class="systems-section__grid page-container">
@@ -146,12 +148,18 @@ onBeforeUnmount(() => {
             <img :src="item.card.detailImage" alt="" loading="lazy" />
             <span class="systems-card__detail-shade" aria-hidden="true"></span>
             <span class="systems-card__detail-copy">
-              <small class="bank">{{ item.card.english }}</small>
-              <strong>{{ item.card.title }}</strong>
-              <i aria-hidden="true"></i>
+              <span
+                class="systems-card__detail-icon"
+                :class="`systems-card__icon--${item.card.id}`"
+                aria-hidden="true"
+              ></span>
+              <span class="systems-card__detail-heading">
+                <strong>{{ item.card.title }}</strong>
+                <small class="bank">{{ item.card.english }}</small>
+              </span>
               <em>{{ item.card.description }}</em>
             </span>
-            <span class="systems-card__plus" aria-hidden="true">+</span>
+            <!-- <span class="systems-card__plus" aria-hidden="true">+</span> -->
           </RouterLink>
         </article>
       </template>
@@ -161,6 +169,8 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .systems-section {
+  --systems-content-width: 88vw;
+
   position: relative;
   z-index: 1;
   min-height: 1234px;
@@ -170,12 +180,13 @@ onBeforeUnmount(() => {
 }
 
 .systems-section :deep(.section-title) {
-  min-height: 205px;
-  padding-top: 0;
+  width: var(--systems-content-width);
+  margin-inline: auto;
 }
 
 .systems-section__grid {
   display: grid;
+  width: var(--systems-content-width);
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   overflow: visible;
@@ -246,13 +257,13 @@ onBeforeUnmount(() => {
   top: 34.5%;
   left: 50%;
   z-index: 1;
-  width: 38px;
-  height: 38px;
+  width: clamp(38px, 2.8vw, 76px);
+  height: clamp(38px, 2.8vw, 76px);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 38px 76px;
+  background-size: 100% 200%;
   transform: translateX(-50%);
-  opacity: 0.82;
+  opacity: 0.9;
 }
 
 .systems-card__icon--design {
@@ -289,27 +300,27 @@ onBeforeUnmount(() => {
 
 .systems-card__base-copy {
   position: absolute;
-  bottom: 12.5%;
+  top: 56%;
   left: 0;
   z-index: 1;
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
-  color: #8f8c8a;
+  color: var(--nydk-ink);
   text-align: center;
 }
 
 .systems-card__base-copy strong {
-  font-size: 17px;
+  font-size: clamp(16px, 0.94vw, 24px);
   font-weight: 400;
   letter-spacing: 0.18em;
   text-indent: 0.18em;
 }
 
 .systems-card__base-copy small {
-  margin-top: 4px;
-  font-size: 11px;
+  margin-top: 6px;
+  font-size: clamp(10px, 0.55vw, 14px);
   letter-spacing: 0.04em;
 }
 
@@ -342,13 +353,19 @@ onBeforeUnmount(() => {
 }
 
 .systems-card__detail-shade {
-  background: linear-gradient(90deg, rgb(29 19 15 / 76%), rgb(31 21 17 / 24%) 75%);
+  background: linear-gradient(
+    90deg,
+    rgb(23 13 10 / 98%) 0%,
+    rgb(27 17 13 / 90%) 19%,
+    rgb(31 21 17 / 38%) 48%,
+    rgb(31 21 17 / 8%) 76%
+  );
 }
 
 .systems-card__detail-copy {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 4%;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -360,37 +377,43 @@ onBeforeUnmount(() => {
 }
 
 .systems-card:nth-child(3n) .systems-card__detail-copy {
-  left: 8%;
+  left: 4%;
 }
 
-.systems-card__detail-copy small {
-  order: 2;
-  margin-top: 4px;
+.systems-card__detail-icon {
+  display: block;
+  width: clamp(38px, 2.8vw, 76px);
+  height: clamp(38px, 2.8vw, 76px);
+  margin-bottom: clamp(16px, 1.18vw, 24px);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+}
+
+.systems-card__detail-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.systems-card__detail-heading small {
+  color: rgb(255 255 255 / 42%);
   font-size: 12px;
   letter-spacing: 0.06em;
 }
 
-.systems-card__detail-copy strong {
-  order: 1;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: 0.2em;
-}
-
-.systems-card__detail-copy i {
-  order: 3;
-  width: 42px;
-  height: 1px;
-  margin-block: 17px 15px;
-  background: rgb(255 255 255 / 72%);
+.systems-card__detail-heading strong {
+  font-size: clamp(16px, 0.94vw, 24px);
+  font-weight: 600;
+  letter-spacing: 0.06em;
 }
 
 .systems-card__detail-copy em {
-  order: 4;
-  font-size: 13px;
+  margin-top: 14px;
+  font-size: clamp(12px, 0.63vw, 16px);
   font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0.09em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   white-space: nowrap;
 }
 
@@ -439,12 +462,10 @@ onBeforeUnmount(() => {
 
 @media (max-width: 998px) {
   .systems-section {
+    --systems-content-width: 90vw;
+
     min-height: 663px;
     padding-block: 22px 48px;
-  }
-
-  .systems-section :deep(.section-title) {
-    min-height: 106px;
   }
 
   .systems-section__grid {
@@ -461,14 +482,13 @@ onBeforeUnmount(() => {
   }
 
   .systems-card__icon {
-    top: 25%;
-    width: 26px;
-    height: 26px;
-    background-size: 26px 52px;
+    top: 21%;
+    width: clamp(38px, 7vw, 56px);
+    height: clamp(38px, 7vw, 56px);
   }
 
   .systems-card__base-copy {
-    bottom: 9%;
+    top: 58%;
   }
 
   .systems-card__base-copy strong {
@@ -504,23 +524,29 @@ onBeforeUnmount(() => {
   }
 
   .systems-card__detail-copy {
-    left: 7.5%;
+    left: 5%;
   }
 
-  .systems-card__detail-copy strong {
+  .systems-card__detail-icon {
+    width: clamp(38px, 7vw, 56px);
+    height: clamp(38px, 7vw, 56px);
+    margin-bottom: 10px;
+  }
+
+  .systems-card__detail-heading {
+    gap: 8px;
+  }
+
+  .systems-card__detail-heading strong {
     font-size: clamp(15px, 4.4vw, 21px);
   }
 
-  .systems-card__detail-copy small {
+  .systems-card__detail-heading small {
     font-size: clamp(8px, 2.4vw, 11px);
   }
 
-  .systems-card__detail-copy i {
-    width: 30px;
-    margin-block: 8px 7px;
-  }
-
   .systems-card__detail-copy em {
+    margin-top: 7px;
     max-width: 55vw;
     overflow: hidden;
     font-size: clamp(8px, 2.3vw, 11px);

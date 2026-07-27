@@ -30,14 +30,14 @@ onMounted(() => {
 
     <div class="hero-section__shade" aria-hidden="true"></div>
 
-    <div class="hero-section__copy">
+    <!-- <div class="hero-section__copy">
       <h1>南 洋 迪 克　整 装 家 居</h1>
       <p class="bank">
         NEODKO IS A LEADING BRAND IN CHINA'S HIGH-END HOME FURNISHINGS
       </p>
-    </div>
+    </div> -->
 
-    <span class="hero-section__pagination" aria-hidden="true"></span>
+    <!-- <span class="hero-section__pagination" aria-hidden="true"></span> -->
   </section>
 </template>
 

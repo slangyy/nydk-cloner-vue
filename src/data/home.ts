@@ -31,7 +31,7 @@ export const aboutNavItems: readonly NavItem[] = [
 
 export const mainNavItems: readonly NavItem[] = [
   { label: "普西纳", english: "Poseena", href: "/ExtremeSystem.html" },
-  { label: "联系", english: "Contact", href: "/ContactUs.html" },
+  // { label: "联系", english: "Contact", href: "/ContactUs.html" },
   { label: "产品", english: "Product", href: "#", children: productNavItems },
   {
     label: "案例",
@@ -40,8 +40,8 @@ export const mainNavItems: readonly NavItem[] = [
       "https://www.kujiale.com/pub/site/design-zone/Window_of_design/scenes?kpm=qkWL.b53388404e567714.c112e63.1705731598528",
     external: true,
   },
-  { label: "商业", english: "Cooperate", href: "/BusinessModel.html" },
-  { label: "关于", english: "Neodko", href: "/about.html", children: aboutNavItems },
+  // { label: "商业", english: "Cooperate", href: "/BusinessModel.html" },
+  // { label: "关于", english: "Neodko", href: "/about.html", children: aboutNavItems },
 ] as const;
 
 export const systemCards: readonly SystemCard[] = [
@@ -127,6 +127,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "入户空间",
     english: "ENTRANCE SPACE",
     image: asset("f281fbf9-7130-48bf-879a-a1ea5773eba7.jpg"),
+    icon: asset("864b361d-3601-4741-8780-cdfd494ca34c.png"),
     href: "/home_decoration_p5.html",
   },
   {
@@ -134,6 +135,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "会客空间",
     english: "VISITOR SPACE",
     image: asset("f4bbb759-e522-4d10-bb9e-ff4fb4ca6afc.jpg"),
+    icon: asset("0da01016-91ee-4194-ad3c-a61a301cb75e.png"),
     href: "/home_decoration_p5.html?p=1",
   },
   {
@@ -141,6 +143,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "餐厨空间",
     english: "ENTRANCE SPACE",
     image: asset("3d136554-13fe-4115-ae0f-489a4accee22.jpg"),
+    icon: asset("5995f086-6fc2-4779-939a-44484f734b56.png"),
     href: "/home_decoration_p5.html?p=2",
   },
   {
@@ -148,6 +151,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "书茶空间",
     english: "ENTRANCE SPACE",
     image: asset("a8ec183b-0dfc-48d5-ad20-b50711b14083.jpg"),
+    icon: asset("5995f086-6fc2-4779-939a-44484f734b56.png"),
     href: "/home_decoration_p5.html?p=3",
   },
   {
@@ -155,6 +159,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "睡眠空间",
     english: "VISITOR SPACE",
     image: asset("71c4fbe8-3d35-4446-9ea3-a1f7b20ef437.jpg"),
+    icon: asset("11dafaa9-48ee-4194-9107-ab3d537a3698.png"),
     href: "/home_decoration_p5.html?p=4",
   },
   {
@@ -162,6 +167,7 @@ export const spaceSlides: readonly SpaceSlide[] = [
     title: "衣帽空间",
     english: "VISITOR SPACE",
     image: asset("c2a6e713-2d06-49ea-822d-163acd81e723.jpg"),
+    icon: asset("8ef3ab73-8c66-4b4a-9156-4893a068c72e.png"),
     href: "/home_decoration_p5.html?p=5",
   },
 ] as const;

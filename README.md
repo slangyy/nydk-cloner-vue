@@ -22,6 +22,9 @@ npm run dev
 
 Vite 默认运行在 `http://localhost:5173`。
 
+更完整的目录说明、交互定位、响应式校准和常见故障处理见
+[`docs/DEVELOPMENT_GUIDE.md`](docs/DEVELOPMENT_GUIDE.md)。
+
 ## 质量检查
 
 ```bash

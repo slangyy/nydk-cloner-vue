@@ -22,6 +22,10 @@
 
 - Section padding: desktop 5% 0.
 - Content width: 88%, centered.
+- Home systems title is intentionally larger than the shared section-title default:
+  English `clamp(26px, 2.5vw, 36px)`, Chinese `clamp(20px, 1.8vw, 26px)`.
+- The supplied title watermark image is shifted upward so its visible lower edge
+  aligns with the top of the Chinese title.
 - Desktop list: flex wrap, three columns, card width 32.8%, row gap 0.8%.
 - 1440px card reference: about 414 × 271px.
 - Fifth cell is brand artwork and has no hover detail.

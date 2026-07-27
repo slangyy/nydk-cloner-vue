@@ -11,6 +11,8 @@
 - `chinese: string`
 - `theme?: "light" | "dark"`
 - `align?: "center" | "left"`
+- `variant?: "default" | "feature"`
+- `watermarkImage?: string`
 
 ## Styles
 
@@ -20,3 +22,5 @@
 - Dark theme: all visible text and line white.
 - Desktop title vertical padding 60px; watermark about 158px.
 - Mobile title padding about 30px; watermark about 80px.
+- Feature variant is shared by HomeSystemsSection and DesignInstituteSection:
+  identical sizing, spacing and supplied N watermark image.

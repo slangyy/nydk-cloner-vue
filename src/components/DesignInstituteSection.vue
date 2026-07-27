@@ -25,6 +25,8 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
         id="design-institute-title"
         english="DESIGN & RESEARCH INSTITUTE"
         chinese="设计研究院"
+        variant="feature"
+        watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
       />
 
       <div class="design-institute__grid">
@@ -63,6 +65,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 }
 
 .design-institute__inner {
+  width: 88vw;
   padding-top: 50px;
 }
 
@@ -115,6 +118,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
   }
 
   .design-institute__inner {
+    width: 90vw;
     padding-top: 8px;
   }
 

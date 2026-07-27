@@ -19,8 +19,13 @@
 
 - Background `#3c312f`.
 - Main media container uses padding-top 56% on desktop.
-- Main title is absolute at left 5%, top 8%, white, with left-aligned watermark.
-- Thumbnail navigation is absolute at the bottom, full width.
+- Main media fills the section with a uniform dark veil plus stronger left and
+  bottom gradients.
+- The active title is placed at about 20% of the image height on the left with
+  the supplied local N
+  watermark asset, the active slide's English and Chinese labels, a divider and
+  a round plus link.
+- Bottom navigation uses the six original 100 × 60px line-art icon assets.
 - Desktop reference height 804px; mobile reference height about 318px.
 
 ## States
@@ -28,6 +33,7 @@
 - All main images are layered absolute; inactive opacity 0, active opacity 1/z-index 2.
 - Transition: opacity 0.8s ease-in/out.
 - Desktop >998px switches on mouseenter.
-- ≤998px switches on click.
-- Active thumbnail has warm taupe pill background; an indicator follows the item width.
-- Swiper visible items: 6 desktop, 5 at ≤1366, 4 at ≤1200, 3 at ≤768.
+- ≤998px switches on click or keyboard focus.
+- A single warm taupe pill moves between items with a 0.7s eased transform.
+- Upper-left copy changes for every active image with a short fade/slide.
+- Desktop shows six items; narrow screens use a horizontally scrollable track.

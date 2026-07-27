@@ -17,7 +17,8 @@
 
 ## Layout
 
-- White section with 88% centered content and standard title.
+- White section with uncapped 88vw centered content. Its title uses the same feature
+  variant, sizing, spacing and N watermark asset as HomeSystemsSection.
 - Desktop: three columns × two rows; reference image tiles approximately 421 × 253px.
 - Mobile: two columns × three rows with equal-width cells.
 - Brand tile occupies the final cell.

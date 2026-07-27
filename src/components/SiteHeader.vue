@@ -252,15 +252,18 @@ onBeforeUnmount(() => {
   top: 0;
   left: 0;
   width: 100%;
+  border-bottom: 1px solid transparent;
   color: #fff;
   transition:
     transform 0.3s ease,
     background-color 0.3s ease,
+    border-color 0.3s ease,
     color 0.3s ease;
 }
 
 .site-header--solid,
 .site-header--open {
+  border-bottom-color: rgb(51 44 43 / 18%);
   background: #eee;
   color: #332c2b;
 }
@@ -273,14 +276,14 @@ onBeforeUnmount(() => {
   display: flex;
   width: 88%;
   min-height: 70px;
-  margin: 25px auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
 
 .site-header__logo {
   width: 63px;
-  height: 60px;
+  height: 48px;
   object-fit: contain;
 }
 
@@ -306,7 +309,7 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 2px;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.08em;
   white-space: nowrap;
 }
@@ -325,7 +328,7 @@ onBeforeUnmount(() => {
 }
 
 .desktop-nav__link small {
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.08em;
   opacity: 0.72;
 }
@@ -368,7 +371,7 @@ onBeforeUnmount(() => {
   gap: 16px;
   padding: 9px 0;
   border-bottom: 1px solid rgb(51 44 43 / 13%);
-  font-size: 13px;
+  font-size: 14px;
   white-space: nowrap;
 }
 
@@ -378,7 +381,7 @@ onBeforeUnmount(() => {
 
 .desktop-nav__dropdown-link small {
   color: rgb(51 44 43 / 45%);
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .site-header__actions {
@@ -432,6 +435,11 @@ onBeforeUnmount(() => {
   .desktop-nav__link {
     min-width: 82px;
     padding-inline: 13px;
+    font-size: 15px;
+  }
+
+  .desktop-nav__link small {
+    font-size: 9px;
   }
 }
 

@@ -21,6 +21,7 @@ export interface SpaceSlide {
   readonly title: string;
   readonly english: string;
   readonly image: string;
+  readonly icon: string;
   readonly href: string;
   readonly external?: boolean;
 }

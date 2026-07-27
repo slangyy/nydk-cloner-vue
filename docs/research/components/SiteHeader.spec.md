@@ -15,6 +15,12 @@
 ## Computed Styles
 
 - Header: fixed, top 0, left 0, width 100%, z-index 1000, transition 0.3s.
+- Desktop header total height is approximately 70px; the centered inner wrapper
+  has no vertical margin and the logo is constrained to 63 × 48px.
+- The solid light-gray header has a full-width 1px bottom divider.
+- Desktop primary navigation uses 16px Chinese and 10px English labels; at
+  999–1180px they reduce to 15px and 9px to preserve horizontal spacing.
+- Desktop dropdown navigation uses 14px Chinese and 9px English labels.
 - Desktop inner: width 88%, margin `25px auto`, flex, space-between, center.
 - Desktop Logo: 63 × 60px.
 - Desktop navigation height 70px；1440px 下单项约 20px 水平 padding。
