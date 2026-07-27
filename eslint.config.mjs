@@ -1,18 +1,33 @@
 import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+import vue from "eslint-plugin-vue";
+import tseslint from "typescript-eslint";
+import vueParser from "vue-eslint-parser";
 
 const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
-  // Override default ignores of eslint-config-next.
   globalIgnores([
-    // Default ignores of eslint-config-next:
     ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
+    "dist/**",
+    "node_modules/**",
+    ".worktrees/**",
+    "public/assets/**",
   ]),
+  ...vue.configs["flat/recommended"],
+  ...tseslint.configs.recommended,
+  {
+    files: ["**/*.vue"],
+    languageOptions: {
+      parser: vueParser,
+      parserOptions: {
+        parser: tseslint.parser,
+        extraFileExtensions: [".vue"],
+      },
+    },
+    rules: {
+      "vue/multi-word-component-names": "off",
+      "vue/max-attributes-per-line": "off",
+      "vue/html-self-closing": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

@@ -1,0 +1,318 @@
+import type {
+  CaseSlide,
+  DesignerCard,
+  FooterContact,
+  NavItem,
+  NewsItem,
+  SpaceSlide,
+  SystemCard,
+} from "@/types/content";
+
+const asset = (filename: string): string => `/assets/images/${filename}`;
+
+export const productNavItems: readonly NavItem[] = [
+  { label: "设计系统", english: "Design System", href: "/design.html?p=0" },
+  { label: "生产系统", english: "Production System", href: "/intelligence.html?p=1" },
+  { label: "工艺系统", english: "Process System", href: "/technique.html?p=2" },
+  { label: "智能系统", english: "Intelligent System", href: "/Zhijia.html?p=3" },
+  { label: "成品系统", english: "Product System", href: "/home_decoration_p5.html?p=4" },
+  { label: "材料系统", english: "Material Systems", href: "/material.html?p=5" },
+  { label: "整装系统", english: "Integrated System", href: "/FixedInstallation_1.html?p=6" },
+  { label: "服务系统", english: "Service System", href: "/SaveWorry.html?p=7" },
+] as const;
+
+export const aboutNavItems: readonly NavItem[] = [
+  { label: "品牌介绍", english: "Brand Introduction", href: "/about.html?p=0" },
+  { label: "发展历程", english: "Development History", href: "/about.html?p=1" },
+  { label: "荣誉资质", english: "Honorary Qualifications", href: "/about.html?p=2" },
+  { label: "新闻动态", english: "News Updates", href: "/News_updates.html?p=3" },
+  { label: "影像活动", english: "Image Activity", href: "/videos.html?p=4" },
+] as const;
+
+export const mainNavItems: readonly NavItem[] = [
+  { label: "普西纳", english: "Poseena", href: "/ExtremeSystem.html" },
+  { label: "联系", english: "Contact", href: "/ContactUs.html" },
+  { label: "产品", english: "Product", href: "#", children: productNavItems },
+  {
+    label: "案例",
+    english: "Case",
+    href:
+      "https://www.kujiale.com/pub/site/design-zone/Window_of_design/scenes?kpm=qkWL.b53388404e567714.c112e63.1705731598528",
+    external: true,
+  },
+  { label: "商业", english: "Cooperate", href: "/BusinessModel.html" },
+  { label: "关于", english: "Neodko", href: "/about.html", children: aboutNavItems },
+] as const;
+
+export const systemCards: readonly SystemCard[] = [
+  {
+    id: "design",
+    title: "设计系统",
+    english: "Design system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("93ec5ad0-fb99-47d3-a0cf-c132be4d08f6.jpg"),
+    detailImage: asset("534f87e0-f8cd-41e5-9b95-7caa1ac40c4d.jpg"),
+    href: "/design.html",
+  },
+  {
+    id: "production",
+    title: "生产系统",
+    english: "Production system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("1aa132c4-de87-476a-b0c2-f66d9b68c8fa.jpg"),
+    detailImage: asset("6b4e4c9e-1900-4c7d-b6c2-e90a8e304004.jpg"),
+    href: "/intelligence.html?p=1",
+  },
+  {
+    id: "process",
+    title: "工艺系统",
+    english: "Process system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("1682dc8e-eb38-47e8-94ab-5a7e3cbd6bf4.jpg"),
+    detailImage: asset("faebc217-5f08-4a65-87a8-95820680f78d.jpg"),
+    href: "/technique.html?p=2",
+  },
+  {
+    id: "smart-home",
+    title: "智能系统",
+    english: "Smart home system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("b73a8ba2-2086-4f23-b1ac-93e162a4d995.jpg"),
+    detailImage: asset("3303a17f-a199-4732-8e05-3bef2a165e69.jpg"),
+    href: "/Zhijia.html?p=3",
+  },
+  {
+    id: "product",
+    title: "成品系统",
+    english: "Pruduct system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("6e40e528-b752-41dd-8691-f8bba566d3ad.jpg"),
+    detailImage: asset("9befa60c-35e0-425c-84b1-f1c669a55ba9.jpg"),
+    href: "/home_decoration_p5.html?p=4",
+  },
+  {
+    id: "material",
+    title: "材料系统",
+    english: "Material system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("4dbea946-5c74-4478-b283-282d362300ab.jpg"),
+    detailImage: asset("8a53fda8-4a3b-443f-b96c-333d5a7f0f2c.jpg"),
+    href: "/material.html?p=5",
+  },
+  {
+    id: "integrated",
+    title: "整装系统",
+    english: "Integrated System",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("b6b9e006-e4c7-4b33-8c70-f2de0f8e4cda.jpg"),
+    detailImage: asset("83e32388-b530-4cfc-9064-23cedc3c7f99.jpg"),
+    href: "/FixedInstallation_1.html?p=6",
+  },
+  {
+    id: "service",
+    title: "服务系统",
+    english: "Service system",
+    description: "用户至上，一对一全案专属设计",
+    image: asset("b73a8ba2-2086-4f23-b1ac-93e162a4d995.jpg"),
+    detailImage: asset("9f70d279-14a6-4a6f-9067-30e93fd1b5d1.jpg"),
+    href: "/SaveWorry.html?p=7",
+  },
+] as const;
+
+export const systemsBrandImage = asset("65d4aba6-c8d4-423b-8c92-31873531456b.png");
+
+export const spaceSlides: readonly SpaceSlide[] = [
+  {
+    id: "entrance",
+    title: "入户空间",
+    english: "ENTRANCE SPACE",
+    image: asset("f281fbf9-7130-48bf-879a-a1ea5773eba7.jpg"),
+    href: "/home_decoration_p5.html",
+  },
+  {
+    id: "visitor",
+    title: "会客空间",
+    english: "VISITOR SPACE",
+    image: asset("f4bbb759-e522-4d10-bb9e-ff4fb4ca6afc.jpg"),
+    href: "/home_decoration_p5.html?p=1",
+  },
+  {
+    id: "dining",
+    title: "餐厨空间",
+    english: "ENTRANCE SPACE",
+    image: asset("3d136554-13fe-4115-ae0f-489a4accee22.jpg"),
+    href: "/home_decoration_p5.html?p=2",
+  },
+  {
+    id: "study",
+    title: "书茶空间",
+    english: "ENTRANCE SPACE",
+    image: asset("a8ec183b-0dfc-48d5-ad20-b50711b14083.jpg"),
+    href: "/home_decoration_p5.html?p=3",
+  },
+  {
+    id: "sleep",
+    title: "睡眠空间",
+    english: "VISITOR SPACE",
+    image: asset("71c4fbe8-3d35-4446-9ea3-a1f7b20ef437.jpg"),
+    href: "/home_decoration_p5.html?p=4",
+  },
+  {
+    id: "cloakroom",
+    title: "衣帽空间",
+    english: "VISITOR SPACE",
+    image: asset("c2a6e713-2d06-49ea-822d-163acd81e723.jpg"),
+    href: "/home_decoration_p5.html?p=5",
+  },
+] as const;
+
+export const designerCards: readonly DesignerCard[] = [
+  { id: "designer-1", image: asset("c59e253c-84e3-4565-bb96-89c639f66eed.jpg") },
+  { id: "designer-2", image: asset("a5947dc6-dd8e-4064-a883-ed310f1b9862.jpg") },
+  { id: "designer-3", image: asset("5e5cb6e8-450e-4a1e-bcde-31c6445ff7d2.jpg") },
+  { id: "designer-4", image: asset("a4ee18f9-0ae0-4118-a8c8-f4fd071cea4c.jpg") },
+  { id: "designer-5", image: asset("b502f7ec-6c8c-4f47-a5da-6abb1275b697.jpg") },
+  {
+    id: "designer-brand",
+    image: asset("f233eb78-6457-4583-8535-12ddf344d80c.jpg"),
+    isBrandCard: true,
+    href: "/design.html",
+  },
+] as const;
+
+export const caseSlides: readonly CaseSlide[] = [
+  {
+    id: "poseena-source-house",
+    title: "普西纳·源邸一号",
+    description:
+      "以全案系统思维打破单品堆砌的桎梏，用高级定制回应多元生活场景，怀全球视野与理想生活重逢，与您共赴美学新境界。",
+    image: asset("7e96edc9-790a-4e60-9949-79259ec934eb.png"),
+    href:
+      "http://2306275016.p.make.dcloud.portal1.portal.thefastmake.com/home_decoration_p1.html",
+    external: true,
+  },
+  {
+    id: "jieyang-villa",
+    title: "广东揭阳·别墅会所",
+    description:
+      "“宅中有园，园中有屋，屋中有院，院中有树”是林语堂笔下对理想庭院的诗意描述，闲雅逸致，让人心生向往，一步一景，层层嵌套，自然与生活的界限在此悄然消融。",
+    image: asset("02070298-fcc8-48dc-a40c-c3f0e8c53f4d.jpg"),
+    href:
+      "http://2306275016.p.make.dcloud.portal1.portal.thefastmake.com/home_decoration_p1.html",
+    external: true,
+  },
+  {
+    id: "skyline",
+    title: "天际 · 山水名著",
+    description:
+      "以雅木为基，辅以极简设计，融现代简约与东方美学，打造出一个既符合年轻人审美，又充满国际时尚氛围的居住空间。",
+    image: asset("deab19e6-4a1c-42b7-afed-dc1eacd01e68.jpg"),
+    href: "/case/tianji.html",
+  },
+  {
+    id: "yu-lin",
+    title: "禾气 · 榆林一号院",
+    description:
+      "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
+    image: asset("05e06fec-e017-42ee-8cb7-76e38337633b.jpg"),
+    href: "/case/yulin.html",
+  },
+  {
+    id: "high-tech",
+    title: "禾气 · 高新融府",
+    description:
+      "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
+    image: asset("ca80a867-98e9-4392-937b-31866e6224bc.jpg"),
+    href: "/case/gaoxin.html",
+  },
+] as const;
+
+export const newsItems: readonly NewsItem[] = [
+  {
+    id: "45",
+    date: "07.10",
+    year: "2026",
+    title: "领见生活 格调进阶",
+    summary: "作为东方木艺美学的代表，南洋迪克携迭代升级的“领见生活”精彩亮相",
+    image: asset("474af248-ca5a-4d21-8b0a-6344ccc606bc.jpg"),
+    href: "/NewsUpdates_des/45.html",
+  },
+  {
+    id: "44",
+    date: "06.30",
+    year: "2026",
+    title: "领见生活 再续回响",
+    summary: "南洋迪克，邀您共鉴。向世界，见东方。",
+    image: asset("19fc85d9-74d2-492e-a911-6465ac8d9497.png"),
+    href: "/NewsUpdates_des/44.html",
+  },
+  {
+    id: "43",
+    date: "06.09",
+    year: "2026",
+    title: "世界斯诺克冠军吴宜泽正式出任南洋迪克全球形象代言人",
+    summary:
+      "本次战略合作，是南洋迪克面向全球化市场的一次重要品牌升维动作，标志着品牌正式迈入更国际化、更年轻化、更高质感的全新发展阶段。",
+    image: asset("de694793-9d64-4345-8cc2-63ff210aa6e4.jpg"),
+    href: "/NewsUpdates_des/43.html",
+  },
+  {
+    id: "42",
+    date: "05.28",
+    year: "2026",
+    title: "一境入宋 万象归一",
+    summary: "南洋迪克【境界】西安旗舰店，即将盛大启幕！",
+    image: asset("a84df03d-2a8d-4a2d-a04b-e5e06bbf4fb5.jpg"),
+    href: "/NewsUpdates_des/42.html",
+  },
+] as const;
+
+export const footerContacts: readonly FooterContact[] = [
+  {
+    icon: "phone",
+    label: "全国服务热线",
+    value: "400-6638-999",
+    href: "tel:400-6638-999",
+  },
+  {
+    icon: "location",
+    label: "公司地址",
+    value: "陕西省西安市长安区秦创原顺兴路88号",
+  },
+  {
+    icon: "join",
+    label: "加盟电话",
+    value: "13928655555 张先生",
+    href: "tel:13922793222",
+  },
+  {
+    icon: "mail",
+    label: "服务邮箱",
+    value: "17868344634@163.com",
+    href: "mailto:17868344634@163.com",
+  },
+] as const;
+
+export const footerBrandLogo = asset("b654ba19-270e-4f71-8f05-9a0613b05fef.png");
+export const footerQrCode = asset("495b445c-aaee-44cb-bc02-ab11ecae1abe.jpg");
+
+export const heroVideo = "/assets/video/36304d3c-8931-47bd-996e-e6d8721206da.mp4";
+export const heroPoster =
+  "/assets/backgrounds/36304d3c-8931-47bd-996e-e6d8721206da.jpg";
+
+export const pageNames: Readonly<Record<string, string>> = {
+  "/ExtremeSystem.html": "普西纳",
+  "/ContactUs.html": "联系我们",
+  "/design.html": "设计系统",
+  "/intelligence.html": "生产系统",
+  "/technique.html": "工艺系统",
+  "/Zhijia.html": "智能系统",
+  "/home_decoration_p5.html": "成品系统",
+  "/material.html": "材料系统",
+  "/FixedInstallation_1.html": "整装系统",
+  "/SaveWorry.html": "服务系统",
+  "/BusinessModel.html": "商业合作",
+  "/about.html": "关于南洋迪克",
+  "/News_updates.html": "新闻动态",
+  "/videos.html": "影像活动",
+};

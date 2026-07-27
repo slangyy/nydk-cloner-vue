@@ -8,6 +8,7 @@ node_modules/
 out/
 build/
 dist/
+.worktrees/
 
 # Environment
 .env
@@ -33,7 +34,6 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
 
 # Vercel
 .vercel

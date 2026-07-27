@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Bank";
+  src: url("/assets/fonts/faca3e70-537f-40e3-8088-3419b0536fd1.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  color: #231815;
+  background: #ffffff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --nydk-ink: #231815;
+  --nydk-brown: #3c312f;
+  --nydk-walnut: #634f44;
+  --nydk-rosewood: #bc9480;
+  --nydk-soft-gray: #eeeeee;
+  --nydk-border: #d3d1d0;
+  --nydk-container: min(88vw, 1264px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+button,
+a,
+input {
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.page-container {
+  width: var(--nydk-container);
+  margin-inline: auto;
+}
+
+.bank {
+  font-family: "Bank", Arial, sans-serif;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 998px) {
+  :root {
+    --nydk-container: 90vw;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
