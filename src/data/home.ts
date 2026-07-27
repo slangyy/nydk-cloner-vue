@@ -302,6 +302,19 @@ export const heroPoster =
   "/assets/backgrounds/36304d3c-8931-47bd-996e-e6d8721206da.jpg";
 
 export const pageNames: Readonly<Record<string, string>> = {
+  "/design.html?p=0": "设计系统",
+  "/intelligence.html?p=1": "生产系统",
+  "/technique.html?p=2": "工艺系统",
+  "/Zhijia.html?p=3": "智能系统",
+  "/home_decoration_p5.html?p=4": "成品系统",
+  "/material.html?p=5": "材料系统",
+  "/FixedInstallation_1.html?p=6": "整装系统",
+  "/SaveWorry.html?p=7": "服务系统",
+  "/about.html?p=0": "品牌介绍",
+  "/about.html?p=1": "发展历程",
+  "/about.html?p=2": "荣誉资质",
+  "/News_updates.html?p=3": "新闻动态",
+  "/videos.html?p=4": "影像活动",
   "/ExtremeSystem.html": "普西纳",
   "/ContactUs.html": "联系我们",
   "/design.html": "设计系统",

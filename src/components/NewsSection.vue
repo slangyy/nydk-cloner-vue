@@ -37,7 +37,9 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
           <div class="news-card__media">
             <img :src="item.image" :alt="item.title" loading="lazy" />
           </div>
-          <p class="news-card__summary">{{ item.summary }}</p>
+          <p class="news-card__summary">
+            {{ item.summary }}
+          </p>
         </RouterLink>
       </div>
 
@@ -282,3 +284,4 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
     margin-left: 12px;
   }
 }
+</style>

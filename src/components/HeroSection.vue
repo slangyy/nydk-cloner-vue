@@ -162,8 +162,9 @@ onMounted(() => {
   }
 
   .hero-section {
-    background-image: url(v-bind(heroPoster));
+    background-image: url("/assets/backgrounds/36304d3c-8931-47bd-996e-e6d8721206da.jpg");
     background-position: center;
     background-size: cover;
   }
 }
+</style>

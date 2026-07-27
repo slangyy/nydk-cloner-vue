@@ -117,9 +117,11 @@ onBeforeUnmount(() => {
             { 'systems-card--active': activeId === item.card.id },
           ]"
         >
-          <RouterLink
+          <component
+            :is="isCompact ? 'button' : RouterLink"
             class="systems-card__base"
-            :to="item.card.href"
+            :to="isCompact ? undefined : item.card.href"
+            :type="isCompact ? 'button' : undefined"
             :aria-expanded="isCompact ? activeId === item.card.id : undefined"
             @click="handleBaseClick($event, item.card.id)"
           >
@@ -138,7 +140,7 @@ onBeforeUnmount(() => {
               <strong>{{ item.card.title }}</strong>
               <small class="bank">{{ item.card.english }}</small>
             </span>
-          </RouterLink>
+          </component>
 
           <RouterLink class="systems-card__detail" :to="item.card.href" tabindex="-1">
             <img :src="item.card.detailImage" alt="" loading="lazy" />
@@ -216,7 +218,13 @@ onBeforeUnmount(() => {
 }
 
 .systems-card__base {
+  padding: 0;
+  border: 0;
   background: #f1f1f1;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
 }
 
 .systems-card__base::after {

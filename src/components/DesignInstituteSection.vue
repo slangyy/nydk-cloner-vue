@@ -129,3 +129,4 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
     font-size: 10px;
   }
 }
+</style>

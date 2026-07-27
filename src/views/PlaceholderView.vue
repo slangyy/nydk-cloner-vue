@@ -7,7 +7,9 @@ import SiteHeader from "@/components/SiteHeader.vue";
 import { pageNames } from "@/data/home";
 
 const route = useRoute();
-const pageName = computed(() => pageNames[route.path] ?? "页面待还原");
+const pageName = computed(
+  () => pageNames[route.fullPath] ?? pageNames[route.path] ?? "页面待还原",
+);
 const queryLabel = computed(() => {
   const index = route.query.p;
   return typeof index === "string" ? ` · ${index}` : "";

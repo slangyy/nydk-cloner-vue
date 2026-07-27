@@ -144,7 +144,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 .cases-showcase {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1.77 / 1;
   overflow: hidden;
   background: var(--nydk-brown);
   color: #fff;

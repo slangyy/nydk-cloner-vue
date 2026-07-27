@@ -19,9 +19,13 @@ withDefaults(
     :class="[`section-title--${theme}`, `section-title--${align}`]"
   >
     <span class="section-title__watermark" aria-hidden="true">N</span>
-    <p class="section-title__english bank">{{ english }}</p>
+    <p class="section-title__english bank">
+      {{ english }}
+    </p>
     <i class="section-title__line" aria-hidden="true"></i>
-    <h2 class="section-title__chinese">{{ chinese }}</h2>
+    <h2 class="section-title__chinese">
+      {{ chinese }}
+    </h2>
   </div>
 </template>
 
@@ -123,3 +127,4 @@ withDefaults(
     font-size: 15px;
   }
 }
+</style>
