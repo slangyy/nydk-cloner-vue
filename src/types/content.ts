@@ -28,6 +28,7 @@ export interface SpaceSlide {
 export interface DesignerCard {
   readonly id: string;
   readonly image: string;
+  readonly mobileImage?: string;
   readonly isBrandCard?: boolean;
   readonly href?: string;
 }

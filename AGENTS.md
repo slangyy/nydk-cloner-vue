@@ -1,65 +1,64 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# 南洋迪克 Vue 3 首页复刻
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+## 项目目标
 
-# Website Reverse-Engineer Template
+本仓库是 `https://www.ny-dk.com/` 首页的高保真 Vue 实现。复刻阶段必须优先匹配原站布局、文案、资源、色彩、字体、响应式行为和交互，不做主观改版。
 
-## What This Is
-A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. The Next.js + shadcn/ui + Tailwind v4 base is pre-scaffolded — just run `/clone-website <url1> [<url2> ...]`.
+## 技术栈
 
-## Tech Stack
-- **Framework:** Next.js 16 (App Router, React 19, TypeScript strict)
-- **UI:** shadcn/ui (Radix primitives, Tailwind CSS v4, `cn()` utility)
-- **Icons:** Lucide React (default — will be replaced/supplemented by extracted SVGs)
-- **Styling:** Tailwind CSS v4 with oklch design tokens
-- **Deployment:** Vercel
+- Vue 3
+- Vite
+- TypeScript strict
+- Vue Router
+- Pinia
+- Tailwind CSS 4
+- Composition API 与 `<script setup lang="ts">`
+- `.vue` 单文件组件
 
-## Commands
-- `npm run dev` — Start dev server
-- `npm run build` — Production build
-- `npm run lint` — ESLint check
-- `npm run typecheck` — TypeScript check
-- `npm run check` — Run lint + typecheck + build
+严禁引入 React、React DOM、Next.js、JSX 或 TSX。
 
-## Code Style
-- TypeScript strict mode, no `any`
-- Named exports, PascalCase components, camelCase utils
-- Tailwind utility classes, no inline styles
-- 2-space indentation
-- Responsive: mobile-first
+## 命令
 
-## Design Principles
-- **Pixel-perfect emulation** — match the target's spacing, colors, typography exactly
-- **No personal aesthetic changes during emulation phase** — match 1:1 first, customize later
-- **Real content** — use actual text and assets from the target site, not placeholders
-- **Beauty-first** — every pixel matters
+- `npm run dev`：Vite 开发服务器
+- `npm run lint`：ESLint
+- `npm run typecheck`：`vue-tsc --noEmit`
+- `npm run build`：Vite 生产构建
+- `npm run check`：lint + typecheck + build
 
-## Project Structure
-```
+## 代码规范
+
+- TypeScript strict，禁止 `any`
+- 2 空格缩进
+- Vue 组件使用 PascalCase，组合式函数使用 `useXxx`
+- 组件只消费 `src/data/` 中的严格类型数据
+- 使用本地 `public/assets/` 资源，禁止原站图片、视频和字体热链
+- 同站链接使用 Vue Router；第三方、`tel:`、`mailto:` 保持原协议
+- 响应式断点和数值以 `docs/research/` 与 `docs/design-references/` 为准
+- 动画必须支持 `prefers-reduced-motion`
+
+## 目录
+
+```text
 src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons as React components
-  lib/
-    utils.ts        # cn() utility (shadcn)
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  images/           # Downloaded images from target site
-  videos/           # Downloaded videos from target site
-  seo/              # Favicons, OG images, webmanifest
-docs/
-  research/         # Inspection output (design tokens, components, layout)
-  design-references/ # Screenshots and visual references
-scripts/            # Asset download scripts
+  components/
+  composables/
+  data/
+  router/
+  stores/
+  types/
+  views/
+public/assets/
+docs/research/
+docs/design-references/
 ```
 
-## MOST IMPORTANT NOTES
-- When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
-- After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
-- After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+## 协作
+
+- 并行实现时，每位构建者必须使用独立 `codex/` 分支与独立 git worktree。
+- 在各工作树交付前运行 `npm run typecheck` 与 `npm run lint`。
+- 主实现者逐一合并并处理冲突，最终统一运行 `npm run check` 和三档视口视觉校准。
+- 不推送远程仓库。
+
+修改本文件后运行 `bash scripts/sync-agent-rules.sh` 更新平台规则副本。
 
 @docs/research/INSPECTION_GUIDE.md
