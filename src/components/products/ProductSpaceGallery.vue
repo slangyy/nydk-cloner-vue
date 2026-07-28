@@ -256,3 +256,4 @@ onBeforeUnmount(() => {
     animation: none;
   }
 }
+</style>

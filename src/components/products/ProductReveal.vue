@@ -78,3 +78,4 @@ const revealStyle = computed(() => ({
     transition: none;
   }
 }
+</style>

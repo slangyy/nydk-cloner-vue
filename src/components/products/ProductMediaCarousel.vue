@@ -174,3 +174,4 @@ function next(): void {
     right: 10px;
   }
 }
+</style>

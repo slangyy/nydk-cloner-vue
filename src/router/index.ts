@@ -1,8 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import HomeView from "@/views/HomeView.vue";
+import DesignSystemView from "@/views/DesignSystemView.vue";
+import FinishedSystemView from "@/views/FinishedSystemView.vue";
+import IntegratedSystemView from "@/views/IntegratedSystemView.vue";
+import IntelligentSystemView from "@/views/IntelligentSystemView.vue";
+import MaterialSystemView from "@/views/MaterialSystemView.vue";
 import PlaceholderView from "@/views/PlaceholderView.vue";
 import PoseenaView from "@/views/PoseenaView.vue";
+import ProcessSystemView from "@/views/ProcessSystemView.vue";
+import ProductionSystemView from "@/views/ProductionSystemView.vue";
+import ServiceSystemView from "@/views/ServiceSystemView.vue";
 import { useUiStore } from "@/stores/ui";
 
 const router = createRouter({
@@ -25,6 +33,78 @@ const router = createRouter({
       meta: {
         headerOverlay: true,
         title: "POSEENA普西纳-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/design.html",
+      name: "design-system",
+      component: DesignSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "设计系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/intelligence.html",
+      name: "production-system",
+      component: ProductionSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "生产系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/technique.html",
+      name: "process-system",
+      component: ProcessSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "工艺系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/Zhijia.html",
+      name: "intelligent-system",
+      component: IntelligentSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "智家系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p5.html",
+      name: "finished-system",
+      component: FinishedSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "POSEENA-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/material.html",
+      name: "material-system",
+      component: MaterialSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "材料系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/FixedInstallation_1.html",
+      name: "integrated-system",
+      component: IntegratedSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "整装系统-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/SaveWorry.html",
+      name: "service-system",
+      component: ServiceSystemView,
+      meta: {
+        headerOverlay: true,
+        title: "服务系统-南洋迪克全案系统家居",
       },
     },
     {
