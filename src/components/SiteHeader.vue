@@ -147,7 +147,7 @@ onBeforeUnmount(() => {
         </div>
       </nav>
 
-      <!-- <div class="site-header__actions">
+      <div class="site-header__actions">
         <RouterLink
           class="site-header__search"
           to="/globalSearch_1.html"
@@ -170,7 +170,7 @@ onBeforeUnmount(() => {
           <span />
           <span />
         </button>
-      </div> -->
+      </div>
     </div>
 
     <nav
