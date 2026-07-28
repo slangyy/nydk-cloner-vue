@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { type ComponentPublicInstance, useId } from "vue";
-import { Navigation } from "swiper/modules";
+import type { Swiper as SwiperInstance } from "swiper";
+import { ref, type ComponentPublicInstance } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 
@@ -8,13 +8,44 @@ import { useReveal } from "@/composables/useReveal";
 import { poseenaCases } from "@/data/poseena";
 
 const { target, isVisible } = useReveal();
-const instanceId = useId().replaceAll(":", "");
-const previousButtonClass = `poseena-cases-prev-${instanceId}`;
-const nextButtonClass = `poseena-cases-next-${instanceId}`;
+const caseCount = poseenaCases.length;
+const bufferedCases = [...poseenaCases, ...poseenaCases, ...poseenaCases];
+const swiperInstance = ref<SwiperInstance | null>(null);
 
 const setRevealTarget = (element: Element | ComponentPublicInstance | null): void => {
   target.value = element instanceof HTMLElement ? element : null;
 };
+
+function setSwiperInstance(instance: SwiperInstance): void {
+  swiperInstance.value = instance;
+}
+
+function normalizeCarouselPosition(instance: SwiperInstance): void {
+  if (instance.activeIndex < caseCount) {
+    instance.slideTo(instance.activeIndex + caseCount, 0, false);
+    return;
+  }
+
+  if (instance.activeIndex >= caseCount * 2) {
+    instance.slideTo(instance.activeIndex - caseCount, 0, false);
+  }
+}
+
+function showPreviousCase(): void {
+  if (!swiperInstance.value || swiperInstance.value.animating) {
+    return;
+  }
+
+  swiperInstance.value.slidePrev();
+}
+
+function showNextCase(): void {
+  if (!swiperInstance.value || swiperInstance.value.animating) {
+    return;
+  }
+
+  swiperInstance.value.slideNext();
+}
 </script>
 
 <template>
@@ -34,22 +65,23 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     <div class="poseena-cases__carousel">
       <Swiper
         class="poseena-cases__swiper"
-        :modules="[Navigation]"
-        :loop="true"
-        :loop-additional-slides="3"
+        :initial-slide="caseCount"
         :centered-slides="true"
         :slides-per-view="1"
+        :slides-per-group="1"
         :space-between="20"
-        :navigation="{
-          prevEl: `.${previousButtonClass}`,
-          nextEl: `.${nextButtonClass}`,
-        }"
+        :watch-overflow="false"
         :breakpoints="{
           999: { slidesPerView: 1.8, spaceBetween: 100 },
           1441: { slidesPerView: 1.8, spaceBetween: 140 },
         }"
+        @swiper="setSwiperInstance"
+        @slide-change-transition-end="normalizeCarouselPosition"
       >
-        <SwiperSlide v-for="item in poseenaCases" :key="item.id">
+        <SwiperSlide
+          v-for="(item, index) in bufferedCases"
+          :key="`${item.id}-${index}`"
+        >
           <article class="poseena-cases__card">
             <div class="poseena-cases__media">
               <img
@@ -68,16 +100,16 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
       <button
         type="button"
         class="poseena-cases__arrow poseena-cases__arrow--previous"
-        :class="previousButtonClass"
         aria-label="上一个案例"
+        @click="showPreviousCase"
       >
         <span aria-hidden="true"></span>
       </button>
       <button
         type="button"
         class="poseena-cases__arrow poseena-cases__arrow--next"
-        :class="nextButtonClass"
         aria-label="下一个案例"
+        @click="showNextCase"
       >
         <span aria-hidden="true"></span>
       </button>

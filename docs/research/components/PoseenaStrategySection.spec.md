@@ -2,6 +2,7 @@
 
 - Target: `src/components/poseena/PoseenaStrategySection.vue`
 - Background: `/assets/poseena/pattern-light.jpg`, centered/cover; top overlaps preceding section by 12%, uses 18% top padding, and has no extra bottom padding.
+- The section background remains in normal flow. Its transparent content container owns the reveal transform and `z-index:2`, while the following pursuit section stays at `z-index:1`; the pursuit background can replace the lower texture without covering the three cards.
 - Heading: `新中有爱 纵横无边`; subtitle `1+1+6品牌战略`; shared centered title/divider styling.
 - Heading typography is 48px/80px plus 36px/60px on large desktop; at `≤1440px` it becomes 38px/63.33px plus 30px/50px.
 - Desktop: max-width 1440px; three cards at 31.33% width, 5% padding, white background, shadow `0 20px 30px rgb(191 178 172 / 20%)`.

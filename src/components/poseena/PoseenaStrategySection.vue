@@ -13,12 +13,14 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 
 <template>
   <section
-    :ref="setRevealTarget"
-    class="poseena-strategy reveal"
-    :class="{ 'is-visible': isVisible }"
+    class="poseena-strategy"
     aria-labelledby="poseena-strategy-title"
   >
-    <div class="poseena-strategy__container">
+    <div
+      :ref="setRevealTarget"
+      class="poseena-strategy__container reveal"
+      :class="{ 'is-visible': isVisible }"
+    >
       <header class="poseena-strategy__header">
         <h2 id="poseena-strategy-title">
           新中有爱 纵横无边
@@ -53,16 +55,18 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 <style scoped>
 .poseena-strategy {
   position: relative;
-  z-index: 1;
   margin-top: -12%;
   padding: 18% 0 0;
   background: #f5f1ee url("/assets/poseena/pattern-light.jpg") center / cover no-repeat;
 }
 
 .poseena-strategy__container {
+  position: relative;
+  z-index: 2;
   width: 80%;
   max-width: 1440px;
   margin: 0 auto;
+  overflow: visible;
 }
 
 .poseena-strategy__header {
