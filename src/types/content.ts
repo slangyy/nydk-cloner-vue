@@ -74,6 +74,7 @@ export interface InnerPageHeroConfig {
   readonly subtitle: string;
   readonly watermark: string;
   readonly breadcrumbs: readonly InnerPageHeroBreadcrumbItem[];
+  readonly aspectRatio?: readonly [width: number, height: number];
   readonly overlayHoldMs?: number;
   readonly overlayFadeMs?: number;
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
+import { computed, onBeforeUnmount, onMounted, ref, watch, type CSSProperties } from "vue";
 import { RouterLink } from "vue-router";
 
 import type { InnerPageHeroConfig } from "@/types/content";
@@ -11,6 +11,17 @@ const props = withDefaults(defineProps<InnerPageHeroConfig>(), {
 
 const isOverlayVisible = ref(true);
 const fadeDuration = computed(() => `${props.overlayFadeMs}ms`);
+const heroStyle = computed<CSSProperties | undefined>(() => {
+  if (!props.aspectRatio) {
+    return undefined;
+  }
+
+  const [width, height] = props.aspectRatio;
+  return {
+    aspectRatio: `${width} / ${height}`,
+    height: "auto",
+  };
+});
 let hideTimer: number | undefined;
 
 function scheduleOverlayDismissal(): void {
@@ -47,6 +58,7 @@ onBeforeUnmount(() => {
 <template>
   <section
     class="inner-page-hero"
+    :style="heroStyle"
     :aria-label="`${title}页面首屏`"
   >
     <img
