@@ -59,3 +59,44 @@ export interface FooterContact {
   readonly value: string;
   readonly href?: string;
 }
+
+export interface InnerPageHeroBreadcrumbItem {
+  readonly label: string;
+  readonly to?: string;
+  readonly current?: boolean;
+  readonly showHomeIcon?: boolean;
+}
+
+export interface InnerPageHeroConfig {
+  readonly image: string;
+  readonly imageAlt: string;
+  readonly title: string;
+  readonly subtitle: string;
+  readonly watermark: string;
+  readonly breadcrumbs: readonly InnerPageHeroBreadcrumbItem[];
+  readonly overlayHoldMs?: number;
+  readonly overlayFadeMs?: number;
+}
+
+export interface PoseenaMentor {
+  readonly id: string;
+  readonly role: string;
+  readonly name: string;
+  readonly position: string;
+  readonly english: string;
+  readonly achievements: readonly string[];
+  readonly image: string;
+}
+
+export interface PoseenaStrategy {
+  readonly id: string;
+  readonly number: "1" | "6";
+  readonly title: string;
+  readonly lines: readonly string[];
+}
+
+export interface PoseenaCaseSlide {
+  readonly id: string;
+  readonly title: string;
+  readonly image: string;
+}

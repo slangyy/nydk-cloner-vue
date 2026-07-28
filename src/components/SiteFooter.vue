@@ -1,61 +1,6 @@
 <script setup lang="ts">
-import { RouterLink } from "vue-router";
-
-import {
-  aboutNavItems,
-  footerBrandLogo,
-  footerContacts,
-  footerQrCode,
-  productNavItems,
-} from "@/data/home";
-import type { FooterContact, NavItem } from "@/types/content";
-
-interface FooterColumn {
-  readonly title: string;
-  readonly english: string;
-  readonly href?: string;
-  readonly external?: boolean;
-  readonly links: readonly NavItem[];
-}
-
-const footerColumns: readonly FooterColumn[] = [
-  {
-    title: "普西纳",
-    english: "Poseena",
-    href: "/ExtremeSystem.html",
-    links: [],
-  },
-  {
-    title: "联系",
-    english: "Contact",
-    href: "/ContactUs.html",
-    links: [],
-  },
-  {
-    title: "产品",
-    english: "Product",
-    links: productNavItems,
-  },
-  {
-    title: "案例",
-    english: "Case",
-    href:
-      "https://www.kujiale.com/pub/site/design-zone/Window_of_design/scenes?kpm=qkWL.b53388404e567714.c112e63.1705731598528",
-    external: true,
-    links: [],
-  },
-  {
-    title: "商业",
-    english: "Cooperate",
-    href: "/BusinessModel.html",
-    links: [],
-  },
-  {
-    title: "关于",
-    english: "Neodko",
-    links: aboutNavItems,
-  },
-] as const;
+import { footerContacts } from "@/data/home";
+import type { FooterContact } from "@/types/content";
 
 const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
   phone: "☎",

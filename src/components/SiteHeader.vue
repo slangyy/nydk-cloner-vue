@@ -18,8 +18,10 @@ const {
 
 let previousScrollY = 0;
 
+const hasOverlayHeader = computed(() => route.meta.headerOverlay === true);
 const useSolidTheme = computed(
-  () => route.path !== "/" || isHeaderSolid.value || isMobileMenuOpen.value,
+  () =>
+    !hasOverlayHeader.value || isHeaderSolid.value || isMobileMenuOpen.value,
 );
 
 function isInternal(item: NavItem): boolean {
@@ -29,7 +31,7 @@ function isInternal(item: NavItem): boolean {
 function updateHeader(): void {
   const currentScrollY = Math.max(window.scrollY, 0);
 
-  if (route.path !== "/") {
+  if (!hasOverlayHeader.value) {
     uiStore.setHeaderState(false, true);
     previousScrollY = currentScrollY;
     return;
@@ -145,7 +147,7 @@ onBeforeUnmount(() => {
         </div>
       </nav>
 
-      <div class="site-header__actions">
+      <!-- <div class="site-header__actions">
         <RouterLink
           class="site-header__search"
           to="/globalSearch_1.html"
@@ -168,7 +170,7 @@ onBeforeUnmount(() => {
           <span />
           <span />
         </button>
-      </div>
+      </div> -->
     </div>
 
     <nav
