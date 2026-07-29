@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import StaticAlternatingSection from "@/components/products/static/StaticAlternatingSection.vue";
 import {
   intelligentClosingImage,
   intelligentSections,
@@ -9,12 +8,31 @@ import {
 
 <template>
   <div class="intelligent-content">
-    <div class="intelligent-content__sections page-container">
-      <StaticAlternatingSection
-        v-for="section in intelligentSections"
+    <div class="intelligent-content__inner">
+      <article
+        v-for="(section, index) in intelligentSections"
         :key="section.id"
-        :section="section"
-      />
+        class="intelligent-feature"
+        :class="`intelligent-feature--${index + 1}`"
+      >
+        <ProductReveal
+          class="intelligent-feature__copy"
+          :direction="index === 1 ? 'right' : 'left'"
+        >
+          <h2>
+            {{ section.title }}
+            <span v-if="section.subtitle">{{ section.subtitle }}</span>
+          </h2>
+          <p>{{ section.description }}</p>
+        </ProductReveal>
+
+        <ProductReveal
+          class="intelligent-feature__media"
+          :direction="index === 1 ? 'left' : 'right'"
+        >
+          <img :src="section.image" :alt="section.imageAlt" loading="lazy" />
+        </ProductReveal>
+      </article>
     </div>
 
     <ProductReveal class="intelligent-content__closing">
@@ -29,53 +47,204 @@ import {
 
 <style scoped>
 .intelligent-content {
-  padding-top: 54px;
+  overflow: hidden;
+  padding-top: min(7vw, 134px);
   background: #fff;
 }
 
-.intelligent-content__sections {
-  width: min(1440px, 86vw);
+.intelligent-content__inner {
+  width: min(1440px, 75.2vw);
+  margin-inline: auto;
 }
 
-.intelligent-content :deep(.static-feature) {
-  min-height: 830px;
+.intelligent-feature {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: min(7.52vw, 144px);
 }
 
-.intelligent-content :deep(.static-feature__media img) {
-  max-height: 600px;
-  object-fit: cover;
+.intelligent-feature:last-child {
+  margin-bottom: 0;
+}
+
+.intelligent-feature__copy {
+  box-sizing: border-box;
+  color: #231815;
+}
+
+.intelligent-feature__copy h2,
+.intelligent-feature__copy p {
+  margin: 0;
+}
+
+.intelligent-feature__copy h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.intelligent-feature__copy h2 span {
+  margin-left: 0.22em;
+}
+
+.intelligent-feature__copy p {
+  margin-top: 34px;
+  color: #777;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 2.6;
+}
+
+.intelligent-feature__media {
+  overflow: visible;
+}
+
+.intelligent-feature__media img {
+  display: block;
+  max-width: none;
+  height: auto;
+}
+
+.intelligent-feature--1 .intelligent-feature__copy {
+  width: 46%;
+  padding-left: 6%;
+  text-align: right;
+}
+
+.intelligent-feature--1 .intelligent-feature__media {
+  width: 46%;
+}
+
+.intelligent-feature--1 .intelligent-feature__media img {
+  width: 136%;
+}
+
+.intelligent-feature--2 .intelligent-feature__copy {
+  width: 45%;
+  order: 2;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.intelligent-feature--2 .intelligent-feature__media {
+  width: 46%;
+  order: 1;
+}
+
+.intelligent-feature--2 .intelligent-feature__media img {
+  width: 100%;
+}
+
+.intelligent-feature--3 .intelligent-feature__copy {
+  width: 46%;
+  margin-top: -8%;
+  padding-left: 6%;
+  text-align: right;
+}
+
+.intelligent-feature--3 .intelligent-feature__media {
+  width: 45%;
+}
+
+.intelligent-feature--3 .intelligent-feature__media img {
+  width: 120%;
 }
 
 .intelligent-content__closing {
-  width: 100%;
-  margin-top: 35px;
+  width: min(50vw, 960px);
+  margin-top: 5vw;
 }
 
 .intelligent-content__closing img {
+  display: block;
   width: 100%;
-  max-height: 500px;
-  object-fit: cover;
+  height: auto;
 }
 
 @media (max-width: 998px) {
   .intelligent-content {
-    padding-top: 22px;
+    padding-top: 64px;
   }
 
-  .intelligent-content__sections {
+  .intelligent-content__inner {
     width: 90vw;
   }
 
-  .intelligent-content :deep(.static-feature) {
-    min-height: auto;
+  .intelligent-feature,
+  .intelligent-feature:last-child {
+    display: grid;
+    gap: 32px;
+    margin-bottom: 76px;
+  }
+
+  .intelligent-feature__copy,
+  .intelligent-feature--1 .intelligent-feature__copy,
+  .intelligent-feature--2 .intelligent-feature__copy,
+  .intelligent-feature--3 .intelligent-feature__copy {
+    width: 100%;
+    margin-top: 0;
+    order: 2;
+    padding: 0;
+    text-align: left;
+  }
+
+  .intelligent-feature__media,
+  .intelligent-feature--1 .intelligent-feature__media,
+  .intelligent-feature--2 .intelligent-feature__media,
+  .intelligent-feature--3 .intelligent-feature__media {
+    width: 100%;
+    order: 1;
+    overflow: hidden;
+  }
+
+  .intelligent-feature__media img,
+  .intelligent-feature--1 .intelligent-feature__media img,
+  .intelligent-feature--2 .intelligent-feature__media img,
+  .intelligent-feature--3 .intelligent-feature__media img {
+    width: 100%;
+  }
+
+  .intelligent-feature__copy h2 {
+    font-size: 32px;
+    white-space: normal;
+  }
+
+  .intelligent-feature__copy p {
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 2.1;
   }
 
   .intelligent-content__closing {
-    margin-top: 25px;
+    width: 90vw;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .intelligent-content {
+    padding-top: 48px;
   }
 
-  .intelligent-content__closing img {
-    min-height: 220px;
+  .intelligent-content__inner {
+    width: 92vw;
+  }
+
+  .intelligent-feature__copy h2 {
+    font-size: 27px;
+  }
+
+  .intelligent-feature__copy p {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .intelligent-content__closing {
+    width: 100%;
   }
 }
 </style>

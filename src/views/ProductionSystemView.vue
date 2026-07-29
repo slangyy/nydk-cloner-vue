@@ -10,6 +10,7 @@ import {
   productionPage,
   productionTeamStats,
 } from "@/data/products/ops";
+import SectionTitle from "@/components/SectionTitle.vue";
 </script>
 
 <template>
@@ -61,36 +62,7 @@ import {
       />
     </section>
 
-    <section class="team-section">
-      <div class="team-section__content">
-        <ProductReveal direction="left">
-          <div class="team-section__copy">
-            <p class="bank">
-              TEAM
-            </p>
-            <h2>专业团队</h2>
-            <span aria-hidden="true" />
-            <div class="team-section__stats">
-              <article
-                v-for="stat in productionTeamStats"
-                :key="stat.id"
-              >
-                <strong>{{ stat.value }}</strong>
-                <p>
-                  {{ stat.title }}
-                </p>
-              </article>
-            </div>
-          </div>
-        </ProductReveal>
-        <ProductReveal direction="right">
-          <img
-            src="/assets/products/production/f2bec56d-6092-400c-847b-ee134e62b57e.jpg"
-            alt="南洋迪克核心管理与研发团队"
-          />
-        </ProductReveal>
-      </div>
-    </section>
+
 
     <section class="supply-section">
       <ProductReveal>

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import {
   designMatrixImages,
   designOriginal,
@@ -11,11 +10,17 @@ import {
 <template>
   <div class="design-content">
     <section class="design-matrix">
-      <ProductReveal>
-        <ProductSectionHeading
-          title="中国高定整装领导品牌"
-          subtitle="生活的从容 从好的设计开始"
+      <ProductReveal class="design-matrix__heading">
+        <img
+          class="design-matrix__watermark"
+          src="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
+          alt=""
+          aria-hidden="true"
         />
+        <div class="design-matrix__heading-copy">
+          <h2>中国高定整装领导品牌</h2>
+          <p>生活的从容&nbsp;&nbsp;从好的设计开始</p>
+        </div>
       </ProductReveal>
 
       <div class="design-matrix__grid">
@@ -31,58 +36,54 @@ import {
       </div>
     </section>
 
-    <section class="original-design page-container">
-      <ProductReveal class="original-design__visual" direction="left">
-        <div class="original-design__composition">
+    <section class="original-design">
+      <ProductReveal class="original-design__ornament" direction="up">
+        <img :src="designOriginal.ornament" alt="" aria-hidden="true" />
+      </ProductReveal>
+
+      <div class="original-design__inner">
+        <ProductReveal class="original-design__copy" direction="left">
+          <h2>{{ designOriginal.title }}</h2>
+          <p class="original-design__subtitle">
+            {{ designOriginal.subtitle }}
+          </p>
+          <span class="original-design__line" aria-hidden="true" />
+          <p class="original-design__description">
+            {{ designOriginal.description }}
+          </p>
+        </ProductReveal>
+
+        <ProductReveal class="original-design__visual" direction="right">
           <img
             class="original-design__main"
             :src="designOriginal.mainImage"
             alt="南洋迪克原创卧室空间设计"
             loading="lazy"
           />
-          <img
-            class="original-design__detail"
-            :src="designOriginal.detailImage"
-            alt="南洋迪克家具材质与缝线细节"
-            loading="lazy"
-          />
-          <img
-            class="original-design__ornament"
-            :src="designOriginal.ornament"
-            alt=""
-            aria-hidden="true"
-          />
-        </div>
-      </ProductReveal>
-
-      <ProductReveal class="original-design__copy" direction="right" :delay-ms="100">
-        <img
-          class="original-design__mark"
-          :src="designOriginal.mark"
-          alt=""
-          aria-hidden="true"
-        />
-        <ProductSectionHeading
-          :title="designOriginal.title"
-          :subtitle="designOriginal.subtitle"
-          align="left"
-        />
-        <p>{{ designOriginal.description }}</p>
-      </ProductReveal>
+          <ProductReveal class="original-design__detail">
+            <img
+              :src="designOriginal.detailImage"
+              alt="南洋迪克家具材质与缝线细节"
+              loading="lazy"
+            />
+          </ProductReveal>
+        </ProductReveal>
+      </div>
     </section>
 
     <section
       class="design-power"
       :style="{ backgroundImage: `url(${designPower.image})` }"
     >
-      <div class="design-power__veil" />
       <ProductReveal class="design-power__content">
-        <ProductSectionHeading
-          :title="designPower.title"
-          :subtitle="designPower.subtitle"
-          light
-        />
-        <p>{{ designPower.description }}</p>
+        <h2>{{ designPower.title }}</h2>
+        <p class="design-power__subtitle">
+          {{ designPower.subtitle }}
+        </p>
+        <span class="design-power__line" aria-hidden="true" />
+        <p class="design-power__description">
+          {{ designPower.description }}
+        </p>
       </ProductReveal>
     </section>
   </div>
@@ -90,20 +91,64 @@ import {
 
 <style scoped>
 .design-content {
+  overflow: hidden;
   background: #fff;
 }
 
 .design-matrix {
-  width: min(1440px, 90vw);
+  width: min(1440px, 75.2vw);
   margin-inline: auto;
-  padding: 118px 0 150px;
+}
+
+.design-matrix__heading {
+  margin-top: 120px;
+  position: relative;
+  display: flex;
+  height: 143px;
+  justify-content: center;
+}
+
+.design-matrix__watermark {
+  width: auto;
+  margin-top: 10px;
+  height: 143px;
+}
+
+.design-matrix__heading-copy {
+  position: absolute;
+  top: 68px;
+  left: 50%;
+  width: 100%;
+  color: #231815;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.design-matrix__heading-copy h2,
+.design-matrix__heading-copy p {
+  margin: 0;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.design-matrix__heading-copy h2 {
+  font-size: 36px;
+  letter-spacing: 0.6em;
+  line-height: 36px;
+}
+
+.design-matrix__heading-copy p {
+  margin-top: 29px;
+  font-size: 22px;
+  letter-spacing: 0.3em;
+  line-height: 33px;
 }
 
 .design-matrix__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
-  margin-top: 74px;
+  margin-top: 115px;
   overflow: hidden;
 }
 
@@ -126,120 +171,280 @@ import {
 }
 
 .original-design {
-  display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(340px, 0.88fr);
-  align-items: center;
-  gap: clamp(60px, 8vw, 135px);
-  padding-block: 110px 160px;
-}
-
-.original-design__composition {
   position: relative;
-  padding: 0 0 11% 11%;
+  height: min(51.42vw, 985px);
+  margin-top: 10vw;
 }
 
-.original-design__main {
-  width: 86%;
-  margin-left: auto;
-}
-
-.original-design__detail {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 31%;
-  aspect-ratio: 1;
-  border: 12px solid #fff;
-  object-fit: cover;
+.original-design__inner {
+  display: flex;
+  width: min(1440px, 75.2vw);
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: auto;
 }
 
 .original-design__ornament {
   position: absolute;
-  top: 9%;
-  left: 3%;
-  width: 18px;
-  height: 56%;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 536px;
+  overflow: hidden;
+}
+
+.original-design__ornament img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
 .original-design__copy {
-  max-width: 560px;
+  width: 48%;
 }
 
-.original-design__mark {
-  width: 112px;
-  margin-bottom: 28px;
-  opacity: 0.8;
-}
-
+.original-design__copy h2,
 .original-design__copy p {
-  margin: 38px 0 0;
-  color: #625b57;
-  font-size: clamp(15px, 1vw, 18px);
-  line-height: 2.15;
-  text-align: justify;
+  margin: 0;
+}
+
+.original-design__copy h2 {
+  color: #231815;
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+}
+
+.original-design__subtitle {
+  margin-top: 35px !important;
+  color: #231815;
+  font-size: 36px;
+  letter-spacing: 0.5em;
+  line-height: 1.5;
+}
+
+.original-design__line {
+  display: block;
+  width: 120px;
+  height: 2px;
+  margin: 41px 0 48px;
+  background: #bc9480;
+}
+
+.original-design__description {
+  color: #7d7d7d;
+  font-size: 18px;
+  letter-spacing: 0.18em;
+  line-height: 3.33;
+}
+
+.original-design__visual {
+  position: relative;
+  width: 45%;
+  height: 100%;
+}
+
+.original-design__main {
+  width: 136%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.original-design__detail {
+  position: absolute;
+  bottom: -18%;
+  left: -52.5%;
+  width: 52.5%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.original-design__detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .design-power {
   position: relative;
   display: grid;
-  min-height: 50vw;
-  max-height: 960px;
+  height: min(50.61vw, 970px);
+  margin-top: min(20vw, 383px);
   place-items: center;
   overflow: hidden;
   background-position: center;
   background-size: cover;
 }
 
-.design-power__veil {
-  position: absolute;
-  inset: 0;
-  background: rgb(19 15 14 / 27%);
-}
-
 .design-power__content {
   position: relative;
   z-index: 1;
-  width: min(760px, 82vw);
+  width: 100%;
   color: #fff;
   text-align: center;
 }
 
+.design-power__content h2,
 .design-power__content p {
-  margin: 42px auto 0;
-  color: rgb(255 255 255 / 92%);
-  font-size: clamp(15px, 1vw, 18px);
-  line-height: 2.2;
+  margin: 0;
+}
+
+.design-power__content h2 {
+  font-size: 52px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+}
+
+.design-power__subtitle {
+  margin-top: 33px !important;
+  font-size: 36px;
+  letter-spacing: 0.5em;
+  line-height: 1.5;
+}
+
+.design-power__line {
+  display: block;
+  width: 140px;
+  height: 2px;
+  margin: 42px auto 38px;
+  background: #9a8377;
+}
+
+.design-power__description {
+  width: 44%;
+  margin-inline: auto !important;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 3.33;
 }
 
 @media (max-width: 998px) {
   .design-matrix {
-    padding: 72px 0 88px;
+    width: 90vw;
+    padding: 0;
+  }
+
+  .design-matrix__heading {
+    height: 112px;
+  }
+
+  .design-matrix__watermark {
+    height: 112px;
+  }
+
+  .design-matrix__heading-copy {
+    top: 52px;
+  }
+
+  .design-matrix__heading-copy h2 {
+    font-size: 27px;
+    letter-spacing: 0.38em;
+    line-height: 30px;
+  }
+
+  .design-matrix__heading-copy p {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    line-height: 28px;
   }
 
   .design-matrix__grid {
     gap: 1px;
-    margin-top: 42px;
+    margin-top: 76px;
   }
 
   .original-design {
-    grid-template-columns: 1fr;
-    gap: 44px;
-    padding-block: 72px 96px;
+    height: auto;
+    min-height: 0;
+    margin-top: 72px;
+    padding: 0 5vw 110px;
   }
 
-  .original-design__copy {
-    max-width: none;
+  .original-design__inner {
+    display: grid;
+    width: 100%;
+    height: auto;
+    gap: 48px;
   }
 
-  .original-design__copy p {
-    margin-top: 28px;
+  .original-design__ornament {
+    display: none;
+  }
+
+  .original-design__copy,
+  .original-design__visual {
+    width: 100%;
+  }
+
+  .original-design__copy h2 {
+    font-size: 34px;
+  }
+
+  .original-design__subtitle {
+    margin-top: 22px !important;
+    font-size: 23px;
+    letter-spacing: 0.3em;
+  }
+
+  .original-design__line {
+    width: 80px;
+    margin: 28px 0 30px;
+  }
+
+  .original-design__description {
     font-size: 15px;
-    line-height: 2;
+    letter-spacing: 0.12em;
+    line-height: 2.35;
+  }
+
+  .original-design__visual {
+    height: auto;
+    padding-bottom: 18%;
+  }
+
+  .original-design__main {
+    width: 100%;
+    height: auto;
+  }
+
+  .original-design__detail {
+    bottom: 0;
+    left: 0;
+    width: 38%;
   }
 
   .design-power {
     min-height: 620px;
+  }
+
+  .design-power__content {
+    width: 90%;
+  }
+
+  .design-power__content h2 {
+    font-size: 34px;
+  }
+
+  .design-power__subtitle {
+    font-size: 23px;
+    letter-spacing: 0.3em;
+  }
+
+  .design-power__line {
+    width: 90px;
+    margin: 30px auto;
+  }
+
+  .design-power__description {
+    width: min(720px, 92%);
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    line-height: 2.4;
   }
 }
 
@@ -248,24 +453,56 @@ import {
     width: 94vw;
   }
 
+  .design-matrix__heading {
+    height: 92px;
+  }
+
+  .design-matrix__watermark {
+    height: 92px;
+  }
+
+  .design-matrix__heading-copy {
+    top: 42px;
+  }
+
+  .design-matrix__heading-copy h2 {
+    font-size: 21px;
+    letter-spacing: 0.2em;
+  }
+
+  .design-matrix__heading-copy p {
+    margin-top: 13px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+  }
+
   .design-matrix__grid {
+    margin-top: 54px;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .original-design__detail {
-    border-width: 6px;
-  }
-
-  .original-design__mark {
-    width: 88px;
+  .original-design {
+    padding-inline: 4vw;
   }
 
   .design-power {
     min-height: 520px;
   }
 
-  .design-power__content p {
-    line-height: 1.9;
+  .design-power__content h2 {
+    font-size: 28px;
+  }
+
+  .design-power__subtitle {
+    font-size: 18px;
+    letter-spacing: 0.18em;
+  }
+
+  .design-power__description {
+    width: 100%;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    line-height: 2.1;
   }
 }
 

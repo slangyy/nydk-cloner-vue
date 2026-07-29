@@ -156,7 +156,7 @@ export const intelligentSections: readonly StaticFeatureSection[] = [
     title: "智家系统",
     subtitle: "智慧生活",
     description:
-      "智能引领智慧生活，以人性化科技融入全屋家居场景，让照明、收纳与日常起居自然联动，在简洁的空间中营造舒适、便捷而从容的居住体验。",
+      "智能引领，匠心打造全屋智能系统，赋能智慧生活，以人文本，将智能科技融入日常生活，处处星光，处处熠熠，提升生活幸福感。",
     image: "/assets/products/intelligent/e51b121d-f1d0-487c-b4a3-47f3736e5f42.jpg",
     imageAlt: "智慧生活智能镜与收纳系统",
     imageSide: "left",
@@ -166,7 +166,7 @@ export const intelligentSections: readonly StaticFeatureSection[] = [
     title: "私家大宅",
     subtitle: "科技生活",
     description:
-      "提升交互体验，将科技隐藏于材质、灯光与细节之中，以智慧控制回应不同生活场景，让私家大宅拥有更懂使用者的舒适尺度。",
+      "提升交互体验，未来还将融合各大功能系统，如照明系统水健康系统、环境系统等，相互协同构成全屋智能场景，实现生活品质的层级跃变",
     image: "/assets/products/intelligent/d2060806-1b00-4e4c-b12a-e84cf0741edb.jpg",
     imageAlt: "私家大宅智能灯光与家居细节",
     imageSide: "right",
@@ -175,7 +175,7 @@ export const intelligentSections: readonly StaticFeatureSection[] = [
     id: "smart-wave",
     title: "智家浪潮",
     subtitle: "一触即发",
-    description: "智家新浪潮，生活的星光，一触即发，让家更懂你。",
+    description: "智家新浪潮生活的星光，一触即发让家更懂你",
     image: "/assets/products/intelligent/c5731a1a-f4da-4548-8a71-177bef9321aa.png",
     imageAlt: "智能影音家居空间",
     imageSide: "left",

@@ -36,7 +36,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/design.html",
+      path: "/design",
       name: "design-system",
       component: DesignSystemView,
       meta: {
@@ -45,7 +45,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/intelligence.html",
+      path: "/intelligence",
       name: "production-system",
       component: ProductionSystemView,
       meta: {
@@ -54,7 +54,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/technique.html",
+      path: "/technique",
       name: "process-system",
       component: ProcessSystemView,
       meta: {
@@ -63,7 +63,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/Zhijia.html",
+      path: "/Zhijia",
       name: "intelligent-system",
       component: IntelligentSystemView,
       meta: {
@@ -72,7 +72,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/home_decoration_p5.html",
+      path: "/home_decoration_p5",
       name: "finished-system",
       component: FinishedSystemView,
       meta: {
@@ -81,7 +81,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/material.html",
+      path: "/material",
       name: "material-system",
       component: MaterialSystemView,
       meta: {
@@ -90,7 +90,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/FixedInstallation_1.html",
+      path: "/FixedInstallation_1",
       name: "integrated-system",
       component: IntegratedSystemView,
       meta: {
@@ -99,7 +99,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/SaveWorry.html",
+      path: "/SaveWorry",
       name: "service-system",
       component: ServiceSystemView,
       meta: {

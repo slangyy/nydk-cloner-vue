@@ -52,7 +52,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("93ec5ad0-fb99-47d3-a0cf-c132be4d08f6.jpg"),
     detailImage: asset("534f87e0-f8cd-41e5-9b95-7caa1ac40c4d.jpg"),
-    href: "/design.html",
+    href: "/design",
   },
   {
     id: "production",
@@ -61,7 +61,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("1aa132c4-de87-476a-b0c2-f66d9b68c8fa.jpg"),
     detailImage: asset("6b4e4c9e-1900-4c7d-b6c2-e90a8e304004.jpg"),
-    href: "/intelligence.html?p=1",
+    href: "/intelligence",
   },
   {
     id: "process",
@@ -70,7 +70,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("1682dc8e-eb38-47e8-94ab-5a7e3cbd6bf4.jpg"),
     detailImage: asset("faebc217-5f08-4a65-87a8-95820680f78d.jpg"),
-    href: "/technique.html?p=2",
+    href: "/technique",
   },
   {
     id: "smart-home",
@@ -79,7 +79,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("b73a8ba2-2086-4f23-b1ac-93e162a4d995.jpg"),
     detailImage: asset("3303a17f-a199-4732-8e05-3bef2a165e69.jpg"),
-    href: "/Zhijia.html?p=3",
+    href: "/Zhijia",
   },
   {
     id: "product",
@@ -88,7 +88,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("6e40e528-b752-41dd-8691-f8bba566d3ad.jpg"),
     detailImage: asset("9befa60c-35e0-425c-84b1-f1c669a55ba9.jpg"),
-    href: "/home_decoration_p5.html?p=4",
+    href: "/home_decoration_p5",
   },
   {
     id: "material",
@@ -97,7 +97,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("4dbea946-5c74-4478-b283-282d362300ab.jpg"),
     detailImage: asset("8a53fda8-4a3b-443f-b96c-333d5a7f0f2c.jpg"),
-    href: "/material.html?p=5",
+    href: "/material",
   },
   {
     id: "integrated",
@@ -106,7 +106,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("b6b9e006-e4c7-4b33-8c70-f2de0f8e4cda.jpg"),
     detailImage: asset("83e32388-b530-4cfc-9064-23cedc3c7f99.jpg"),
-    href: "/FixedInstallation_1.html?p=6",
+    href: "/FixedInstallation_1",
   },
   {
     id: "service",
@@ -115,7 +115,7 @@ export const systemCards: readonly SystemCard[] = [
     description: "用户至上，一对一全案专属设计",
     image: asset("b73a8ba2-2086-4f23-b1ac-93e162a4d995.jpg"),
     detailImage: asset("9f70d279-14a6-4a6f-9067-30e93fd1b5d1.jpg"),
-    href: "/SaveWorry.html?p=7",
+    href: "/SaveWorry",
   },
 ] as const;
 
