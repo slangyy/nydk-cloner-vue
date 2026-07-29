@@ -7,8 +7,8 @@ import type {
 
 export const poseenaHero: InnerPageHeroConfig = {
   image: "/assets/poseena/hero.jpg",
-  imageAlt: "POSEENA普西纳雪山建筑",
-  title: "POSEENA普西纳",
+  imageAlt: "NEWNOBEL新诺博雪山建筑",
+  title: "NEWNOBEL新诺博",
   subtitle: "极致系统家居",
   watermark: "/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png",
   breadcrumbs: [
@@ -18,7 +18,7 @@ export const poseenaHero: InnerPageHeroConfig = {
       showHomeIcon: true,
     },
     {
-      label: "POSEENA普西纳",
+      label: "NEWNOBEL新诺博",
       current: true,
     },
   ],

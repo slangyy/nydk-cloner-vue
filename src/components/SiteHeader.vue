@@ -148,7 +148,7 @@ onBeforeUnmount(() => {
       </nav>
 
       <div class="site-header__actions">
-        <RouterLink
+        <!-- <RouterLink
           class="site-header__search"
           to="/globalSearch_1.html"
           aria-label="搜索"
@@ -157,7 +157,7 @@ onBeforeUnmount(() => {
             <circle cx="10.8" cy="10.8" r="6.8" />
             <path d="m16 16 5 5" />
           </svg>
-        </RouterLink>
+        </RouterLink> -->
         <button
           class="site-header__menu-button"
           type="button"

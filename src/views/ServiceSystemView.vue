@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductMediaCarousel from "@/components/products/ProductMediaCarousel.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import {
   servicePage,
   servicePowerSlides,
@@ -15,10 +15,10 @@ import {
     <section class="service-process">
       <div class="service-process__shade">
         <ProductReveal>
-          <ProductSectionHeading
+          <SectionTitle
             english="SERVICE"
-            title="服务流程"
-            light
+            chinese="服务流程"
+            theme="dark"
           />
         </ProductReveal>
 
@@ -46,9 +46,9 @@ import {
 
     <section class="service-power">
       <ProductReveal>
-        <ProductSectionHeading
+        <SectionTitle
           english="SERVICE POWER"
-          title="服务力"
+          chinese="服务力"
         />
       </ProductReveal>
       <ProductReveal>

@@ -1,25 +1,23 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductMediaCarousel from "@/components/products/ProductMediaCarousel.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import {
   productionCapabilities,
   productionEquipmentDescription,
   productionEquipmentSlides,
   productionPage,
-  productionTeamStats,
 } from "@/data/products/ops";
-import SectionTitle from "@/components/SectionTitle.vue";
 </script>
 
 <template>
   <ProductPageShell :hero="productionPage.hero">
     <section class="capability-section">
       <ProductReveal>
-        <ProductSectionHeading
+        <SectionTitle
           english="INTELLECTUAL CREATIVITY"
-          title="智造力"
+          chinese="智造力"
         />
       </ProductReveal>
 
@@ -45,10 +43,10 @@ import SectionTitle from "@/components/SectionTitle.vue";
     <section class="equipment-section">
       <div class="equipment-section__shade">
         <ProductReveal>
-          <ProductSectionHeading
+          <SectionTitle
             english="PLANT EQUIPMENT"
-            title="工厂 / 设备"
-            light
+            chinese="工厂 / 设备"
+            theme="dark"
           />
           <p class="equipment-section__description">
             {{ productionEquipmentDescription }}
@@ -66,9 +64,9 @@ import SectionTitle from "@/components/SectionTitle.vue";
 
     <section class="supply-section">
       <ProductReveal>
-        <ProductSectionHeading
+        <SectionTitle
           english="ENVIRONMENTAL PROTECTION SUPPLY"
-          title="环保 / 供应"
+          chinese="环保 / 供应"
         />
       </ProductReveal>
 

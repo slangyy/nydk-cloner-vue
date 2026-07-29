@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import type { StaticFeatureSection } from "@/data/products/static";
 
 defineProps<{
@@ -25,8 +25,8 @@ defineProps<{
       :direction="section.imageSide === 'left' ? 'right' : 'left'"
       :delay-ms="80"
     >
-      <ProductSectionHeading
-        :title="section.title"
+      <SectionTitle
+        :chinese="section.title"
         :subtitle="section.subtitle ?? ''"
         align="left"
       />

@@ -1,14 +1,17 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    english: string;
-    chinese: string;
-    theme?: "light" | "dark";
-    align?: "center" | "left";
-    variant?: "default" | "feature";
-    watermarkImage?: string;
+    readonly english?: string;
+    readonly chinese: string;
+    readonly subtitle?: string;
+    readonly theme?: "light" | "dark";
+    readonly align?: "center" | "left";
+    readonly variant?: "default" | "feature";
+    readonly watermarkImage?: string;
   }>(),
   {
+    english: "",
+    subtitle: "",
     theme: "light",
     align: "center",
     variant: "default",
@@ -24,6 +27,7 @@ withDefaults(
       `section-title--${theme}`,
       `section-title--${align}`,
       `section-title--${variant}`,
+      { 'section-title--without-english': !english },
     ]"
   >
     <img
@@ -34,13 +38,27 @@ withDefaults(
       aria-hidden="true"
     />
     <span v-else class="section-title__watermark" aria-hidden="true">N</span>
-    <p class="section-title__english bank">
-      {{ english }}
-    </p>
-    <i class="section-title__line" aria-hidden="true"></i>
-    <h2 class="section-title__chinese">
-      {{ chinese }}
-    </h2>
+    <template v-if="english">
+      <p class="section-title__english bank">
+        {{ english }}
+      </p>
+      <i class="section-title__line" aria-hidden="true"></i>
+      <h2 class="section-title__chinese">
+        {{ chinese }}
+      </h2>
+      <p v-if="subtitle" class="section-title__subtitle">
+        {{ subtitle }}
+      </p>
+    </template>
+    <template v-else>
+      <h2 class="section-title__chinese">
+        {{ chinese }}
+      </h2>
+      <p v-if="subtitle" class="section-title__subtitle">
+        {{ subtitle }}
+      </p>
+      <i class="section-title__line" aria-hidden="true"></i>
+    </template>
   </div>
 </template>
 
@@ -78,27 +96,39 @@ withDefaults(
 .section-title__english {
   margin: 0;
   color: var(--nydk-walnut);
-  font-size: clamp(20px, 2.15vw, 31px);
+  font-size: clamp(28px, 2.5vw, 48px);
   font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.035em;
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .section-title__line {
-  width: 66px;
-  height: 4px;
-  margin-block: 14px 13px;
-  background: var(--nydk-rosewood);
+  display: block;
+  width: 70px;
+  height: 2px;
+  margin: 24px auto 14px;
+  background: #c49a86;
 }
 
 .section-title__chinese {
   margin: 0;
   color: var(--nydk-ink);
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 0.25em;
-  text-indent: 0.25em;
+  font-size: clamp(25px, 2vw, 36px);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+}
+
+.section-title__subtitle {
+  margin: 8px 0 0;
+  color: var(--nydk-ink);
+  font-size: clamp(18px, 1.4vw, 26px);
+  line-height: 1.5;
+}
+
+.section-title--without-english .section-title__line {
+  margin-block: 24px 0;
 }
 
 .section-title--feature {
@@ -110,20 +140,13 @@ withDefaults(
   transform: translate(-50%, -74%);
 }
 
-.section-title--feature .section-title__english {
-  font-size: clamp(26px, 2.5vw, 36px);
-}
-
-.section-title--feature .section-title__chinese {
-  font-size: clamp(20px, 1.8vw, 26px);
-}
-
 .section-title--dark .section-title__watermark {
   color: rgb(255 255 255 / 5%);
 }
 
 .section-title--dark .section-title__english,
-.section-title--dark .section-title__chinese {
+.section-title--dark .section-title__chinese,
+.section-title--dark .section-title__subtitle {
   color: #fff;
 }
 
@@ -134,6 +157,10 @@ withDefaults(
 .section-title--left {
   align-items: flex-start;
   text-align: left;
+}
+
+.section-title--left .section-title__line {
+  margin-left: 0;
 }
 
 .section-title--left .section-title__watermark {
@@ -157,17 +184,25 @@ withDefaults(
   }
 
   .section-title__english {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .section-title__line {
-    width: 35px;
+    width: 54px;
     height: 2px;
-    margin-block: 9px 8px;
+    margin-block: 16px 10px;
   }
 
   .section-title__chinese {
-    font-size: 15px;
+    font-size: 24px;
+  }
+
+  .section-title__subtitle {
+    font-size: 18px;
+  }
+
+  .section-title--without-english .section-title__line {
+    margin-block: 16px 0;
   }
 
   .section-title--feature {
@@ -178,12 +213,5 @@ withDefaults(
     transform: translate(-50%, -70%);
   }
 
-  .section-title--feature .section-title__english {
-    font-size: clamp(20px, 3.5vw, 26px);
-  }
-
-  .section-title--feature .section-title__chinese {
-    font-size: clamp(17px, 2.7vw, 21px);
-  }
 }
 </style>

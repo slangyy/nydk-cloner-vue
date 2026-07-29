@@ -27,7 +27,7 @@ const router = createRouter({
       },
     },
     {
-      path: "/ExtremeSystem.html",
+      path: "/ExtremeSystem",
       name: "poseena",
       component: PoseenaView,
       meta: {

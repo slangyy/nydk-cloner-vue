@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import ProductSpaceGallery from "@/components/products/ProductSpaceGallery.vue";
 import {
   finishedIntroduction,
@@ -15,9 +15,9 @@ import {
     <section class="finished-intro" aria-labelledby="finished-intro-heading">
       <div class="finished-intro__inner">
         <ProductReveal>
-          <ProductSectionHeading
+          <SectionTitle
             id="finished-intro-heading"
-            :title="finishedIntroduction.title"
+            :chinese="finishedIntroduction.title"
             :subtitle="finishedIntroduction.subtitle"
           />
         </ProductReveal>

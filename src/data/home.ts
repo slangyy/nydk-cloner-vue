@@ -11,26 +11,26 @@ import type {
 const asset = (filename: string): string => `/assets/images/${filename}`;
 
 export const productNavItems: readonly NavItem[] = [
-  { label: "设计系统", english: "Design System", href: "/design.html?p=0" },
-  { label: "生产系统", english: "Production System", href: "/intelligence.html?p=1" },
-  { label: "工艺系统", english: "Process System", href: "/technique.html?p=2" },
-  { label: "智能系统", english: "Intelligent System", href: "/Zhijia.html?p=3" },
-  { label: "成品系统", english: "Product System", href: "/home_decoration_p5.html?p=4" },
-  { label: "材料系统", english: "Material Systems", href: "/material.html?p=5" },
-  { label: "整装系统", english: "Integrated System", href: "/FixedInstallation_1.html?p=6" },
-  { label: "服务系统", english: "Service System", href: "/SaveWorry.html?p=7" },
+  { label: "设计系统", english: "Design System", href: "/design" },
+  { label: "生产系统", english: "Production System", href: "/intelligence" },
+  { label: "工艺系统", english: "Process System", href: "/technique" },
+  { label: "智能系统", english: "Intelligent System", href: "/Zhijia" },
+  { label: "成品系统", english: "Product System", href: "/home_decoration_p5" },
+  { label: "材料系统", english: "Material Systems", href: "/material" },
+  { label: "整装系统", english: "Integrated System", href: "/FixedInstallation_1" },
+  { label: "服务系统", english: "Service System", href: "/SaveWorry" },
 ] as const;
 
 export const aboutNavItems: readonly NavItem[] = [
-  { label: "品牌介绍", english: "Brand Introduction", href: "/about.html?p=0" },
-  { label: "发展历程", english: "Development History", href: "/about.html?p=1" },
-  { label: "荣誉资质", english: "Honorary Qualifications", href: "/about.html?p=2" },
-  { label: "新闻动态", english: "News Updates", href: "/News_updates.html?p=3" },
-  { label: "影像活动", english: "Image Activity", href: "/videos.html?p=4" },
+  { label: "品牌介绍", english: "Brand Introduction", href: "/about?p=0" },
+  { label: "发展历程", english: "Development History", href: "/about?p=1" },
+  { label: "荣誉资质", english: "Honorary Qualifications", href: "/about?p=2" },
+  { label: "新闻动态", english: "News Updates", href: "/News_updates?p=3" },
+  { label: "影像活动", english: "Image Activity", href: "/videos?p=4" },
 ] as const;
 
 export const mainNavItems: readonly NavItem[] = [
-  { label: "普西纳", english: "Poseena", href: "/ExtremeSystem.html" },
+  { label: "新诺博", english: "NewBobel", href: "/ExtremeSystem" },
   // { label: "联系", english: "Contact", href: "/ContactUs.html" },
   { label: "产品", english: "Product", href: "#", children: productNavItems },
   {
@@ -308,31 +308,18 @@ export const heroPoster =
   "/assets/backgrounds/36304d3c-8931-47bd-996e-e6d8721206da.jpg";
 
 export const pageNames: Readonly<Record<string, string>> = {
-  "/design.html?p=0": "设计系统",
-  "/intelligence.html?p=1": "生产系统",
-  "/technique.html?p=2": "工艺系统",
-  "/Zhijia.html?p=3": "智能系统",
-  "/home_decoration_p5.html?p=4": "成品系统",
-  "/material.html?p=5": "材料系统",
-  "/FixedInstallation_1.html?p=6": "整装系统",
-  "/SaveWorry.html?p=7": "服务系统",
-  "/about.html?p=0": "品牌介绍",
-  "/about.html?p=1": "发展历程",
-  "/about.html?p=2": "荣誉资质",
-  "/News_updates.html?p=3": "新闻动态",
-  "/videos.html?p=4": "影像活动",
-  "/ExtremeSystem.html": "普西纳",
-  "/ContactUs.html": "联系我们",
-  "/design.html": "设计系统",
-  "/intelligence.html": "生产系统",
-  "/technique.html": "工艺系统",
-  "/Zhijia.html": "智能系统",
-  "/home_decoration_p5.html": "成品系统",
-  "/material.html": "材料系统",
-  "/FixedInstallation_1.html": "整装系统",
-  "/SaveWorry.html": "服务系统",
-  "/BusinessModel.html": "商业合作",
-  "/about.html": "关于南洋迪克",
-  "/News_updates.html": "新闻动态",
-  "/videos.html": "影像活动",
+  "/design": "设计系统",
+  "/intelligence": "生产系统",
+  "/technique": "工艺系统",
+  "/Zhijia": "智能系统",
+  "/home_decoration_p5": "成品系统",
+  "/material": "材料系统",
+  "/FixedInstallation_1": "整装系统",
+  "/SaveWorry": "服务系统",
+  
+  "/News_updates": "新闻动态",
+  "/videos": "影像活动",
+  "/ExtremeSystem": "普西纳",
+  "/ContactUs": "联系我们",
+  "/BusinessModel": "商业合作",
 };

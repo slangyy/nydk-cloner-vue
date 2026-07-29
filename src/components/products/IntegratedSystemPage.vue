@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductMediaCarousel from "@/components/products/ProductMediaCarousel.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import ProductSpaceGallery from "@/components/products/ProductSpaceGallery.vue";
 import {
   integratedDetailSlides,
@@ -17,9 +17,9 @@ import {
     <section class="integrated-intro" aria-labelledby="integrated-intro-heading">
       <div class="integrated-intro__inner">
         <ProductReveal>
-          <ProductSectionHeading
+          <SectionTitle
             id="integrated-intro-heading"
-            :title="integratedIntroduction.title"
+            :chinese="integratedIntroduction.title"
             :subtitle="integratedIntroduction.subtitle"
           />
         </ProductReveal>
@@ -58,10 +58,10 @@ import {
       aria-labelledby="integrated-spaces-heading"
     >
       <ProductReveal>
-        <ProductSectionHeading
+        <SectionTitle
           id="integrated-spaces-heading"
           english="WHOLE HOUSE"
-          title="全屋整装，尊享定制"
+          chinese="全屋整装，尊享定制"
         />
       </ProductReveal>
       <ProductSpaceGallery

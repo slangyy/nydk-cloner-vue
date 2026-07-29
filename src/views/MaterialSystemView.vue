@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import SectionTitle from "@/components/SectionTitle.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSectionHeading from "@/components/products/ProductSectionHeading.vue";
 import { materialItems, materialPage } from "@/data/products/ops";
 </script>
 
@@ -9,7 +9,7 @@ import { materialItems, materialPage } from "@/data/products/ops";
   <ProductPageShell :hero="materialPage.hero">
     <section class="supply-intro">
       <ProductReveal>
-        <ProductSectionHeading english="SUPPLY" title="供应" />
+        <SectionTitle english="SUPPLY" chinese="供应" />
       </ProductReveal>
 
       <div class="supply-intro__content">
@@ -52,9 +52,9 @@ import { materialItems, materialPage } from "@/data/products/ops";
 
     <section class="materials-section">
       <ProductReveal>
-        <ProductSectionHeading
+        <SectionTitle
           english="Multiple material selection"
-          title="多元选材"
+          chinese="多元选材"
         />
       </ProductReveal>
 
