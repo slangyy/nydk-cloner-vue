@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+import CasesView from "@/views/CasesView.vue";
 import HomeView from "@/views/HomeView.vue";
 import DesignSystemView from "@/views/DesignSystemView.vue";
 import FinishedSystemView from "@/views/FinishedSystemView.vue";
@@ -24,6 +25,15 @@ const router = createRouter({
       meta: {
         headerOverlay: true,
         title: "南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/cases",
+      name: "cases",
+      component: CasesView,
+      meta: {
+        headerOverlay: true,
+        title: "案例-南洋迪克全案系统家居",
       },
     },
     {
@@ -75,9 +85,78 @@ const router = createRouter({
       path: "/home_decoration_p5",
       name: "finished-system",
       component: FinishedSystemView,
+      alias: ["/home_decoration_p5.html"],
+      props: {
+        variantKey: "poseena",
+      },
       meta: {
         headerOverlay: true,
         title: "POSEENA-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p1",
+      name: "finished-system-heqi",
+      component: FinishedSystemView,
+      alias: ["/home_decoration_p1.html"],
+      props: {
+        variantKey: "heqi",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "禾气-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p2",
+      name: "finished-system-qizhi",
+      component: FinishedSystemView,
+      alias: ["/home_decoration_p2.html"],
+      props: {
+        variantKey: "qizhi",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "气质-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p3",
+      name: "finished-system-tianji",
+      component: FinishedSystemView,
+      alias: ["/home_decoration_p3.html"],
+      props: {
+        variantKey: "tianji",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "天际-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p4",
+      name: "finished-system-lingjian",
+      component: FinishedSystemView,
+      alias: ["/home_decoration_p4.html"],
+      props: {
+        variantKey: "lingjian",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "领见-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/home_decoration_p6",
+      name: "finished-system-diko",
+      component: FinishedSystemView,
+      alias: ["/home_decoration_p6.html"],
+      props: {
+        variantKey: "diko",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "DIKO-南洋迪克全案系统家居",
       },
     },
     {
@@ -93,9 +172,39 @@ const router = createRouter({
       path: "/FixedInstallation_1",
       name: "integrated-system",
       component: IntegratedSystemView,
+      alias: ["/FixedInstallation_1.html"],
+      props: {
+        variantKey: "door",
+      },
       meta: {
         headerOverlay: true,
-        title: "整装系统-南洋迪克全案系统家居",
+        title: "门-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/FixedInstallation_2",
+      name: "integrated-system-wall",
+      component: IntegratedSystemView,
+      alias: ["/FixedInstallation_2.html"],
+      props: {
+        variantKey: "wall",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "墙-南洋迪克全案系统家居",
+      },
+    },
+    {
+      path: "/FixedInstallation_3",
+      name: "integrated-system-cabinet",
+      component: IntegratedSystemView,
+      alias: ["/FixedInstallation_3.html"],
+      props: {
+        variantKey: "cabinet",
+      },
+      meta: {
+        headerOverlay: true,
+        title: "柜-南洋迪克全案系统家居",
       },
     },
     {

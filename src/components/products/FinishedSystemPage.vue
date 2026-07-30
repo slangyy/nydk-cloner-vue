@@ -1,261 +1,183 @@
 <script setup lang="ts">
-import SectionTitle from "@/components/SectionTitle.vue";
+import { computed } from "vue";
+
+import FinishedSeriesTabs from "@/components/products/FinishedSeriesTabs.vue";
+import FinishedSpaceShowcase from "@/components/products/FinishedSpaceShowcase.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSpaceGallery from "@/components/products/ProductSpaceGallery.vue";
 import {
-  finishedIntroduction,
-  finishedPage,
-  finishedSpaceTabs,
-} from "@/data/products/gallery";
+  finishedSeriesTabs,
+  finishedSystemVariants,
+} from "@/data/products/finished";
+import type { FinishedSeriesKey } from "@/types/products";
+
+const props = defineProps<{
+  readonly variantKey: FinishedSeriesKey;
+}>();
+
+const variant = computed(() => finishedSystemVariants[props.variantKey]);
 </script>
 
 <template>
-  <ProductPageShell :hero="finishedPage.hero">
-    <section class="finished-intro" aria-labelledby="finished-intro-heading">
-      <div class="finished-intro__inner">
+  <ProductPageShell :hero="variant.hero">
+    <FinishedSeriesTabs
+      :tabs="finishedSeriesTabs"
+      :active-key="variant.key"
+    />
+
+    <section
+      class="finished-intro"
+      :aria-labelledby="`finished-intro-${variant.key}`"
+    >
+      <div class="finished-intro__content">
         <ProductReveal>
-          <SectionTitle
-            id="finished-intro-heading"
-            :chinese="finishedIntroduction.title"
-            :subtitle="finishedIntroduction.subtitle"
-          />
+          <h1 :id="`finished-intro-${variant.key}`">
+            {{ variant.introduction.title }}
+          </h1>
         </ProductReveal>
 
-        <div class="finished-intro__copy">
-          <ProductReveal direction="left" :delay-ms="100">
-            <p>{{ finishedIntroduction.description }}</p>
-          </ProductReveal>
-          <ProductReveal direction="right" :delay-ms="100">
-            <p lang="en">
-              {{ finishedIntroduction.english }}
-            </p>
-          </ProductReveal>
-        </div>
+        <ProductReveal :delay-ms="80">
+          <p class="finished-intro__subtitle">
+            {{ variant.introduction.subtitle }}
+          </p>
+          <span class="finished-intro__line" aria-hidden="true" />
+        </ProductReveal>
+
+        <ProductReveal :delay-ms="140">
+          <p class="finished-intro__description">
+            {{ variant.introduction.description }}
+          </p>
+        </ProductReveal>
+
+        <ProductReveal :delay-ms="200">
+          <p class="finished-intro__english" lang="en">
+            {{ variant.introduction.english }}
+          </p>
+        </ProductReveal>
       </div>
     </section>
 
-    <section class="finished-gallery" aria-labelledby="finished-gallery-heading">
-      <h2 id="finished-gallery-heading" class="sr-only">
-        POSEENA普西纳空间展示
-      </h2>
-      <ProductSpaceGallery
-        :tabs="finishedSpaceTabs"
-        v-bind="{ ariaLabel: 'POSEENA普西纳空间展示' }"
-      />
-    </section>
+    <FinishedSpaceShowcase
+      :spaces="variant.spaces"
+      :series-label="variant.introduction.title"
+    />
   </ProductPageShell>
 </template>
 
 <style scoped>
 .finished-intro {
-  min-height: 760px;
-  padding: clamp(90px, 9vw, 170px) 0;
+  min-height: 730px;
   background:
-    linear-gradient(rgb(255 255 255 / 82%), rgb(255 255 255 / 82%)),
-    url("/assets/products/finished/954d088f-9daa-4e97-aa81-0a3bafcfa11c.jpg")
+    linear-gradient(rgb(255 255 255 / 14%), rgb(255 255 255 / 14%)),
+    url("/assets/products/finished/poseena/954d088f-9daa-4e97-aa81-0a3bafcfa11c.jpg")
       center / cover;
 }
 
-.finished-intro__inner {
-  width: min(1180px, 88vw);
-  margin: 0 auto;
+.finished-intro__content {
+  padding: 120px 0;
+  text-align: center;
 }
 
-.finished-intro__copy {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(44px, 6vw, 100px);
-  margin-top: clamp(62px, 7vw, 110px);
-}
-
-.finished-intro__copy p {
+.finished-intro h1 {
   margin: 0;
+  color: #231815;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.finished-intro__subtitle {
+  margin: 30px 0 0;
+  color: #231815;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.5em;
+}
+
+.finished-intro__line {
+  display: block;
+  width: 120px;
+  height: 2px;
+  margin: 26px auto 32px;
+  background: #bc9480;
+}
+
+.finished-intro__description,
+.finished-intro__english {
+  width: 62.5%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.finished-intro__description {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #777;
   font-size: 18px;
   line-height: 3;
-  text-align: justify;
+  letter-spacing: 0.04em;
 }
 
-.finished-gallery {
-  position: relative;
-  background: #211814;
+.finished-intro__english {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 3;
+  letter-spacing: 0.05em;
 }
 
-.finished-gallery :deep(.space-gallery) {
-  position: relative;
-  min-height: min(100vh, 1080px);
-}
+@media (max-width: 1366px) {
+  .finished-intro {
+    min-height: 520px;
+  }
 
-.finished-gallery :deep(.space-gallery__tabs) {
-  position: absolute;
-  z-index: 8;
-  right: 5vw;
-  bottom: 34px;
-  left: 5vw;
-  max-width: 1440px;
-  margin: 0 auto;
-}
+  .finished-intro__content {
+    padding: 60px 0;
+  }
 
-.finished-gallery :deep(.space-gallery__tab) {
-  flex: 1 0 130px;
-  color: rgb(255 255 255 / 55%);
-}
-
-.finished-gallery :deep(.space-gallery__tab--active) {
-  border-color: transparent;
-  border-radius: 60px;
-  background: rgb(184 142 121 / 62%);
-  color: #fff;
-}
-
-.finished-gallery :deep(.space-gallery__tab img) {
-  filter: brightness(0) invert(1);
-  opacity: 0.72;
-}
-
-.finished-gallery :deep(.space-gallery__tab--active img) {
-  opacity: 1;
-}
-
-.finished-gallery :deep(.space-gallery__content) {
-  min-height: min(100vh, 1080px);
-}
-
-.finished-gallery :deep(.product-carousel__slide) {
-  height: min(100vh, 1080px);
-}
-
-.finished-gallery :deep(.product-carousel__slide::after) {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  background: rgb(20 12 9 / 48%);
-  content: "";
-  pointer-events: none;
-}
-
-.finished-gallery :deep(.product-carousel__caption) {
-  z-index: 3;
-  top: 50%;
-  right: auto;
-  bottom: auto;
-  left: 50%;
-  display: flex;
-  padding: 0;
-  background: transparent;
-  gap: 12px;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  flex-direction: column-reverse;
-}
-
-.finished-gallery :deep(.product-carousel__caption strong) {
-  font-size: clamp(28px, 2.1vw, 40px);
-  font-weight: 400;
-  letter-spacing: 0.28em;
-}
-
-.finished-gallery :deep(.product-carousel__caption span) {
-  font-family: "Bank", Arial, sans-serif;
-  font-size: clamp(26px, 2.3vw, 44px);
-  letter-spacing: 0.13em;
-}
-
-.finished-gallery :deep(.space-gallery__thumbs) {
-  position: absolute;
-  z-index: 7;
-  top: 24px;
-  right: 24px;
-  max-width: calc(100% - 48px);
-  padding: 0;
-}
-
-.finished-gallery :deep(.space-gallery__thumbs button) {
-  border-color: rgb(255 255 255 / 38%);
-}
-
-.finished-gallery :deep(.product-carousel__button) {
-  top: 50%;
-  border-color: rgb(255 255 255 / 55%);
-  background: rgb(51 37 31 / 66%);
-  color: #fff;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
+  .finished-intro__description,
+  .finished-intro__english {
+    line-height: 2;
+  }
 }
 
 @media (max-width: 998px) {
   .finished-intro {
     min-height: auto;
-    padding: 70px 0;
   }
 
-  .finished-intro__inner {
-    width: 90vw;
+  .finished-intro__content {
+    padding: 64px 0 70px;
   }
 
-  .finished-intro__copy {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin-top: 42px;
+  .finished-intro h1 {
+    font-size: 30px;
   }
 
-  .finished-intro__copy p {
+  .finished-intro__subtitle {
+    padding-left: 0.45em;
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 0.45em;
+  }
+
+  .finished-intro__line {
+    width: 70px;
+    margin: 22px auto 24px;
+  }
+
+  .finished-intro__description,
+  .finished-intro__english {
+    width: 90%;
     font-size: 14px;
-    line-height: 2.2;
+    line-height: 2.1;
   }
 
-  .finished-gallery :deep(.space-gallery),
-  .finished-gallery :deep(.space-gallery__content),
-  .finished-gallery :deep(.product-carousel__slide) {
-    min-height: 620px;
-    height: 620px;
-  }
-
-  .finished-gallery :deep(.space-gallery__tabs) {
-    right: 0;
-    bottom: 12px;
-    left: 0;
-    padding: 0 12px;
-  }
-
-  .finished-gallery :deep(.space-gallery__tab) {
-    min-width: 110px;
-    padding: 10px 8px;
-  }
-
-  .finished-gallery :deep(.space-gallery__tab img) {
-    width: 38px;
-    height: 38px;
-  }
-
-  .finished-gallery :deep(.space-gallery__tab span) {
-    font-size: 10px;
-  }
-
-  .finished-gallery :deep(.space-gallery__tab strong) {
-    font-size: 14px;
-  }
-
-  .finished-gallery :deep(.space-gallery__thumbs) {
-    top: 12px;
-    right: 12px;
-    max-width: calc(100% - 24px);
-  }
-
-  .finished-gallery :deep(.space-gallery__thumbs button) {
-    width: 86px;
-    min-width: 86px;
-    height: 58px;
+  .finished-intro__english {
+    margin-top: 14px;
+    font-size: 13px;
   }
 }
 </style>

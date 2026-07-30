@@ -61,3 +61,59 @@ export interface ServiceStep {
   readonly subtitle: string;
   readonly icon?: string;
 }
+
+export type IntegratedVariantKey = "door" | "wall" | "cabinet";
+
+export interface IntegratedVariantTab {
+  readonly key: IntegratedVariantKey;
+  readonly label: string;
+  readonly route: string;
+  readonly sprite: string;
+}
+
+export interface IntegratedSystemVariant {
+  readonly key: IntegratedVariantKey;
+  readonly route: string;
+  readonly pageTitle: string;
+  readonly hero: InnerPageHeroConfig;
+  readonly introduction: {
+    readonly title: string;
+    readonly subtitle: string;
+    readonly description: string;
+    readonly english: string;
+  };
+  readonly slides: readonly ProductCarouselSlide[];
+}
+
+export type FinishedSeriesKey =
+  | "poseena"
+  | "heqi"
+  | "qizhi"
+  | "tianji"
+  | "lingjian"
+  | "diko";
+
+export interface FinishedSeriesTab {
+  readonly key: FinishedSeriesKey;
+  readonly label: string;
+  readonly route: string;
+  readonly sprite: string;
+}
+
+export interface FinishedSpace {
+  readonly id: string;
+  readonly title: string;
+  readonly english: string;
+  readonly image: string;
+  readonly icon: string;
+  readonly detailImages: readonly string[];
+}
+
+export interface FinishedSystemVariant {
+  readonly key: FinishedSeriesKey;
+  readonly route: string;
+  readonly pageTitle: string;
+  readonly hero: InnerPageHeroConfig;
+  readonly introduction: ProductSectionContent;
+  readonly spaces: readonly FinishedSpace[];
+}

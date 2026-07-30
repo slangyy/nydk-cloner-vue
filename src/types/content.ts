@@ -34,13 +34,24 @@ export interface DesignerCard {
   readonly href?: string;
 }
 
-export interface CaseSlide {
+export interface CaseImage {
+  readonly src: string;
+  readonly alt: string;
+  readonly caption?: string;
+}
+
+export type CasePosterRatio = "landscape" | "portrait";
+
+export interface CaseStudy {
   readonly id: string;
   readonly title: string;
-  readonly description: string;
-  readonly image: string;
-  readonly href: string;
-  readonly external?: boolean;
+  readonly summary: string;
+  readonly location?: string;
+  readonly series?: string;
+  readonly tags: readonly string[];
+  readonly posterRatio: CasePosterRatio;
+  readonly cover: CaseImage;
+  readonly gallery: readonly CaseImage[];
 }
 
 export interface NewsItem {

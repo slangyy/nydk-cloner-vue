@@ -7,14 +7,16 @@ import "swiper/css";
 
 import SectionTitle from "@/components/SectionTitle.vue";
 import { useReveal } from "@/composables/useReveal";
-import { caseSlides } from "@/data/home";
-import type { CaseSlide } from "@/types/content";
+import { caseStudies } from "@/data/cases";
+import type { CaseStudy } from "@/types/content";
 
 const activeIndex = ref(0);
 const swiperInstance = ref<SwiperInstance | null>(null);
 const { target, isVisible } = useReveal();
 
-const activeCase = computed<CaseSlide>(() => caseSlides[activeIndex.value] ?? caseSlides[0]!);
+const activeCase = computed<CaseStudy>(
+  () => caseStudies[activeIndex.value] ?? caseStudies[0]!,
+);
 
 const selectCase = (index: number): void => {
   activeIndex.value = index;
@@ -46,12 +48,12 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   >
     <div class="cases-showcase__media">
       <img
-        v-for="(item, index) in caseSlides"
+        v-for="(item, index) in caseStudies"
         :key="item.id"
         class="cases-showcase__image"
         :class="{ 'is-active': activeIndex === index }"
-        :src="item.image"
-        :alt="item.title"
+        :src="item.cover.src"
+        :alt="item.cover.alt"
         width="1920"
         height="1080"
         :loading="index === 0 ? 'eager' : 'lazy'"
@@ -73,17 +75,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     <div class="cases-showcase__controls">
       <article class="cases-showcase__copy" aria-live="polite">
         <h3>{{ activeCase.title }}</h3>
-        <p>{{ activeCase.description }}</p>
-        <a
-          v-if="activeCase.external"
-          class="cases-showcase__detail"
-          :href="activeCase.href"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          查看详情 <span aria-hidden="true">＋</span>
-        </a>
-        <RouterLink v-else class="cases-showcase__detail" :to="activeCase.href">
+        <p>{{ activeCase.summary }}</p>
+        <RouterLink class="cases-showcase__detail" to="/cases">
           查看详情 <span aria-hidden="true">＋</span>
         </RouterLink>
       </article>
@@ -111,7 +104,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
           :watch-slides-progress="true"
           @swiper="setSwiper"
         >
-          <SwiperSlide v-for="(item, index) in caseSlides" :key="item.id">
+          <SwiperSlide v-for="(item, index) in caseStudies" :key="item.id">
             <button
               type="button"
               class="cases-showcase__thumb"
@@ -121,8 +114,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
               @click="selectCase(index)"
             >
               <img
-                :src="item.image"
-                :alt="item.title"
+                :src="item.cover.src"
+                :alt="item.cover.alt"
                 width="320"
                 height="180"
                 loading="lazy"

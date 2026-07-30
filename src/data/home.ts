@@ -1,5 +1,4 @@
 import type {
-  CaseSlide,
   DesignerCard,
   FooterContact,
   NavItem,
@@ -36,9 +35,7 @@ export const mainNavItems: readonly NavItem[] = [
   {
     label: "案例",
     english: "Case",
-    href:
-      "https://www.kujiale.com/pub/site/design-zone/Window_of_design/scenes?kpm=qkWL.b53388404e567714.c112e63.1705731598528",
-    external: true,
+    href: "/cases",
   },
   // { label: "商业", english: "Cooperate", href: "/BusinessModel.html" },
   // { label: "关于", english: "Neodko", href: "/about.html", children: aboutNavItems },
@@ -187,53 +184,6 @@ export const designerCards: readonly DesignerCard[] = [
   },
 ] as const;
 
-export const caseSlides: readonly CaseSlide[] = [
-  {
-    id: "poseena-source-house",
-    title: "普西纳·源邸一号",
-    description:
-      "以全案系统思维打破单品堆砌的桎梏，用高级定制回应多元生活场景，怀全球视野与理想生活重逢，与您共赴美学新境界。",
-    image: asset("7e96edc9-790a-4e60-9949-79259ec934eb.png"),
-    href:
-      "",
-    external: true,
-  },
-  {
-    id: "jieyang-villa",
-    title: "广东揭阳·别墅会所",
-    description:
-      "“宅中有园，园中有屋，屋中有院，院中有树”是林语堂笔下对理想庭院的诗意描述，闲雅逸致，让人心生向往，一步一景，层层嵌套，自然与生活的界限在此悄然消融。",
-    image: asset("02070298-fcc8-48dc-a40c-c3f0e8c53f4d.jpg"),
-    href:
-      "",
-    external: true,
-  },
-  {
-    id: "skyline",
-    title: "天际 · 山水名著",
-    description:
-      "以雅木为基，辅以极简设计，融现代简约与东方美学，打造出一个既符合年轻人审美，又充满国际时尚氛围的居住空间。",
-    image: asset("deab19e6-4a1c-42b7-afed-dc1eacd01e68.jpg"),
-    href: "",
-  },
-  {
-    id: "yu-lin",
-    title: "禾气 · 榆林一号院",
-    description:
-      "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
-    image: asset("05e06fec-e017-42ee-8cb7-76e38337633b.jpg"),
-    href: "",
-  },
-  {
-    id: "high-tech",
-    title: "禾气 · 高新融府",
-    description:
-      "化繁为简，而后由简生趣，以时尚、艺术、现代编织家居体验，为气质增添玻璃、LED、金属等现代元素。",
-    image: asset("ca80a867-98e9-4392-937b-31866e6224bc.jpg"),
-    href: "",
-  },
-] as const;
-
 export const newsItems: readonly NewsItem[] = [
   {
     id: "45",
@@ -308,6 +258,7 @@ export const heroPoster =
   "/assets/backgrounds/36304d3c-8931-47bd-996e-e6d8721206da.jpg";
 
 export const pageNames: Readonly<Record<string, string>> = {
+  "/cases": "案例",
   "/design": "设计系统",
   "/intelligence": "生产系统",
   "/technique": "工艺系统",

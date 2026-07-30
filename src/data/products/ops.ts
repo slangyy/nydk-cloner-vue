@@ -77,26 +77,26 @@ export const productionEquipmentSlides: readonly ProductCarouselSlide[] = [
   {
     id: "production-equipment-1",
     image:
-      "/assets/products/production/1ff5662a-e7d4-4b5b-a471-b22e2b66a2f7.jpg",
-    imageAlt: "南洋迪克高精尖生产设备",
-  },
-  {
-    id: "production-equipment-2",
-    image:
-      "/assets/products/production/9c12a662-41ef-478f-9daa-8a9167eb870e.jpg",
-    imageAlt: "南洋迪克现代化物流车队",
-  },
-  {
-    id: "production-equipment-3",
-    image:
       "/assets/products/production/dc481780-f5a3-42bd-b6c6-43d6de96babc.jpg",
     imageAlt: "南洋迪克智能加工生产线",
   },
   {
-    id: "production-equipment-4",
+    id: "production-equipment-2",
     image:
       "/assets/products/production/38fec85f-658e-47c8-845a-f8834cb13980.jpg",
     imageAlt: "南洋迪克自动化生产设备",
+  },
+  {
+    id: "production-equipment-3",
+    image:
+      "/assets/products/production/1ff5662a-e7d4-4b5b-a471-b22e2b66a2f7.jpg",
+    imageAlt: "南洋迪克高精尖生产设备",
+  },
+  {
+    id: "production-equipment-4",
+    image:
+      "/assets/products/production/9c12a662-41ef-478f-9daa-8a9167eb870e.jpg",
+    imageAlt: "南洋迪克现代化物流车队",
   },
 ] as const;
 

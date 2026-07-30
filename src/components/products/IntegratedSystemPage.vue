@@ -1,212 +1,181 @@
 <script setup lang="ts">
-import SectionTitle from "@/components/SectionTitle.vue";
-import ProductMediaCarousel from "@/components/products/ProductMediaCarousel.vue";
+import { computed } from "vue";
+
+import IntegratedFullBleedCarousel from "@/components/products/IntegratedFullBleedCarousel.vue";
+import IntegratedVariantTabs from "@/components/products/IntegratedVariantTabs.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
-import ProductSpaceGallery from "@/components/products/ProductSpaceGallery.vue";
 import {
-  integratedDetailSlides,
-  integratedIntroduction,
-  integratedPage,
-  integratedSpaceTabs,
-} from "@/data/products/gallery";
+  integratedSystemVariants,
+  integratedVariantTabs,
+} from "@/data/products/integrated";
+import type { IntegratedVariantKey } from "@/types/products";
+
+const props = defineProps<{
+  readonly variantKey: IntegratedVariantKey;
+}>();
+
+const variant = computed(() => integratedSystemVariants[props.variantKey]);
 </script>
 
 <template>
-  <ProductPageShell :hero="integratedPage.hero">
-    <section class="integrated-intro" aria-labelledby="integrated-intro-heading">
-      <div class="integrated-intro__inner">
+  <ProductPageShell :hero="variant.hero">
+    <IntegratedVariantTabs
+      :tabs="integratedVariantTabs"
+      :active-key="variant.key"
+    />
+
+    <section class="integrated-intro" aria-labelledby="integrated-intro-title">
+      <div class="integrated-intro__content">
         <ProductReveal>
-          <SectionTitle
-            id="integrated-intro-heading"
-            :chinese="integratedIntroduction.title"
-            :subtitle="integratedIntroduction.subtitle"
-          />
+          <h1 id="integrated-intro-title" class="integrated-intro__title">
+            {{ variant.introduction.title }}
+          </h1>
         </ProductReveal>
 
-        <div class="integrated-intro__copy">
-          <ProductReveal direction="left" :delay-ms="100">
-            <p>{{ integratedIntroduction.description }}</p>
-          </ProductReveal>
-          <ProductReveal direction="right" :delay-ms="100">
-            <p lang="en">
-              {{ integratedIntroduction.english }}
-            </p>
-          </ProductReveal>
-        </div>
+        <ProductReveal :delay-ms="80">
+          <p class="integrated-intro__subtitle">
+            {{ variant.introduction.subtitle }}
+          </p>
+        </ProductReveal>
+
+        <ProductReveal :delay-ms="160">
+          <p class="integrated-intro__description">
+            {{ variant.introduction.description }}
+          </p>
+        </ProductReveal>
+
+        <ProductReveal :delay-ms="220">
+          <p class="integrated-intro__english" lang="en">
+            {{ variant.introduction.english }}
+          </p>
+        </ProductReveal>
       </div>
     </section>
 
-    <section
-      class="integrated-details"
-      aria-labelledby="integrated-details-heading"
-    >
-      <h2 id="integrated-details-heading" class="sr-only">
-        全屋整装产品细节
-      </h2>
-      <ProductReveal>
-        <ProductMediaCarousel
-          :slides="integratedDetailSlides"
-          label="全屋整装产品细节"
-          image-fit="contain"
-        />
-      </ProductReveal>
-    </section>
-
-    <section
-      class="integrated-spaces"
-      aria-labelledby="integrated-spaces-heading"
-    >
-      <ProductReveal>
-        <SectionTitle
-          id="integrated-spaces-heading"
-          english="WHOLE HOUSE"
-          chinese="全屋整装，尊享定制"
-        />
-      </ProductReveal>
-      <ProductSpaceGallery
-        :tabs="integratedSpaceTabs"
-        v-bind="{ ariaLabel: '整装系统空间展示' }"
+    <ProductReveal>
+      <IntegratedFullBleedCarousel
+        :slides="variant.slides"
+        :label="`${variant.introduction.title}产品展示`"
       />
-    </section>
+    </ProductReveal>
   </ProductPageShell>
 </template>
 
 <style scoped>
 .integrated-intro {
-  min-height: 720px;
-  padding: clamp(90px, 8vw, 150px) 0;
   background:
-    linear-gradient(rgb(255 255 255 / 82%), rgb(255 255 255 / 82%)),
     url("/assets/products/integrated/a9ecc882-266c-4463-9b0f-9fae0e0c8f5f.jpg")
-      center / cover;
+    center / cover repeat;
 }
 
-.integrated-intro__inner {
-  width: min(1180px, 88vw);
-  margin: 0 auto;
+.integrated-intro__content {
+  padding: 120px 0;
+  text-align: center;
 }
 
-.integrated-intro__copy {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(44px, 6vw, 100px);
-  margin-top: clamp(62px, 7vw, 110px);
+.integrated-intro__title,
+.integrated-intro__subtitle,
+.integrated-intro__description,
+.integrated-intro__english {
+  display: block;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.integrated-intro__copy p {
-  margin: 0;
+.integrated-intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #231815;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.integrated-intro__subtitle {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #231815;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  line-height: 1.5;
+}
+
+.integrated-intro__subtitle::after {
+  display: block;
+  width: 120px;
+  height: 2px;
+  margin: 30px auto;
+  background: #bc9480;
+  content: "";
+}
+
+.integrated-intro__description {
+  width: 62.5%;
+  margin-top: 0;
+  margin-bottom: 0;
   color: #777;
   font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   line-height: 3;
-  text-align: justify;
 }
 
-.integrated-details {
-  padding: 0 min(20vw, 390px);
-  background: #202020;
+.integrated-intro__english {
+  width: 62.5%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #ccc;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 3;
 }
 
-.integrated-details :deep(.product-carousel__slide) {
-  height: min(52vw, 790px);
-}
+@media (max-width: 1366px) {
+  .integrated-intro__content {
+    padding: 60px 0;
+  }
 
-.integrated-details :deep(.product-carousel__image) {
-  background: #202020;
-}
+  .integrated-intro__subtitle {
+    margin-top: 20px;
+  }
 
-.integrated-details :deep(.product-carousel__button) {
-  border-color: transparent;
-  background: rgb(184 142 121 / 55%);
-  color: #fff;
-}
+  .integrated-intro__subtitle::after {
+    width: 100px;
+    margin: 20px auto;
+  }
 
-.integrated-details :deep(.product-carousel__button--prev) {
-  left: calc(-20vw + 34px);
-}
-
-.integrated-details :deep(.product-carousel__button--next) {
-  right: calc(-20vw + 34px);
-}
-
-.integrated-spaces {
-  padding: clamp(90px, 8vw, 150px) 5vw;
-  background: #fff;
-}
-
-.integrated-spaces :deep(.space-gallery) {
-  max-width: 1440px;
-  margin: 70px auto 0;
-}
-
-.integrated-spaces :deep(.product-carousel__slide) {
-  height: min(62vw, 820px);
-}
-
-.integrated-spaces :deep(.space-gallery__thumbs) {
-  justify-content: center;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
+  .integrated-intro__description,
+  .integrated-intro__english {
+    line-height: 2;
+  }
 }
 
 @media (max-width: 998px) {
-  .integrated-intro {
-    min-height: auto;
-    padding: 70px 0;
+  .integrated-intro__title {
+    font-size: 28px;
   }
 
-  .integrated-intro__inner {
-    width: 90vw;
+  .integrated-intro__subtitle {
+    font-size: 22px;
+    letter-spacing: 0.1em;
   }
 
-  .integrated-intro__copy {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    margin-top: 42px;
+  .integrated-intro__description,
+  .integrated-intro__english {
+    width: 90%;
   }
 
-  .integrated-intro__copy p {
+  .integrated-intro__description {
     font-size: 14px;
-    line-height: 2.2;
   }
 
-  .integrated-details {
-    padding: 0;
-  }
-
-  .integrated-details :deep(.product-carousel__slide) {
-    height: 56.25vw;
-    min-height: 260px;
-  }
-
-  .integrated-details :deep(.product-carousel__button--prev) {
-    left: 10px;
-  }
-
-  .integrated-details :deep(.product-carousel__button--next) {
-    right: 10px;
-  }
-
-  .integrated-spaces {
-    padding: 70px 5vw;
-  }
-
-  .integrated-spaces :deep(.space-gallery) {
-    margin-top: 40px;
-  }
-
-  .integrated-spaces :deep(.product-carousel__slide) {
-    height: 58vw;
-    min-height: 280px;
+  .integrated-intro__english {
+    font-size: 12px;
   }
 }
 </style>

@@ -7,7 +7,6 @@ import type {
 
 const watermark = "/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png";
 const finishedRoot = "/assets/products/finished";
-const integratedRoot = "/assets/products/integrated";
 
 export const finishedPage = {
   key: "finished",
@@ -132,105 +131,4 @@ export const finishedSpaceTabs = finishedTabMeta.map((tab, index) => {
     slides,
   };
 }) satisfies readonly ProductSpaceTab[];
-
-export const integratedPage = {
-  key: "integrated",
-  hero: {
-    image: `${integratedRoot}/5ade15ea-c638-464e-a03d-f3681882c95e.png`,
-    imageAlt: "南洋迪克整装系统实木入户门",
-    title: "Integrated System",
-    subtitle: "整装系统",
-    watermark,
-    aspectRatio: [1920, 1080],
-    breadcrumbs: [
-      {
-        label: "网站首页",
-        to: "/",
-        showHomeIcon: true,
-      },
-      {
-        label: "门",
-        current: true,
-      },
-    ],
-  },
-} as const satisfies ProductPageConfig;
-
-export const integratedIntroduction = {
-  title: "门",
-  subtitle: "全屋整装，尊享定制",
-  description:
-    "以专业化与信息化推出实木定制尊享服务，服务涵盖材质多元化定制及各功能区域定制两大版块，为新世代打全屋尊享原创家具。",
-  english:
-    "We launch solid wood customized exclusive services with specialization and informatization, covering two major areas: diversified material customization and customization of various functional areas, providing original furniture for the new generation to enjoy throughout the house.",
-} as const satisfies ProductSectionContent;
-
-const integratedDetailFiles = [
-  "dd7291dc-a46d-404e-b17f-e3095282746b.jpg",
-  "c93574a5-7af6-4d0a-b567-4f03ecad51b8.jpg",
-  "e2b25b91-49f7-4920-a5b8-f03b3fd1cb09.jpg",
-  "26edba7d-9602-4dad-8d1d-822bd118f827.jpg",
-  "d0453e8f-78f8-4cb4-a9de-e106031f7b36.jpg",
-  "4e313556-ef6e-4915-a123-5528391581be.jpg",
-  "404ed95f-36c5-47b5-b684-88e999b3668d.jpg",
-  "e6603f46-30b2-4c82-95ae-53e0b2f209bf.jpg",
-  "b64c19c6-e183-4939-a529-a689a6813b86.jpg",
-  "31e9b946-79bc-4f36-b3b0-5dcdb8ac2e37.jpg",
-  "c6263369-239a-4998-8a4b-3049d3a026ad.jpg",
-  "26855b0d-3f7a-4c77-b28b-0fa2bfab263b.jpg",
-  "b07c365a-7dd1-442d-a1c9-2f6680c2e558.jpg",
-] as const;
-
-export const integratedDetailSlides = integratedDetailFiles.map(
-  (file, index): ProductCarouselSlide => ({
-    id: `integrated-detail-${index + 1}`,
-    image: `${integratedRoot}/${file}`,
-    imageAlt: `南洋迪克整装系统实木门细节${index + 1}`,
-  }),
-);
-
-const integratedScene = `${integratedRoot}/b93e8ca4-806c-49ae-8d49-7d63f5f23ea5.jpg`;
-const integratedIcon = `${integratedRoot}/84e6d09b-f567-4a08-81b4-33c60f28df57.png`;
-
-export const integratedSpaceTabs = [
-  {
-    id: "reception",
-    title: "会客空间",
-    english: "RECEPTION SPACE",
-    icon: integratedIcon,
-    slides: [
-      {
-        id: "integrated-reception",
-        image: integratedScene,
-        imageAlt: "南洋迪克整装系统会客空间",
-      },
-    ],
-  },
-  {
-    id: "sleep",
-    title: "睡眠空间",
-    english: "SLEEP SPACE",
-    icon: integratedIcon,
-    slides: [
-      {
-        id: "integrated-sleep",
-        image: integratedScene,
-        imageAlt: "南洋迪克整装系统睡眠空间",
-      },
-    ],
-  },
-  {
-    id: "entrance",
-    title: "入户空间",
-    english: "ENTRANCE SPACE",
-    icon: integratedIcon,
-    slides: [
-      {
-        id: "integrated-entrance",
-        image: integratedScene,
-        imageAlt: "南洋迪克整装系统入户空间",
-      },
-    ],
-  },
-] as const satisfies readonly ProductSpaceTab[];
 
