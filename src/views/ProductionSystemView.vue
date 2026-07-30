@@ -18,6 +18,8 @@ import {
         <SectionTitle
           english="INTELLECTUAL CREATIVITY"
           chinese="智造力"
+          variant="feature"
+      watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
         />
       </ProductReveal>
 
@@ -47,6 +49,8 @@ import {
             english="PLANT EQUIPMENT"
             chinese="工厂 / 设备"
             theme="dark"
+            variant="feature"
+      watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
           />
           <p class="equipment-section__description">
             {{ productionEquipmentDescription }}
@@ -67,6 +71,8 @@ import {
         <SectionTitle
           english="ENVIRONMENTAL PROTECTION SUPPLY"
           chinese="环保 / 供应"
+          variant="feature"
+          watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
         />
       </ProductReveal>
 

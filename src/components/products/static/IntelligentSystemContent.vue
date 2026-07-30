@@ -23,6 +23,7 @@ import {
             {{ section.title }}
             <span v-if="section.subtitle">{{ section.subtitle }}</span>
           </h2>
+          <span class="intelligent-feature__divider" aria-hidden="true"></span>
           <p>{{ section.description }}</p>
         </ProductReveal>
 
@@ -30,7 +31,9 @@ import {
           class="intelligent-feature__media"
           :direction="index === 1 ? 'left' : 'right'"
         >
-          <img :src="section.image" :alt="section.imageAlt" loading="lazy" />
+          <div class="intelligent-feature__image-frame">
+            <img :src="section.image" :alt="section.imageAlt" loading="lazy" />
+          </div>
         </ProductReveal>
       </article>
     </div>
@@ -90,8 +93,16 @@ import {
   margin-left: 0.22em;
 }
 
-.intelligent-feature__copy p {
+.intelligent-feature__divider {
+  display: block;
+  width: 120px;
+  height: 2px;
   margin-top: 34px;
+  background: #c49a86;
+}
+
+.intelligent-feature__copy p {
+  margin-top: 54px;
   color: #777;
   font-size: 18px;
   font-style: normal;
@@ -103,10 +114,19 @@ import {
   overflow: visible;
 }
 
+.intelligent-feature__image-frame {
+  overflow: hidden;
+}
+
 .intelligent-feature__media img {
   display: block;
-  max-width: none;
+  width: 100%;
   height: auto;
+  transition: transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.intelligent-feature__image-frame:hover img {
+  transform: scale(1.04);
 }
 
 .intelligent-feature--1 .intelligent-feature__copy {
@@ -115,11 +135,16 @@ import {
   text-align: right;
 }
 
+.intelligent-feature--1 .intelligent-feature__divider,
+.intelligent-feature--3 .intelligent-feature__divider {
+  margin-left: auto;
+}
+
 .intelligent-feature--1 .intelligent-feature__media {
   width: 46%;
 }
 
-.intelligent-feature--1 .intelligent-feature__media img {
+.intelligent-feature--1 .intelligent-feature__image-frame {
   width: 136%;
 }
 
@@ -135,7 +160,7 @@ import {
   order: 1;
 }
 
-.intelligent-feature--2 .intelligent-feature__media img {
+.intelligent-feature--2 .intelligent-feature__image-frame {
   width: 100%;
 }
 
@@ -150,7 +175,7 @@ import {
   width: 45%;
 }
 
-.intelligent-feature--3 .intelligent-feature__media img {
+.intelligent-feature--3 .intelligent-feature__image-frame {
   width: 120%;
 }
 
@@ -202,9 +227,9 @@ import {
   }
 
   .intelligent-feature__media img,
-  .intelligent-feature--1 .intelligent-feature__media img,
-  .intelligent-feature--2 .intelligent-feature__media img,
-  .intelligent-feature--3 .intelligent-feature__media img {
+  .intelligent-feature--1 .intelligent-feature__image-frame,
+  .intelligent-feature--2 .intelligent-feature__image-frame,
+  .intelligent-feature--3 .intelligent-feature__image-frame {
     width: 100%;
   }
 
@@ -214,9 +239,17 @@ import {
   }
 
   .intelligent-feature__copy p {
-    margin-top: 24px;
+    margin-top: 32px;
     font-size: 15px;
     line-height: 2.1;
+  }
+
+  .intelligent-feature__divider,
+  .intelligent-feature--1 .intelligent-feature__divider,
+  .intelligent-feature--3 .intelligent-feature__divider {
+    width: 64px;
+    margin-top: 22px;
+    margin-left: 0;
   }
 
   .intelligent-content__closing {
@@ -245,6 +278,16 @@ import {
 
   .intelligent-content__closing {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intelligent-feature__media img {
+    transition: none;
+  }
+
+  .intelligent-feature__image-frame:hover img {
+    transform: none;
   }
 }
 </style>
