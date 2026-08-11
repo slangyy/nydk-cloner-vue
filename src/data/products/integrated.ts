@@ -9,9 +9,9 @@ const assetRoot = "/assets/products/integrated";
 const watermark =
   "/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png";
 const description =
-  "以专业化与信息化推出实木定制尊享服务，服务涵盖材质多元化定制及各功能区域定制两大版块，为新世代打全屋尊享原创家具。";
+  "Профессиональные и цифровые процессы обеспечивают премиальный сервис индивидуального изготовления мебели из массива. Он охватывает два направления — выбор и персонализацию материалов, а также проектирование функциональных зон — и создает для нового поколения авторскую мебель премиум-класса для всего дома.";
 const english =
-  "We launch solid wood customized exclusive services with specialization and informatization, covering two major areas: diversified material customization and customization of various functional areas, providing original furniture for the new generation to enjoy throughout the house.";
+  "以专业化与信息化推出实木定制尊享服务，服务涵盖材质多元化定制及各功能区域定制两大版块，为新世代打全屋尊享原创家具。";
 
 const doorSlideFiles = [
   "dd7291dc-a46d-404e-b17f-e3095282746b.jpg",
@@ -151,25 +151,25 @@ export const integratedSystemVariants = {
     hero: {
       image: `${assetRoot}/5ade15ea-c638-464e-a03d-f3681882c95e.png`,
       imageAlt: "整装系统",
-      title: "Integrated System",
+      title: "Готовые решения",
       subtitle: "整装系统",
       watermark,
       aspectRatio: [1920, 1080],
       breadcrumbs: [
         {
-          label: "网站首页",
+          label: "Главная страница",
           to: "/",
           showHomeIcon: true,
         },
         {
-          label: "门",
+          label: "Двери",
           current: true,
         },
       ],
     },
     introduction: {
-      title: "门",
-      subtitle: "全屋整装，尊享定制",
+      title: "Двери",
+      subtitle: "Комплексное оформление всего дома — индивидуальное исполнение премиум-класса",
       description,
       english,
     },
@@ -182,25 +182,25 @@ export const integratedSystemVariants = {
     hero: {
       image: `${assetRoot}/wall/47969cad-e928-46e2-8509-f1f405f14278.png`,
       imageAlt: "固装系统",
-      title: "Customeized System",
+      title: "Система стационарных интерьерных конструкций",
       subtitle: "固装系统",
       watermark,
       aspectRatio: [1920, 1080],
       breadcrumbs: [
         {
-          label: "网站首页",
+          label: "Главная страница",
           to: "/",
           showHomeIcon: true,
         },
         {
-          label: "墙",
+          label: "Стеновые панели",
           current: true,
         },
       ],
     },
     introduction: {
-      title: "墙",
-      subtitle: "全屋整装、尊享定制",
+      title: "Стеновые панели",
+      subtitle: "Комплексное оформление всего дома — индивидуальное исполнение премиум-класса",
       description,
       english,
     },
@@ -213,25 +213,25 @@ export const integratedSystemVariants = {
     hero: {
       image: `${assetRoot}/cabinet/12fff885-b586-4936-89d0-f124e0297a61.png`,
       imageAlt: "固装系统",
-      title: "Customeized System",
+      title: "Система стационарных интерьерных конструкций",
       subtitle: "固装系统",
       watermark,
       aspectRatio: [1920, 1080],
       breadcrumbs: [
         {
-          label: "网站首页",
+          label: "Главная страница",
           to: "/",
           showHomeIcon: true,
         },
         {
-          label: "柜",
+          label: "Шкафные системы",
           current: true,
         },
       ],
     },
     introduction: {
-      title: "柜",
-      subtitle: "全屋整装，尊享定制",
+      title: "Шкафные системы",
+      subtitle: "Комплексное оформление всего дома — индивидуальное исполнение премиум-класса",
       description,
       english,
     },

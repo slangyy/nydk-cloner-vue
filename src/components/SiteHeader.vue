@@ -316,7 +316,7 @@ onBeforeUnmount(() => {
   white-space: nowrap;
 }
 
-.desktop-nav__link::after {
+/* .desktop-nav__link::after {
   position: absolute;
   right: 20px;
   bottom: 9px;
@@ -327,7 +327,7 @@ onBeforeUnmount(() => {
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
-}
+} */
 
 .desktop-nav__link small {
   font-size: 10px;
@@ -346,7 +346,7 @@ onBeforeUnmount(() => {
   top: 70px;
   left: 50%;
   display: grid;
-  width: 310px;
+  width: min(340px, calc(100vw - 32px));
   overflow: hidden;
   padding: 0;
   background: #8b6b52
@@ -377,15 +377,19 @@ onBeforeUnmount(() => {
 .desktop-nav__dropdown-link {
   display: grid;
   min-height: 48px;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: minmax(0, 1fr) max-content;
   align-items: center;
-  gap: 0;
+  gap: 16px;
   padding: 11px 20px;
   border-bottom: 1px solid rgb(255 255 255 / 12%);
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  white-space: nowrap;
+}
+
+.desktop-nav__dropdown-link > span {
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .desktop-nav__dropdown-link:last-child {
@@ -397,6 +401,7 @@ onBeforeUnmount(() => {
   font-size: 16px;
   letter-spacing: 0;
   opacity: 1;
+  white-space: nowrap;
 }
 
 .site-header__actions {
@@ -613,17 +618,23 @@ onBeforeUnmount(() => {
   .mobile-nav__child-link {
     display: grid;
     min-height: 45px;
-    grid-template-columns: minmax(86px, auto) 1fr;
+    grid-template-columns: minmax(0, 1fr) max-content;
     align-items: baseline;
     gap: 15px;
-    padding: 0 0 0 8%;
+    padding: 0 8%;
     color: rgb(51 44 43 / 78%);
     font-size: 13px;
+  }
+
+  .mobile-nav__child-link > span {
+    min-width: 0;
+    overflow-wrap: break-word;
   }
 
   .mobile-nav__child-link small {
     color: rgb(51 44 43 / 40%);
     font-size: 8px;
+    white-space: nowrap;
   }
 }
 

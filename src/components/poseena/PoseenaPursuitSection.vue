@@ -20,13 +20,13 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     <div class="poseena-pursuit__inner">
       <div class="poseena-pursuit__copy">
         <h2 id="poseena-pursuit-title">
-          颠覆传统 对抗平庸
+          Ломая традиции. Бросая вызов обыденности.
         </h2>
         <p class="poseena-pursuit__subtitle">
-          定义极致系统家居的五个极致追求
+          Пять вершин совершенства, определяющих систему идеального домашнего интерьера
         </p>
         <i class="poseena-pursuit__divider" aria-hidden="true"></i>
-        <p class="poseena-pursuit__body">
+        <!-- <p class="poseena-pursuit__body">
           所谓极致艺术就是以
           <strong>极致设计</strong> /
           <strong>极致工艺</strong> /
@@ -35,6 +35,15 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
           <strong>极致应用</strong>
           5个核心去设计落地 / POSEENA品牌定位 | 极致艺术家+ | 的本质 /
           就是颠覆传统 / 对抗平庸。
+        </p> -->
+        <p class="poseena-pursuit__body">
+          Совершенное искусство воплощается через 5 основ: 
+          <strong>безупречный дизайн</strong> / 
+          <strong>безупречное мастерство</strong> / 
+          <strong>безупречные материалы</strong> / 
+          <strong>безупречную систему</strong> / 
+          <strong>безупречное применение</strong>.
+          В этом суть позиционирования POSEENA как «совершенного художника+»: ломать традиции и противостоять обыденности.
         </p>
       </div>
 

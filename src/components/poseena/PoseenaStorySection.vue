@@ -30,7 +30,8 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
         class="poseena-story__heading reveal"
         :class="{ 'is-visible': titleReveal.isVisible.value }"
       >
-        <h2>致敬经典 成为经典</h2>
+        <!-- <h2>致敬经典 成为经典</h2> -->
+        <h2>Чтить классику. Стать классикой.</h2>
         <p>致敬贝聿铭大师 / 行走在世界里的东方</p>
         <i aria-hidden="true"></i>
       </header>
@@ -67,7 +68,8 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
         :class="{ 'is-visible': lightLayoutReveal.isVisible.value }"
       >
         <div class="poseena-story__light-copy">
-          <h2>意为光芒 成为光芒</h2>
+          <!-- <h2>意为光芒 成为光芒</h2> -->
+          <h2>Имя означает сияние — станьте сиянием</h2>
           <i aria-hidden="true"></i>
           <p class="poseena-story__light-description">
             POSEENA意大利语为光芒的意思 / 寓意为POSEENA 是光的使者 /

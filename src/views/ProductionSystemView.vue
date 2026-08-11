@@ -65,7 +65,7 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
     <section class="capability-section">
       <ProductReveal>
         <SectionTitle
-          english="INTELLECTUAL CREATIVITY"
+          english="Потенциал интеллектуального производства"
           chinese="智造力"
           watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
         />
@@ -99,7 +99,7 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
       <ProductReveal>
         <SectionTitle
           class=" production-title--dark"
-          english="PLANT EQUIPMENT"
+          english="Фабрика / оборудование"
           chinese="工厂 / 设备"
           theme="dark"
           watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
@@ -169,7 +169,7 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
     <section class="supply-section">
       <ProductReveal>
         <SectionTitle
-          english="ENVIRONMENTAL PROTECTION SUPPLY"
+          english="Экологичность / снабжение"
           chinese="环保 / 供应"
           watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
         />
@@ -178,9 +178,9 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
       <div class="supply-list">
         <ProductReveal class="supply-row">
           <article class="supply-copy">
-            <h3>环保</h3>
+            <h3>Экологичность</h3>
             <i aria-hidden="true"></i>
-            <p>沸石转轮+RTO、有机废气治理设施4/套</p>
+            <p>Цеолитовый ротор + RTO, 4 установки очистки летучих органических соединений (ЛОС)</p>
           </article>
           <div class="supply-images supply-images--environment">
             <figure>
@@ -206,9 +206,9 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
             />
           </figure>
           <article class="supply-copy supply-copy--right">
-            <h3>供应</h3>
+            <h3>Cнабжение</h3>
             <i aria-hidden="true"></i>
-            <p>强大的国际供应链、企业专属定制原材料</p>
+            <p>Мощная международная цепочка поставок и сырье, изготавливаемое на заказ для компании</p>
           </article>
         </ProductReveal>
       </div>

@@ -22,10 +22,15 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
       :class="{ 'is-visible': isVisible }"
     >
       <header class="poseena-strategy__header">
-        <h2 id="poseena-strategy-title">
+        <!-- <h2 id="poseena-strategy-title">
           新中有爱 纵横无边
         </h2>
-        <p>1+1+6品牌战略</p>
+        <p>1+1+6品牌战略</p> -->
+
+        <h2 id="poseena-strategy-title">
+          Новая китайская эстетика с любовью — без границ
+        </h2>
+        <p>Стратегия бренда 1+1+6</p>
         <span aria-hidden="true" />
       </header>
 

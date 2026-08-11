@@ -29,14 +29,14 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
     <div class="poseena-product-system__copy">
       <h2 id="poseena-product-system-title">
-        穿越灵感 行走世界
+        Вдохновение без границ — движение по миру
       </h2>
       <p class="poseena-product-system__subtitle">
-        3+1+1产品系统
+        Продуктовая система 3+1+1
       </p>
       <i class="poseena-product-system__divider" aria-hidden="true"></i>
       <p class="poseena-product-system__description">
-        3大成品家具 / 1个定制中心 / 1个健美用品
+        3 категории готовой мебели / 1 центр индивидуального изготовления / 1 линейка товаров для здоровья
       </p>
     </div>
   </section>

@@ -18,8 +18,10 @@ import {
           aria-hidden="true"
         />
         <div class="design-matrix__heading-copy">
-          <h2>中国高定整装领导品牌</h2>
-          <p>生活的从容&nbsp;&nbsp;从好的设计开始</p>
+          <!-- <h2>中国高定整装领导品牌</h2> -->
+          <h2>Премиум-решения из Китая</h2>
+          <!-- <p>生活的从容&nbsp;&nbsp;从好的设计开始</p> -->
+          <p>Спокойствие в жизни начинается с хорошего дизайна</p>
         </div>
       </ProductReveal>
 

@@ -57,7 +57,7 @@ function showNextCase(): void {
   >
     <header class="poseena-cases__heading">
       <h2 id="poseena-cases-title">
-        整装全案 静待品鉴
+        Комплексные интерьерные проекты — приглашаем оценить
       </h2>
       <i aria-hidden="true"></i>
     </header>

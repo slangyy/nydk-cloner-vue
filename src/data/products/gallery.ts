@@ -19,7 +19,7 @@ export const finishedPage = {
     aspectRatio: [1920, 1080],
     breadcrumbs: [
       {
-        label: "网站首页",
+        label: "Главная страница",
         to: "/",
         showHomeIcon: true,
       },

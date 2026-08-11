@@ -27,8 +27,11 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
       :class="{ 'is-visible': isVisible }"
     >
       <header class="poseena-mentors__header">
-        <h2 id="poseena-mentors-title">
+        <!-- <h2 id="poseena-mentors-title">
           品牌有依 落地有声
+        </h2> -->
+        <h2 id="poseena-mentors-title">
+          У бренда есть опора — и каждая идея обретает зримое воплощение
         </h2>
         <span aria-hidden="true" />
       </header>

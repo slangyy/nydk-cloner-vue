@@ -50,7 +50,7 @@ onBeforeUnmount(stopCycle);
       <ProductReveal>
         <SectionTitle
           class="service-process__heading"
-          english="SERVICE"
+          english="Процесс обслуживания"
           chinese="服务流程"
           theme="dark"
           watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"

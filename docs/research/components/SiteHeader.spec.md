@@ -20,9 +20,12 @@
 - The solid light-gray header has a full-width 1px bottom divider.
 - Desktop primary navigation uses 16px Chinese and 10px English labels; at
   999–1180px they reduce to 15px and 9px to preserve horizontal spacing.
-- Desktop product dropdown is 310px wide and uses the local
-  `7ce4c8f2-307e-4fb7-af46-11c7e390fb33.jpg` leaf-line texture. Its Chinese and
-  English labels are both 16px, with 48px rows and white separators.
+- Desktop product dropdown is 340px wide (with a 16px viewport gutter) and uses
+  the local `7ce4c8f2-307e-4fb7-af46-11c7e390fb33.jpg` leaf-line texture. Its
+  primary and secondary labels are both 16px, with 48px minimum rows and white
+  separators. The primary label occupies a flexible column and may wrap at word
+  boundaries; the secondary Chinese label stays in a max-content column so
+  translated labels cannot overlap it.
 - Desktop dropdowns reveal from top to bottom over 0.55s; keyboard focus uses
   the same state and reduced-motion mode disables the transition.
 - Desktop inner: width 88%, margin `25px auto`, flex, space-between, center.
@@ -37,7 +40,8 @@
 - Scrolled/up: solid, dark logo/text.
 - Scrolling down: translateY(-120px).
 - Mobile open: full viewport light menu below header; body scroll locked; hamburger becomes X.
-- Accordion open: 45px sub-items with 8% left inset.
+- Accordion open: 45px minimum-height sub-items with 8% horizontal inset; long
+  translated primary labels wrap without overlapping the Chinese label.
 
 ## Links
 

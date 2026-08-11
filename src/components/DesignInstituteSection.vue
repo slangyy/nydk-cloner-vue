@@ -23,7 +23,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
     <div class="page-container design-institute__inner">
       <SectionTitle
         id="design-institute-title"
-        english="DESIGN & RESEARCH INSTITUTE"
+        english="Институт дизайна"
         chinese="设计研究院"
         variant="feature"
         watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
@@ -45,7 +45,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
               />
               <img :src="card.image" alt="南洋迪克设计研究院" />
             </picture>
-            <span>查看更多</span>
+            <span>Подробнее</span>
           </RouterLink>
 
           <figure v-else class="design-institute__card">

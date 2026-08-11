@@ -64,7 +64,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
     <div id="cases-showcase-title" class="cases-showcase__heading">
       <SectionTitle
-        english="CASE"
+        english="Проекты"
         chinese="案例"
         theme="dark"
         align="left"
@@ -77,7 +77,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
         <h3>{{ activeCase.title }}</h3>
         <p>{{ activeCase.summary }}</p>
         <RouterLink class="cases-showcase__detail" to="/cases">
-          查看详情 <span aria-hidden="true">＋</span>
+          Подробнее <span aria-hidden="true">＋</span>
         </RouterLink>
       </article>
 

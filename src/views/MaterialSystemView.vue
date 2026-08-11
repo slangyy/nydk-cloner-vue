@@ -33,7 +33,7 @@ const materialGroups = [
         <ProductReveal>
           <SectionTitle
             class="material-title"
-            english="SUPPLY"
+            english="Снабжение"
             chinese="供应"
             watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
           />
@@ -48,8 +48,8 @@ const materialGroups = [
           </figure>
 
           <div class="supply-composition__copy">
-            <h3>供应</h3>
-            <p>强大的国际供应链、企业专属定制原材料</p>
+            <h3>Снабжение</h3>
+            <p>Мощная международная цепочка поставок и сырье, изготавливаемое на заказ для компании</p>
             <img
               class="supply-composition__logo"
               src="/assets/products/material/a2275f52-13f2-407f-9c5e-9337c2a00f0a.png"
@@ -80,7 +80,7 @@ const materialGroups = [
         <ProductReveal>
           <SectionTitle
             class="material-title"
-            english="Multiple material selection"
+            english="Разнообразие материалов"
             chinese="多元选材"
             watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
           />

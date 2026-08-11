@@ -96,7 +96,7 @@ function nextSpace(): void {
               @click="selectSpace(index)"
             >
               <img :src="space.icon" alt="" aria-hidden="true" />
-              <span>{{ space.title }}</span>
+              <span>{{ space.english }}</span>
             </button>
           </div>
         </div>

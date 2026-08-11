@@ -10,5 +10,5 @@
 - Center overlay: `/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png` at 20% opacity behind `POSEENA普西纳`, a 70×4px white divider, and `极致系统家居`.
 - The overlay remains fully visible for 2000ms and then fades to opacity 0 over 600ms. Reduced-motion mode keeps the hold time but removes the transition.
 - Breadcrumb: a full-width bottom strip with a 1px `rgba(255,255,255,.1)` top border and 18px vertical padding (10px at `≤1366px`).
-- Breadcrumb content uses the shared 1440/80% content width and 90% on mobile. The home icon and `网站首页` are a `RouterLink` to `/`; `POSEENA普西纳` is an inert current-page label with `aria-current="page"`.
+- Breadcrumb content uses the shared 1440/80% content width and 90% on mobile. The home icon and `Главная страница` are a `RouterLink` to `/`; `POSEENA普西纳` is an inert current-page label with `aria-current="page"`.
 - Text and icon are white with a subtle dark shadow for contrast.

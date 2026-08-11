@@ -46,15 +46,15 @@ export const finishedVariantData = [
     "hero": "/assets/products/finished/poseena/ccc7bda7-6e79-4174-8c6d-f2b8e814e5c5.png",
     "introduction": {
       "title": "POSEENA丨普西纳",
-      "subtitle": "时尚与现代、原生与传统",
-      "description": "POSEENA普西纳是一极致的生活美学，更是品牌的诗意烟火，以茶院的形式让我们实现人与环境对话，建筑与景观融合、室内与室外的链接，序列的屏风与茶桌茶柜的层次美学，真正可以做到可闲情逸致品茶可商务会谈社交。",
-      "english": "POSEENA is an ultimate aesthetic of life, and it is also the brand's poetic fireworks. In the form of a tea house, it allows us to achieve dialogue between people and the environment, integration of architecture and landscape, indoor and outdoor links, and a layered aesthetic of sequential screens and tea tables and cabinets. It can truly achieve leisurely tea tasting, business meetings, and social interaction."
+      "subtitle": "Мода и современность, естественность и традиция",
+      "description": "POSEENA — это совершенная эстетика жизни и поэзия повседневности бренда. Формат чайного дворика выстраивает диалог человека с окружающей средой, объединяет архитектуру и ландшафт, интерьер и внешний мир. Ритм ширм, чайных столов и шкафов создает многослойную эстетику пространства, подходящего и для неспешного чаепития, и для деловых встреч и общения.",
+      "english": "POSEENA普西纳是一极致的生活美学，更是品牌的诗意烟火，以茶院的形式让我们实现人与环境对话，建筑与景观融合、室内与室外的链接，序列的屏风与茶桌茶柜的层次美学，真正可以做到可闲情逸致品茶可商务会谈社交。"
     },
     "spaces": [
       {
         "id": "1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/poseena/16e26f4a-dfa1-492f-a854-0213df98df94.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": [
@@ -72,7 +72,7 @@ export const finishedVariantData = [
       {
         "id": "2",
         "title": "会客空间",
-        "english": "RECEPTION SPACE",
+        "english": "Гостиная зона",
         "image": "/assets/products/finished/poseena/488fc65f-fc06-4edc-b18e-3c510f9e8700.jpg",
         "icon": "/assets/products/finished/poseena/8b839be8-a0b8-4510-bf7a-8e8f01315cd2.png",
         "detailImages": [
@@ -88,7 +88,7 @@ export const finishedVariantData = [
       {
         "id": "3",
         "title": "睡眠空间",
-        "english": "SLEEP SPACE",
+        "english": "Спальная зона",
         "image": "/assets/products/finished/poseena/89e78c30-30a8-4152-9c99-38c32739e633.jpg",
         "icon": "/assets/products/finished/poseena/5f2d42cc-5fb8-452d-934b-f141838dd797.png",
         "detailImages": [
@@ -104,7 +104,7 @@ export const finishedVariantData = [
       {
         "id": "4",
         "title": "餐厨空间",
-        "english": "KITCHEN SPACE",
+        "english": "Кухня-столовая",
         "image": "/assets/products/finished/poseena/8d8b5d5b-c1e2-4d8b-9d32-38728860d70e.jpg",
         "icon": "/assets/products/finished/poseena/d708bd09-11ac-430a-8e6c-c20e9d8c3f39.png",
         "detailImages": [
@@ -123,7 +123,7 @@ export const finishedVariantData = [
       {
         "id": "5",
         "title": "书茶空间",
-        "english": "STUDY SPACE",
+        "english": "Кабинет и чайная зона",
         "image": "/assets/products/finished/poseena/1c7f6c77-fa87-4fcb-bcf4-be0d7bfb86e9.jpg",
         "icon": "/assets/products/finished/poseena/cd3ca4b3-6121-4a58-8a3f-e78d470fb4c7.png",
         "detailImages": [
@@ -137,7 +137,7 @@ export const finishedVariantData = [
       {
         "id": "6",
         "title": "衣帽空间",
-        "english": "CLOTHING SPACE",
+        "english": "Гардеробная",
         "image": "/assets/products/finished/poseena/c2a6e713-2d06-49ea-822d-163acd81e723.jpg",
         "icon": "/assets/products/finished/poseena/29f6a515-9d12-41ac-bd69-1c973cfa5a42.png",
         "detailImages": [
@@ -153,7 +153,7 @@ export const finishedVariantData = [
       {
         "id": "7",
         "title": "客户案例",
-        "english": "Customer Case",
+        "english": "Проекты клиентов",
         "image": "/assets/products/finished/poseena/27f52bca-0376-41fb-9f14-6e07193ca4ce.png",
         "icon": "/assets/products/finished/poseena/1b2fd4a2-cc7f-4442-9d45-423055ac14c2.png",
         "detailImages": [
@@ -178,15 +178,15 @@ export const finishedVariantData = [
     "hero": "/assets/products/finished/heqi/a55a1f46-c523-4126-b884-b22e214210ea.png",
     "introduction": {
       "title": "禾气",
-      "subtitle": "东 方 雅 致 ，原 创 家 居",
-      "description": "当代东方雅致中式家具，是南洋迪克整装家居挖掘东方人文底蕴，探索国人内心匠造情怀、遵循当代人居 哲学的划时代力作。",
-      "english": "Contemporary Oriental Elegant Chinese Furniture is a groundbreaking work of Nanyang Dique's integrated home decor that explores the cultural heritage of the East, explores the craftsmanship sentiment of the Chinese people, and follows contemporary living philosophy."
+      "subtitle": "Восточная утонченность, авторская мебель",
+      "description": "Современная китайская мебель с утонченной восточной эстетикой — знаковая работа NEODKO, раскрывающая культурную глубину Востока, традицию мастерства и философию современного жилья.",
+      "english": "当代东方雅致中式家具，是南洋迪克整装家居挖掘东方人文底蕴，探索国人内心匠造情怀、遵循当代人居 哲学的划时代力作。"
     },
     "spaces": [
       {
         "id": "1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/heqi/7e7017d5-6bec-466f-b082-9dd420a32e2d.jpg",
         "icon": "/assets/products/finished/heqi/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": [
@@ -200,7 +200,7 @@ export const finishedVariantData = [
       {
         "id": "2",
         "title": "会客空间",
-        "english": "RECEPTION SPACE",
+        "english": "Гостиная зона",
         "image": "/assets/products/finished/heqi/70274a13-1e60-4abf-b44a-ffec610bf5ca.jpg",
         "icon": "/assets/products/finished/heqi/8b839be8-a0b8-4510-bf7a-8e8f01315cd2.png",
         "detailImages": [
@@ -219,7 +219,7 @@ export const finishedVariantData = [
       {
         "id": "3",
         "title": "睡眠空间",
-        "english": "SLEEP SPACE",
+        "english": "Спальная зона",
         "image": "/assets/products/finished/heqi/446a379a-ff91-4c7c-8963-5bd0612f04f4.jpg",
         "icon": "/assets/products/finished/heqi/5f2d42cc-5fb8-452d-934b-f141838dd797.png",
         "detailImages": [
@@ -238,7 +238,7 @@ export const finishedVariantData = [
       {
         "id": "4",
         "title": "餐厨空间",
-        "english": "KITCHEN SPACE",
+        "english": "Кухня-столовая",
         "image": "/assets/products/finished/heqi/30888c31-54d0-44c9-809c-7ef1973e5c44.jpg",
         "icon": "/assets/products/finished/heqi/d708bd09-11ac-430a-8e6c-c20e9d8c3f39.png",
         "detailImages": [
@@ -257,7 +257,7 @@ export const finishedVariantData = [
       {
         "id": "5",
         "title": "书茶空间",
-        "english": "STUDY SPACE",
+        "english": "Кабинет и чайная зона",
         "image": "/assets/products/finished/heqi/12aacdee-e21f-4f34-9939-dd8cc76c6bd1.jpg",
         "icon": "/assets/products/finished/heqi/cd3ca4b3-6121-4a58-8a3f-e78d470fb4c7.png",
         "detailImages": [
@@ -275,7 +275,7 @@ export const finishedVariantData = [
       {
         "id": "6",
         "title": "衣帽空间",
-        "english": "CLOTHING SPACE",
+        "english": "Гардеробная",
         "image": "/assets/products/finished/heqi/67c86f00-d715-45be-9abb-da8481aae1d5.jpg",
         "icon": "/assets/products/finished/heqi/29f6a515-9d12-41ac-bd69-1c973cfa5a42.png",
         "detailImages": [
@@ -290,7 +290,7 @@ export const finishedVariantData = [
       {
         "id": "7",
         "title": "客户案例",
-        "english": "Customer Case",
+        "english": "Проекты клиентов",
         "image": "/assets/products/finished/heqi/fbbbc634-a20d-4f2e-bc74-2a27d316fff6.png",
         "icon": "/assets/products/finished/heqi/1b2fd4a2-cc7f-4442-9d45-423055ac14c2.png",
         "detailImages": [
@@ -324,7 +324,7 @@ export const finishedVariantData = [
       {
         "id": "1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/qizhi/146fd13e-b6d3-4d86-877e-a3fb29beb090.jpg",
         "icon": "/assets/products/finished/qizhi/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": [
@@ -337,7 +337,7 @@ export const finishedVariantData = [
       {
         "id": "2",
         "title": "会客空间",
-        "english": "RECEPTION SPACE",
+        "english": "Гостиная зона",
         "image": "/assets/products/finished/qizhi/ba17f1b4-d13b-424b-a603-c1b99698a633.jpg",
         "icon": "/assets/products/finished/qizhi/8b839be8-a0b8-4510-bf7a-8e8f01315cd2.png",
         "detailImages": [
@@ -351,7 +351,7 @@ export const finishedVariantData = [
       {
         "id": "3",
         "title": "睡眠空间",
-        "english": "SLEEP SPACE",
+        "english": "Спальная зона",
         "image": "/assets/products/finished/qizhi/11b7a94f-626c-4a8f-9b92-0552aaa388de.jpg",
         "icon": "/assets/products/finished/qizhi/cd3ca4b3-6121-4a58-8a3f-e78d470fb4c7.png",
         "detailImages": []
@@ -359,7 +359,7 @@ export const finishedVariantData = [
       {
         "id": "4",
         "title": "餐厨空间",
-        "english": "KITCHEN SPACE",
+        "english": "Кухня-столовая",
         "image": "/assets/products/finished/qizhi/07594768-5563-4c3b-85ad-234d8e7974b5.jpg",
         "icon": "/assets/products/finished/qizhi/d708bd09-11ac-430a-8e6c-c20e9d8c3f39.png",
         "detailImages": [
@@ -371,7 +371,7 @@ export const finishedVariantData = [
       {
         "id": "5",
         "title": "书茶空间",
-        "english": "STUDY SPACE",
+        "english": "Кабинет и чайная зона",
         "image": "/assets/products/finished/qizhi/3ee79d99-285a-48b2-a045-00fc37c7b4ee.jpg",
         "icon": "/assets/products/finished/qizhi/29f6a515-9d12-41ac-bd69-1c973cfa5a42.png",
         "detailImages": [
@@ -385,7 +385,7 @@ export const finishedVariantData = [
       {
         "id": "6",
         "title": "衣帽空间",
-        "english": "CLOTHING SPACE",
+        "english": "Гардеробная",
         "image": "/assets/products/finished/qizhi/235df110-39e3-45db-830d-54eedd741d4c.jpg",
         "icon": "/assets/products/finished/qizhi/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -399,15 +399,15 @@ export const finishedVariantData = [
     "hero": "/assets/products/finished/tianji/f3f000ba-4cf1-4049-a837-1a7658d56f13.png",
     "introduction": {
       "title": "天际",
-      "subtitle": "东方简奢，原创家居",
-      "description": "天际20——南洋迪克以高级定制创造当代中式家具最为卓越的品牌 ，探索东方人文精神至境，以东方传承为基因，为您爱家筑东方逸境，于此助当代人到达内心的天际；是潜藏在中国人内心深处向往的精神领域，到达此境界的人沉浸其中，彼此相逢。",
-      "english": "SKYLINE IS A SPIRITUAL REALM HIDDEN IN THE HEART OF CHINESE PEOPLE PEOPLE WHO REACH THIS REALM IMMERSE THEMSELVES IN IT AND MEET EACH OTHER."
+      "subtitle": "Восточная сдержанная роскошь, авторская мебель",
+      "description": "«Горизонт 20» — стремление NEODKO создавать выдающуюся современную китайскую мебель премиального индивидуального исполнения. Коллекция раскрывает высшие смыслы восточной гуманистической традиции и формирует в доме утонченное восточное пространство, помогая современному человеку достичь внутреннего горизонта — сокровенной духовной области, где люди погружаются в гармонию и встречают друг друга.",
+      "english": "天际20——南洋迪克以高级定制创造当代中式家具最为卓越的品牌 ，探索东方人文精神至境，以东方传承为基因，为您爱家筑东方逸境，于此助当代人到达内心的天际；是潜藏在中国人内心深处向往的精神领域，到达此境界的人沉浸其中，彼此相逢。"
     },
     "spaces": [
       {
         "id": "1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/tianji/f16335b4-6b57-434a-9158-da5a1695430d.jpg",
         "icon": "/assets/products/finished/tianji/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": [
@@ -421,7 +421,7 @@ export const finishedVariantData = [
       {
         "id": "2",
         "title": "会客空间",
-        "english": "RECEPTION SPACE",
+        "english": "Гостиная зона",
         "image": "/assets/products/finished/tianji/59057ddf-022e-412b-9c03-fdc1ecc4aaef.jpg",
         "icon": "/assets/products/finished/tianji/8b839be8-a0b8-4510-bf7a-8e8f01315cd2.png",
         "detailImages": [
@@ -434,7 +434,7 @@ export const finishedVariantData = [
       {
         "id": "3",
         "title": "睡眠空间",
-        "english": "SLEEP SPACE",
+        "english": "Спальная зона",
         "image": "/assets/products/finished/tianji/fac93727-9c2e-4b21-b39d-472677091023.jpg",
         "icon": "/assets/products/finished/tianji/5f2d42cc-5fb8-452d-934b-f141838dd797.png",
         "detailImages": [
@@ -448,7 +448,7 @@ export const finishedVariantData = [
       {
         "id": "4",
         "title": "餐厨空间",
-        "english": "KITCHEN SPACE",
+        "english": "Кухня-столовая",
         "image": "/assets/products/finished/tianji/ebd51883-b25d-4279-940f-839c25672fe0.jpg",
         "icon": "/assets/products/finished/tianji/d708bd09-11ac-430a-8e6c-c20e9d8c3f39.png",
         "detailImages": [
@@ -461,7 +461,7 @@ export const finishedVariantData = [
       {
         "id": "5",
         "title": "书茶空间",
-        "english": "STUDY SPACE",
+        "english": "Кабинет и чайная зона",
         "image": "/assets/products/finished/tianji/7f41467f-a4c2-4918-9f46-844cb73e3385.jpg",
         "icon": "/assets/products/finished/tianji/cd3ca4b3-6121-4a58-8a3f-e78d470fb4c7.png",
         "detailImages": [
@@ -474,7 +474,7 @@ export const finishedVariantData = [
       {
         "id": "6",
         "title": "衣帽空间",
-        "english": "CLOTHING SPACE",
+        "english": "Гардеробная",
         "image": "/assets/products/finished/tianji/830f042a-2d0e-48ab-99b4-3661af96ab78.jpg",
         "icon": "/assets/products/finished/tianji/29f6a515-9d12-41ac-bd69-1c973cfa5a42.png",
         "detailImages": [
@@ -487,7 +487,7 @@ export const finishedVariantData = [
       {
         "id": "7",
         "title": "客户案例",
-        "english": "Customer Case",
+        "english": "Проекты клиентов",
         "image": "/assets/products/finished/tianji/a972504c-b6e6-4986-a776-454439ea1b15.png",
         "icon": "/assets/products/finished/tianji/1b2fd4a2-cc7f-4442-9d45-423055ac14c2.png",
         "detailImages": [
@@ -510,15 +510,15 @@ export const finishedVariantData = [
     "hero": "/assets/products/finished/lingjian/a4d3b6d4-faa7-42d4-b9bb-2895d1e7a192.png",
     "introduction": {
       "title": "领见",
-      "subtitle": "现代时尚 ，原创家居",
-      "description": "【领见】南洋迪克整装家居 ，以“现代、实用、美观”为产品初心摆脱材料制约 ，力求“人、自然、社会”有机结合， 融入现代人的审美意趣和审美习惯 ，在设计、工艺等方面的加持下大大提升其现代感与价值感 ，境启新篇，领启东方新实木时代。",
-      "english": "【 Lingjian 】 Nanyang Dique Home Furnishings, with the original intention of \"modern, practical, and beautiful\", strives to break free from material constraints and organically combine \"human, nature, and society\", integrating modern aesthetic taste and habits. With the support of design, craftsmanship, and other aspects, it greatly enhances its sense of modernity and value, opening up a new chapter in the environment and leading the new era of solid wood in the East."
+      "subtitle": "Современный стиль, авторская мебель",
+      "description": "Коллекция «领见» от NEODKO следует принципам современности, практичности и красоты, преодолевает ограничения материалов и стремится органично соединить человека, природу и общество. Современная эстетика, дизайн и мастерство усиливают актуальность и ценность коллекции, открывая новую главу и новую эпоху восточной мебели из массива.",
+      "english": "【领见】南洋迪克整装家居 ，以“现代、实用、美观”为产品初心摆脱材料制约 ，力求“人、自然、社会”有机结合， 融入现代人的审美意趣和审美习惯 ，在设计、工艺等方面的加持下大大提升其现代感与价值感 ，境启新篇，领启东方新实木时代。"
     },
     "spaces": [
       {
         "id": "1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/lingjian/4cd20224-7d01-4131-b9b5-a413f5d5049c.jpg",
         "icon": "/assets/products/finished/lingjian/5f2d42cc-5fb8-452d-934b-f141838dd797.png",
         "detailImages": [
@@ -530,7 +530,7 @@ export const finishedVariantData = [
       {
         "id": "2",
         "title": "会客空间",
-        "english": "RECEPTION SPACE",
+        "english": "Гостиная зона",
         "image": "/assets/products/finished/lingjian/c5682d15-b92c-4720-bee3-314786b09064.jpg",
         "icon": "/assets/products/finished/lingjian/8b839be8-a0b8-4510-bf7a-8e8f01315cd2.png",
         "detailImages": [
@@ -541,7 +541,7 @@ export const finishedVariantData = [
       {
         "id": "3",
         "title": "睡眠空间",
-        "english": "SLEEP SPACE",
+        "english": "Спальная зона",
         "image": "/assets/products/finished/lingjian/c0a89062-1c2d-4728-9f9d-7b1c25093a5e.jpg",
         "icon": "/assets/products/finished/lingjian/5f2d42cc-5fb8-452d-934b-f141838dd797.png",
         "detailImages": [
@@ -554,7 +554,7 @@ export const finishedVariantData = [
       {
         "id": "4",
         "title": "餐厨空间",
-        "english": "KITCHEN SPACE",
+        "english": "Кухня-столовая",
         "image": "/assets/products/finished/lingjian/eedcd0e7-b5b4-4f30-a198-684cb056e687.jpg",
         "icon": "/assets/products/finished/lingjian/d708bd09-11ac-430a-8e6c-c20e9d8c3f39.png",
         "detailImages": [
@@ -568,7 +568,7 @@ export const finishedVariantData = [
       {
         "id": "5",
         "title": "书茶空间",
-        "english": "STUDY SPACE",
+        "english": "Кабинет и чайная зона",
         "image": "/assets/products/finished/lingjian/582989e8-0311-467c-8ac8-f4f1eb8df3b4.jpg",
         "icon": "/assets/products/finished/lingjian/cd3ca4b3-6121-4a58-8a3f-e78d470fb4c7.png",
         "detailImages": [
@@ -580,7 +580,7 @@ export const finishedVariantData = [
       {
         "id": "6",
         "title": "衣帽空间",
-        "english": "CLOTHING SPACE",
+        "english": "Гардеробная",
         "image": "/assets/products/finished/lingjian/4f75fa7c-4e54-450b-a1dd-5f525062f5c6.jpg",
         "icon": "/assets/products/finished/lingjian/29f6a515-9d12-41ac-bd69-1c973cfa5a42.png",
         "detailImages": [
@@ -592,7 +592,7 @@ export const finishedVariantData = [
       {
         "id": "7",
         "title": "客户案例",
-        "english": "Customer Case",
+        "english": "Проекты клиентов",
         "image": "/assets/products/finished/lingjian/a6f227de-80dd-41b7-971f-dae2c531d725.png",
         "icon": "/assets/products/finished/lingjian/1b2fd4a2-cc7f-4442-9d45-423055ac14c2.png",
         "detailImages": [
@@ -624,7 +624,7 @@ export const finishedVariantData = [
       {
         "id": "diko-1",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -632,7 +632,7 @@ export const finishedVariantData = [
       {
         "id": "diko-2",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -640,7 +640,7 @@ export const finishedVariantData = [
       {
         "id": "diko-3",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -648,7 +648,7 @@ export const finishedVariantData = [
       {
         "id": "diko-4",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -656,7 +656,7 @@ export const finishedVariantData = [
       {
         "id": "diko-5",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []
@@ -664,7 +664,7 @@ export const finishedVariantData = [
       {
         "id": "diko-6",
         "title": "入户空间",
-        "english": "ENTRANCE SPACE",
+        "english": "Прихожая зона",
         "image": "/assets/products/finished/diko/2746ab21-d796-4be6-b4ce-aed8b95a0fb9.jpg",
         "icon": "/assets/products/finished/poseena/df9416c5-b508-47f5-bb78-6ba523db126c.png",
         "detailImages": []

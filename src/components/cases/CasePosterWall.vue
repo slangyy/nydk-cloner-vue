@@ -69,13 +69,17 @@ onBeforeUnmount(() => {
 <template>
   <section class="case-poster-wall" aria-labelledby="case-poster-wall-title">
     <header class="case-poster-wall__header">
-      <p class="case-poster-wall__eyebrow bank">
-        PROJECT STORIES
-      </p>
+      
       <h2 id="case-poster-wall-title">
-        空间案例
+        Реализованные интерьеры
       </h2>
+      <p class="case-poster-wall__eyebrow bank">
+        空间案例
+      </p>
       <i aria-hidden="true" />
+      <p>
+        На примере реальных жилых пространств мы показываем целостную связь интерьера, продукции и образа жизни.
+      </p>
       <p>
         从真实居住场景出发，以全案视角呈现空间、产品与生活方式的完整关系。
       </p>

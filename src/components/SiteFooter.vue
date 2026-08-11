@@ -277,31 +277,34 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
 
 .site-footer__contact-icon {
   display: grid;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   flex: 0 0 auto;
   place-items: center;
   border: 1px solid rgb(60 49 47 / 38%);
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .site-footer__contact-copy {
   display: grid;
   min-width: 0;
-  gap: 6px;
+  gap: 7px;
 }
 
 .site-footer__contact-copy small {
   color: rgb(60 49 47 / 46%);
-  font-size: 9px;
+  font-size: 11px;
+  line-height: 1.35;
+  letter-spacing: 0.04em;
 }
 
 .site-footer__contact-copy a,
 .site-footer__contact-copy strong {
   overflow: hidden;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
+  line-height: 1.45;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -413,18 +416,22 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
   }
 
   .site-footer__contact-icon {
-    width: 26px;
-    height: 26px;
-    font-size: 11px;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
   }
 
   .site-footer__contact-copy {
-    gap: 4px;
+    gap: 5px;
+  }
+
+  .site-footer__contact-copy small {
+    font-size: 10px;
   }
 
   .site-footer__contact-copy a,
   .site-footer__contact-copy strong {
-    font-size: 9px;
+    font-size: 12px;
     white-space: normal;
   }
 
@@ -457,12 +464,12 @@ const contactIcons: Readonly<Record<FooterContact["icon"], string>> = {
   }
 
   .site-footer__contact-copy small {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .site-footer__contact-copy a,
   .site-footer__contact-copy strong {
-    font-size: 8px;
+    font-size: 11px;
   }
 }
 </style>

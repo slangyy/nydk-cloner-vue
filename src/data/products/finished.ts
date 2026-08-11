@@ -22,13 +22,13 @@ function createVariant(
     hero: {
       image: variant.hero,
       imageAlt: `${variant.introduction.title}成品系统空间`,
-      title: "PRODUCT SYSTEM",
+      title: "Система готовой мебели",
       subtitle: variant.introduction.title,
       watermark,
       aspectRatio: [1920, 1080],
       breadcrumbs: [
         {
-          label: "网站首页",
+          label: "Главная страница",
           to: "/",
           showHomeIcon: true,
         },

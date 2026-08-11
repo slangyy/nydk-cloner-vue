@@ -21,6 +21,7 @@ import {
         >
           <h2>
             {{ section.title }}
+            <br/>
             <span v-if="section.subtitle">{{ section.subtitle }}</span>
           </h2>
           <span class="intelligent-feature__divider" aria-hidden="true"></span>

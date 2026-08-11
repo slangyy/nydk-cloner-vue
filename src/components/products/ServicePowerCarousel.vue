@@ -63,7 +63,7 @@ function next(): void {
     <div class="service-power__title">
       <ProductReveal>
         <SectionTitle
-          english="SERVICE POWER"
+          english="Сила сервиса"
           chinese="服务力"
           watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
         />

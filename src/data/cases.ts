@@ -175,17 +175,17 @@ export const caseStudies: readonly CaseStudy[] = [
 export const casesHero: InnerPageHeroConfig = {
   image: caseStudies[0]!.cover.src,
   imageAlt: "南洋迪克全案家居案例",
-  title: "CASE",
+  title: "Проекты",
   subtitle: "案例",
   watermark: "/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png",
   breadcrumbs: [
     {
-      label: "网站首页",
+      label: "Главная страница",
       to: "/",
       showHomeIcon: true,
     },
     {
-      label: "案例",
+      label: "Проекты",
       current: true,
     },
   ],

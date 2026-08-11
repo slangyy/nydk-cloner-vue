@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
   >
     <SectionTitle
       id="systems-heading"
-      english="HOME DECORATION SYSTEM"
+      english="Система комплексного обустройства интерьера"
       chinese="家装系统"
       variant="feature"
       watermark-image="/assets/backgrounds/109cddbb-f0ab-4d85-b117-906b3cd928a9.png"
