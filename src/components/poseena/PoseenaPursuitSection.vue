@@ -20,7 +20,7 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     <div class="poseena-pursuit__inner">
       <div class="poseena-pursuit__copy">
         <h2 id="poseena-pursuit-title">
-          Ломая традиции. Бросая вызов обыденности.
+          Ломая традиции Бросая вызов обыденности
         </h2>
         <p class="poseena-pursuit__subtitle">
           Пять вершин совершенства, определяющих систему идеального домашнего интерьера

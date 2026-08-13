@@ -32,7 +32,7 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
       >
         <!-- <h2>致敬经典 成为经典</h2> -->
         <h2>Чтить классику. Стать классикой.</h2>
-        <p>致敬贝聿铭大师 / 行走在世界里的东方</p>
+        <p>Дань уважения великому архитектору Бэй Юймину (I. M. Pei) / Восток, уверенно заявляющий о себе в мире</p>
         <i aria-hidden="true"></i>
       </header>
 
@@ -41,10 +41,16 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
         class="poseena-story__description reveal"
         :class="{ 'is-visible': descriptionReveal.isVisible.value }"
       >
-        <p>
+        <!-- <p>
           中国从过去的经济崛起到现在文化自信/从而行走在世界里的东方/因此/如何跨越东方和西方之间的这道“围墙"/我们深度研究贝聿铭大师设计作品/从它
           <strong>经典/极致/艺术</strong>
           的设计精神总结3个核心设计哲学/开始我们品牌的设计溯源。
+        </p> -->
+        <p>
+          Китай прошел путь от экономического подъема к культурной уверенности, и сегодня Восток уверенно заявляет о себе в мире. 
+          Чтобы преодолеть «стену» между Востоком и Западом, мы глубоко изучили творчество мастера И. М. Пэя и на основе его принципов — 
+          <strong>классика, совершенство и искусство </strong>
+          — сформулировали 3 ключевые философии дизайна, с которых начинается история нашего бренда.
         </p>
       </div>
 
@@ -71,9 +77,12 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
           <!-- <h2>意为光芒 成为光芒</h2> -->
           <h2>Имя означает сияние — станьте сиянием</h2>
           <i aria-hidden="true"></i>
-          <p class="poseena-story__light-description">
+          <!-- <p class="poseena-story__light-description">
             POSEENA意大利语为光芒的意思 / 寓意为POSEENA 是光的使者 /
             它照亮品牌的征程/也照亮您的美好生活；
+          </p> -->
+          <p class="poseena-story__light-description">
+            POSEENA означает по-итальянски «сияние». Бренд становится посланником света: он освещает собственный путь и наполняет светом вашу прекрасную жизнь.
           </p>
         </div>
 

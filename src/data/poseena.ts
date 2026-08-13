@@ -29,20 +29,20 @@ export const poseenaHero: InnerPageHeroConfig = {
 export const poseenaMentors: readonly PoseenaMentor[] = [
   {
     id: "wu-fuxiang",
-    role: "工艺导师",
+    role: "Мастер-наставник",
     name: "吴富相",
-    position: "南洋迪克整装家居总裁 / POSEENA品牌出品人",
-    english: "Poseena  Co-producer of the brand",
-    achievements: ["30+年木作传承与工匠精神", "家居行业高端家居引领者"],
+    position: "Президент направления комплексных интерьеров NEODKO / создатель бренда POSEENA",
+    english: "南洋迪克整装家居总裁 / POSEENA品牌出品人",
+    achievements: ["30+ лет деревообработки и ремесленных традиций", "Лидер премиального сегмента интерьерной индустрии"],
     image: "/assets/poseena/mentor-wu.jpg",
   },
   {
     id: "li-lirun",
-    role: "设计导演",
+    role: "Креативный директор",
     name: "李利润",
-    position: "猎狐家居研发院长/POSEENA品牌设计导演",
-    english: "Poseena  Co-producer of the brand",
-    achievements: ["30+年木作传承与工匠精神", "家居行业高端家居引领者"],
+    position: "Руководитель центра исследований и разработок Liehu Home / креативный директор бренда POSEENA",
+    english: "猎狐家居研发院长/POSEENA品牌设计导演",
+    achievements: ["30+ лет деревообработки и ремесленных традиций", "Лидер премиального сегмента интерьерной индустрии"],
     image: "/assets/poseena/mentor-li.jpg",
   },
 ] as const;
