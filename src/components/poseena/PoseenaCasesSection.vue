@@ -92,7 +92,7 @@ function showNextCase(): void {
                 loading="lazy"
               />
             </div>
-            <h3>{{ item.title }}</h3>
+            <!-- <h3>{{ item.title }}</h3> -->
           </article>
         </SwiperSlide>
       </Swiper>

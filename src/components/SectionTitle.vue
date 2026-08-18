@@ -96,10 +96,10 @@ withDefaults(
 .section-title__english {
   margin: 0;
   color: var(--nydk-walnut);
-  font-size: clamp(28px, 2.5vw, 48px);
+  font-size: clamp(22px, 2.1vw, 38px);
   font-weight: 400;
-  line-height: 1.15;
-  letter-spacing: 0.08em;
+  line-height: 1.05;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -107,7 +107,7 @@ withDefaults(
   display: block;
   width: 70px;
   height: 2px;
-  margin: 24px auto 14px;
+  margin: 18px auto 12px;
   background: #c49a86;
 }
 
@@ -184,13 +184,15 @@ withDefaults(
   }
 
   .section-title__english {
-    font-size: 24px;
+    font-size: clamp(16px, 4.6vw, 20px);
+    line-height: 1.08;
+    letter-spacing: 0.02em;
   }
 
   .section-title__line {
     width: 54px;
     height: 2px;
-    margin-block: 16px 10px;
+    margin-block: 10px 8px;
   }
 
   .section-title__chinese {

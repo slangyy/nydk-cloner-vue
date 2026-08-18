@@ -137,16 +137,12 @@ onBeforeUnmount(stopCycle);
 
 .service-process__heading :deep(.section-title__english) {
   color: #fff;
-  font-size: clamp(36px, 2.5vw, 48px);
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.08em;
 }
 
 .service-process__heading :deep(.section-title__line) {
   width: 70px;
   height: 2px;
-  margin: 0 auto 14px;
   background: #fff;
 }
 
@@ -393,14 +389,12 @@ onBeforeUnmount(stopCycle);
     height: 101px;
   }
 
-  .service-process__heading :deep(.section-title__english),
   .service-process__heading :deep(.section-title__chinese) {
     font-size: 24px;
   }
 
   .service-process__heading :deep(.section-title__line) {
     width: 54px;
-    margin: 16px auto 10px;
   }
 
   .service-process__more {

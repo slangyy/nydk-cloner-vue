@@ -75,15 +75,14 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
       >
         <div class="poseena-story__light-copy">
           <!-- <h2>意为光芒 成为光芒</h2> -->
-          <h2>Имя означает сияние — станьте сиянием</h2>
+          <h2>Новое начало Новое совершенство</h2>
           <i aria-hidden="true"></i>
           <!-- <p class="poseena-story__light-description">
             POSEENA意大利语为光芒的意思 / 寓意为POSEENA 是光的使者 /
             它照亮品牌的征程/也照亮您的美好生活；
           </p> -->
           <p class="poseena-story__light-description">
-            POSEENA означает по-итальянски «сияние». Бренд становится посланником света: он освещает собственный путь и наполняет светом вашу прекрасную жизнь.
-          </p>
+            NEWNOBEL объединяет в себе идею нового начала и стремление к выдающимся достижениям. Это символ совершенства, который открывает новую главу в истории бренда и наполняет вашу жизнь особым качеством.          </p>
         </div>
 
         <figure class="poseena-story__light-image">

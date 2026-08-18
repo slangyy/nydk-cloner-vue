@@ -93,17 +93,17 @@ export const poseenaStrategies: readonly PoseenaStrategy[] = [
 export const poseenaCases: readonly PoseenaCaseSlide[] = [
    {
     id: "airport-lounge",
-    title: "西安·咸阳国际机场三期航站楼商务贵宾厅",
+    title: "",
     image: "/assets/poseena/case-airport.jpg",
   },
   {
     id: "taibai-store",
-    title: "西安太白店红星美凯龙·全案店",
+    title: "",
     image: "/assets/poseena/case-store.jpg",
   },
   {
     id: "hyatt-room",
-    title: "西安凯悦酒店标准客房",
+    title: "",
     image: "/assets/poseena/case-hyatt.jpg",
   }
  

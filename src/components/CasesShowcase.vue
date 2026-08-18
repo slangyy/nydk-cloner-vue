@@ -201,15 +201,9 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   transform: translateY(-50%);
 }
 
-.cases-showcase__heading :deep(.section-title__english) {
-  font-size: clamp(24px, 2vw, 38px);
-  letter-spacing: 0.12em;
-}
-
 .cases-showcase__heading :deep(.section-title__line) {
   width: clamp(46px, 3.2vw, 64px);
   height: 3px;
-  margin-block: 15px 13px;
 }
 
 .cases-showcase__heading :deep(.section-title__chinese) {
@@ -406,13 +400,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
     width: 100px;
   }
 
-  .cases-showcase__heading :deep(.section-title__english) {
-    font-size: 16px;
-  }
-
   .cases-showcase__heading :deep(.section-title__line) {
     width: 32px;
-    margin-block: 7px 6px;
   }
 
   .cases-showcase__heading :deep(.section-title__chinese) {

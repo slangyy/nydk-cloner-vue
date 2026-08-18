@@ -125,10 +125,7 @@ const materialGroups = [
   position: relative;
   z-index: 1;
   color: #634f44;
-  font-size: clamp(38px, 2.5vw, 48px);
   font-weight: 400;
-  line-height: clamp(60px, 3.23vw, 62px);
-  letter-spacing: 0;
   text-transform: none;
 }
 
@@ -368,11 +365,6 @@ const materialGroups = [
     width: 104.5px;
     height: 105px;
     transform: translate(-50%, -50%);
-  }
-
-  .material-title :deep(.section-title__english) {
-    font-size: 20px;
-    line-height: 42px;
   }
 
   .material-title :deep(.section-title__chinese) {

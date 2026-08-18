@@ -235,10 +235,7 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
   position: relative;
   z-index: 1;
   color: #634f44;
-  font-size: clamp(38px, 2.58vw, 40px);
   font-weight: 400;
-  line-height: clamp(60px, 4vw, 62px);
-  letter-spacing: 0;
 }
 
 .production-title :deep(.section-title__line) {
@@ -609,11 +606,6 @@ function normalizeEquipmentLoop(swiper: SwiperInstance) {
     width: 96.86px;
     height: 97.33px;
     transform: translate(-50%, -50%);
-  }
-
-  .production-title :deep(.section-title__english) {
-    font-size: 20px;
-    line-height: 33.5px;
   }
 
   .production-title :deep(.section-title__chinese) {
