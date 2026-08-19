@@ -34,6 +34,9 @@ images. Query parameter `p` does not control the variant.
 - Inner padding: 120px 0.
 - Main title: 48px, weight 500, line-height 72px, centered, `#231815`.
 - Subtitle: 36px, line-height 54px, letter-spacing `0.5em`, margin-top 30px.
+- POSEENA 的长俄文副标题使用专属紧凑排版：桌面为
+  `clamp(18px, 1.7vw, 28px)`、0.02em 字距和 1.32 倍行高；`≤998px` 为
+  14–18px，`≤560px` 为 13–16px。其他成品系列仍沿用通用副标题规格。
 - Divider: 120 × 2px, `#bc9480`, centered below the subtitle.
 - Chinese copy: width 62.5%, 18px, line-height 54px, `#777`, centered.
 - English copy: width 62.5%, 16px, line-height 48px, `#ccc`, centered.

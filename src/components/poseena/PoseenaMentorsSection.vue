@@ -31,7 +31,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
           品牌有依 落地有声
         </h2> -->
         <h2 id="poseena-mentors-title">
-          У бренда есть опора — и каждая идея обретает зримое воплощение
+          Опора бренда — идеи обретают форму
         </h2>
         <span aria-hidden="true" />
       </header>
@@ -104,17 +104,17 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 
 .poseena-mentors__header h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: clamp(24px, 2.2vw, 36px);
   font-weight: 600;
-  letter-spacing: 0.08em;
-  line-height: 1.35;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .poseena-mentors__header > span {
   display: block;
   width: 120px;
   height: 2px;
-  margin: 25px auto 0;
+  margin: 18px auto 0;
   background: #fff;
 }
 
@@ -264,12 +264,14 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
   }
 
   .poseena-mentors__header h2 {
-    font-size: 20px;
+    font-size: clamp(16px, 2.4vw, 18px);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
   }
 
   .poseena-mentors__header > span {
     width: 60px;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .poseena-mentors__list {

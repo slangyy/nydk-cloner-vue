@@ -213,33 +213,33 @@ import {
 
 .original-design__copy h2 {
   color: #231815;
-  font-size: 52px;
+  font-size: clamp(26px, 2.4vw, 38px);
   font-weight: 400;
-  letter-spacing: 0.1em;
-  line-height: 1.3;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .original-design__subtitle {
-  margin-top: 35px !important;
+  margin-top: 20px !important;
   color: #231815;
-  font-size: 36px;
-  letter-spacing: 0.5em;
-  line-height: 1.5;
+  font-size: clamp(18px, 1.7vw, 28px);
+  letter-spacing: 0.02em;
+  line-height: 1.32;
 }
 
 .original-design__line {
   display: block;
   width: 120px;
   height: 2px;
-  margin: 41px 0 48px;
+  margin: 22px 0 30px;
   background: #bc9480;
 }
 
 .original-design__description {
   color: #7d7d7d;
-  font-size: 18px;
-  letter-spacing: 0.18em;
-  line-height: 3.33;
+  font-size: clamp(14px, 1vw, 16px);
+  letter-spacing: 0.025em;
+  line-height: 1.85;
 }
 
 .original-design__visual {
@@ -294,34 +294,34 @@ import {
 }
 
 .design-power__content h2 {
-  font-size: 52px;
+  font-size: clamp(26px, 2.4vw, 38px);
   font-weight: 400;
-  letter-spacing: 0.1em;
-  line-height: 1.3;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .design-power__subtitle {
-  margin-top: 33px !important;
-  font-size: 36px;
-  letter-spacing: 0.5em;
-  line-height: 1.5;
+  margin-top: 20px !important;
+  font-size: clamp(18px, 1.7vw, 28px);
+  letter-spacing: 0.02em;
+  line-height: 1.32;
 }
 
 .design-power__line {
   display: block;
   width: 140px;
   height: 2px;
-  margin: 42px auto 38px;
+  margin: 22px auto 26px;
   background: #9a8377;
 }
 
 .design-power__description {
   width: 44%;
   margin-inline: auto !important;
-  font-size: 18px;
+  font-size: clamp(14px, 1vw, 16px);
   font-weight: 400;
-  letter-spacing: 0.2em;
-  line-height: 3.33;
+  letter-spacing: 0.025em;
+  line-height: 1.85;
 }
 
 @media (max-width: 998px) {
@@ -384,24 +384,23 @@ import {
   }
 
   .original-design__copy h2 {
-    font-size: 34px;
+    font-size: clamp(18px, 3.2vw, 26px);
   }
 
   .original-design__subtitle {
-    margin-top: 22px !important;
-    font-size: 23px;
-    letter-spacing: 0.3em;
+    margin-top: 14px !important;
+    font-size: clamp(14px, 2.2vw, 18px);
   }
 
   .original-design__line {
     width: 80px;
-    margin: 28px 0 30px;
+    margin: 18px 0 22px;
   }
 
   .original-design__description {
-    font-size: 15px;
-    letter-spacing: 0.12em;
-    line-height: 2.35;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    line-height: 1.75;
   }
 
   .original-design__visual {
@@ -429,24 +428,24 @@ import {
   }
 
   .design-power__content h2 {
-    font-size: 34px;
+    font-size: clamp(18px, 3.2vw, 26px);
   }
 
   .design-power__subtitle {
-    font-size: 23px;
-    letter-spacing: 0.3em;
+    margin-top: 14px !important;
+    font-size: clamp(14px, 2.2vw, 18px);
   }
 
   .design-power__line {
     width: 90px;
-    margin: 30px auto;
+    margin: 18px auto 22px;
   }
 
   .design-power__description {
     width: min(720px, 92%);
-    font-size: 15px;
-    letter-spacing: 0.12em;
-    line-height: 2.4;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    line-height: 1.75;
   }
 }
 
@@ -491,20 +490,30 @@ import {
     min-height: 520px;
   }
 
+  .original-design__copy h2,
   .design-power__content h2 {
-    font-size: 28px;
+    font-size: clamp(18px, 5vw, 22px);
   }
 
+  .original-design__subtitle,
   .design-power__subtitle {
-    font-size: 18px;
-    letter-spacing: 0.18em;
+    margin-top: 12px !important;
+    font-size: clamp(13px, 3.8vw, 16px);
+    line-height: 1.28;
   }
 
+  .original-design__line,
+  .design-power__line {
+    margin-top: 14px;
+    margin-bottom: 18px;
+  }
+
+  .original-design__description,
   .design-power__description {
     width: 100%;
-    font-size: 13px;
-    letter-spacing: 0.08em;
-    line-height: 2.1;
+    font-size: 12.5px;
+    letter-spacing: 0.015em;
+    line-height: 1.7;
   }
 }
 

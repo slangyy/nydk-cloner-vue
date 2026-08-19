@@ -89,23 +89,24 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 
 .poseena-pursuit__copy h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: clamp(24px, 2.2vw, 36px);
   font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .poseena-pursuit__subtitle {
   margin: 12px 0 0;
-  font-size: 36px;
-  line-height: 1.4;
+  font-size: clamp(16px, 1.7vw, 28px);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
 }
 
 .poseena-pursuit__divider {
   display: block;
   width: 120px;
   height: 2px;
-  margin: 30px 0 50px;
+  margin: 18px 0 30px;
   background: #bc9480;
 }
 
@@ -154,16 +155,8 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
 }
 
 @media (max-width: 1440px) {
-  .poseena-pursuit__copy h2 {
-    font-size: 38px;
-  }
-
-  .poseena-pursuit__subtitle {
-    font-size: 32px;
-  }
-
   .poseena-pursuit__divider {
-    margin: 20px 0 30px;
+    margin: 16px 0 24px;
   }
 
   .poseena-pursuit__body {
@@ -199,21 +192,25 @@ const setRevealTarget = (element: Element | ComponentPublicInstance | null): voi
   }
 
   .poseena-pursuit__copy h2 {
-    font-size: 20px;
+    font-size: clamp(16px, 2.4vw, 18px);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
   }
 
-  .poseena-pursuit__subtitle,
   .poseena-pursuit__body {
     font-size: 14px;
   }
 
   .poseena-pursuit__subtitle {
     margin-top: 8px;
+    font-size: clamp(12px, 1.8vw, 13px);
+    line-height: 1.3;
+    letter-spacing: 0.01em;
   }
 
   .poseena-pursuit__divider {
     width: 60px;
-    margin: 14px auto 20px;
+    margin: 10px auto 16px;
   }
 
   .poseena-pursuit__body {

@@ -37,7 +37,12 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
         </ProductReveal>
 
         <ProductReveal :delay-ms="80">
-          <p class="finished-intro__subtitle">
+          <p
+            class="finished-intro__subtitle"
+            :class="{
+              'finished-intro__subtitle--compact': variant.key === 'poseena',
+            }"
+          >
             {{ variant.introduction.subtitle }}
           </p>
           <span class="finished-intro__line" aria-hidden="true" />
@@ -92,6 +97,14 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.5em;
+}
+
+.finished-intro__subtitle--compact {
+  padding-left: 0;
+  margin-top: 20px;
+  font-size: clamp(18px, 1.7vw, 28px);
+  letter-spacing: 0.02em;
+  line-height: 1.32;
 }
 
 .finished-intro__line {
@@ -163,6 +176,14 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
     letter-spacing: 0.45em;
   }
 
+  .finished-intro__subtitle--compact {
+    padding-left: 0;
+    margin-top: 14px;
+    font-size: clamp(14px, 2.2vw, 18px);
+    letter-spacing: 0.02em;
+    line-height: 1.32;
+  }
+
   .finished-intro__line {
     width: 70px;
     margin: 22px auto 24px;
@@ -178,6 +199,14 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
   .finished-intro__english {
     margin-top: 14px;
     font-size: 13px;
+  }
+}
+
+@media (max-width: 560px) {
+  .finished-intro__subtitle--compact {
+    margin-top: 12px;
+    font-size: clamp(13px, 3.8vw, 16px);
+    line-height: 1.28;
   }
 }
 </style>

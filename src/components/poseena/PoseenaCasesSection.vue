@@ -133,17 +133,17 @@ function showNextCase(): void {
 .poseena-cases__heading h2 {
   margin: 0;
   color: #231815;
-  font-size: 48px;
+  font-size: clamp(24px, 2.2vw, 36px);
   font-weight: 600;
-  line-height: 1.6667;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .poseena-cases__heading i {
   display: block;
   width: 120px;
   height: 2px;
-  margin: 20px auto 0;
+  margin: 16px auto 0;
   background: #bc9480;
 }
 
@@ -252,8 +252,7 @@ function showNextCase(): void {
   }
 
   .poseena-cases__heading h2 {
-    font-size: 38px;
-    line-height: 1.6667;
+    font-size: clamp(24px, 2.2vw, 32px);
   }
 
   .poseena-cases__carousel {
@@ -273,12 +272,14 @@ function showNextCase(): void {
   }
 
   .poseena-cases__heading h2 {
-    font-size: 20px;
+    font-size: clamp(16px, 2.4vw, 18px);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
   }
 
   .poseena-cases__heading i {
     width: 60px;
-    margin-top: 14px;
+    margin-top: 10px;
   }
 
   .poseena-cases__carousel {

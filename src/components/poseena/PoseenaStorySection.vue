@@ -73,25 +73,9 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
         class="poseena-story__light-layout poseena-container"
         :class="{ 'is-visible': lightLayoutReveal.isVisible.value }"
       >
-        <div class="poseena-story__light-copy">
-          <!-- <h2>意为光芒 成为光芒</h2> -->
-          <h2>Новое начало Новое совершенство</h2>
-          <i aria-hidden="true"></i>
-          <!-- <p class="poseena-story__light-description">
-            POSEENA意大利语为光芒的意思 / 寓意为POSEENA 是光的使者 /
-            它照亮品牌的征程/也照亮您的美好生活；
-          </p> -->
-          <p class="poseena-story__light-description">
-            NEWNOBEL объединяет в себе идею нового начала и стремление к выдающимся достижениям. Это символ совершенства, который открывает новую главу в истории бренда и наполняет вашу жизнь особым качеством.          </p>
-        </div>
+        
 
-        <figure class="poseena-story__light-image">
-          <img
-            src="/assets/poseena/brand-light.png"
-            alt="POSEENA光芒品牌设计理念"
-            loading="lazy"
-          />
-        </figure>
+        
       </div>
     </div>
   </section>
@@ -209,11 +193,14 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
 }
 
 .poseena-story__light-copy h2 {
+  font-size: clamp(24px, 2vw, 32px);
   font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 
 .poseena-story__light-copy > i {
-  margin: 30px 0 50px;
+  margin: 22px 0 38px;
 }
 
 .poseena-story__light-description {
@@ -257,6 +244,10 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
     font-size: 38px;
   }
 
+  .poseena-story__light-copy h2 {
+    font-size: clamp(24px, 2.1vw, 30px);
+  }
+
   .poseena-story__heading p {
     font-size: 30px;
   }
@@ -285,6 +276,12 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
   .poseena-story__light-copy h2 {
     font-size: 20px;
     letter-spacing: 0.04em;
+  }
+
+  .poseena-story__light-copy h2 {
+    font-size: clamp(16px, 2.4vw, 18px);
+    line-height: 1.15;
+    letter-spacing: 0.02em;
   }
 
   .poseena-story__heading p {
@@ -329,7 +326,7 @@ const bindLightLayout = createRevealBinding(lightLayoutReveal.target);
   }
 
   .poseena-story__light-copy > i {
-    margin: 14px auto 18px;
+    margin: 10px auto 14px;
   }
 
   .poseena-story__light-description {

@@ -1,7 +1,10 @@
 # PoseenaCasesSection Specification
 
 - Target: `src/components/poseena/PoseenaCasesSection.vue`
-- Title `整装全案 静待品鉴`, centered 48px/600/80px with a 120×2px accent divider 20px below the text. At `≤1440px`, the title is 38px/63.33px.
+- Title `Комплексные интерьерные проекты — приглашаем оценить`, centered with
+  a compact `24-36px` scale, `1.2` line height and `0.03em` letter spacing;
+  the 120×2px accent divider sits 16px below. At `≤998px`, the title is
+  `16-18px` with `0.02em` letter spacing.
 - Section margin-top 140px and margin-bottom 80px; Swiper margin-top 80px and padding-bottom 60px.
 - Three typed slides using `/assets/poseena/case-store.jpg`, `case-hyatt.jpg`, and `case-airport.jpg`.
 - Swiper 12 receives three rendered copies of the three typed slides as a manual loop buffer and starts at the first slide of the middle copy. Navigation buttons call the Swiper instance directly. After reaching either buffer boundary, the active index is reset without animation to the equivalent slide in the middle copy. The user-visible content remains three cases, while the initial view always has neighbors on both sides.

@@ -81,10 +81,10 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 
 .poseena-strategy__header h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: clamp(24px, 2.2vw, 36px);
   font-weight: 600;
-  letter-spacing: 0.08em;
-  line-height: 1.6667;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .poseena-strategy__header p {
@@ -99,7 +99,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
   display: block;
   width: 120px;
   height: 2px;
-  margin: 25px auto 0;
+  margin: 18px auto 0;
   background: #bc9480;
 }
 
@@ -221,7 +221,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 
 @media (max-width: 1440px) {
   .poseena-strategy__header h2 {
-    font-size: 38px;
+    font-size: clamp(24px, 2.2vw, 32px);
   }
 
   .poseena-strategy__header p {
@@ -229,7 +229,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
   }
 
   .poseena-strategy__header > span {
-    margin-top: 20px;
+    margin-top: 14px;
   }
 
   .strategy-card {
@@ -269,7 +269,9 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
   }
 
   .poseena-strategy__header h2 {
-    font-size: 20px;
+    font-size: clamp(16px, 2.4vw, 18px);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
   }
 
   .poseena-strategy__header p {
@@ -279,7 +281,7 @@ function setRevealTarget(element: Element | ComponentPublicInstance | null): voi
 
   .poseena-strategy__header > span {
     width: 60px;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .poseena-strategy__list {
