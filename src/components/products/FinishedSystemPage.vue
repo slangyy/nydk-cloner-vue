@@ -16,6 +16,9 @@ const props = defineProps<{
 }>();
 
 const variant = computed(() => finishedSystemVariants[props.variantKey]);
+const hasCyrillicIntroduction = computed(() =>
+  /[\u0400-\u04ff]/u.test(variant.value.introduction.subtitle ?? ""),
+);
 </script>
 
 <template>
@@ -40,8 +43,9 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
           <p
             class="finished-intro__subtitle"
             :class="{
-              'finished-intro__subtitle--compact': variant.key === 'poseena',
+              'finished-intro__subtitle--cyrillic': hasCyrillicIntroduction,
             }"
+            :lang="hasCyrillicIntroduction ? 'ru' : undefined"
           >
             {{ variant.introduction.subtitle }}
           </p>
@@ -49,7 +53,10 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
         </ProductReveal>
 
         <ProductReveal :delay-ms="140">
-          <p class="finished-intro__description">
+          <p
+            class="finished-intro__description"
+            :lang="hasCyrillicIntroduction ? 'ru' : undefined"
+          >
             {{ variant.introduction.description }}
           </p>
         </ProductReveal>
@@ -99,7 +106,7 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
   letter-spacing: 0.5em;
 }
 
-.finished-intro__subtitle--compact {
+.finished-intro__subtitle--cyrillic {
   padding-left: 0;
   margin-top: 20px;
   font-size: clamp(18px, 1.7vw, 28px);
@@ -176,7 +183,7 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
     letter-spacing: 0.45em;
   }
 
-  .finished-intro__subtitle--compact {
+  .finished-intro__subtitle--cyrillic {
     padding-left: 0;
     margin-top: 14px;
     font-size: clamp(14px, 2.2vw, 18px);
@@ -203,7 +210,7 @@ const variant = computed(() => finishedSystemVariants[props.variantKey]);
 }
 
 @media (max-width: 560px) {
-  .finished-intro__subtitle--compact {
+  .finished-intro__subtitle--cyrillic {
     margin-top: 12px;
     font-size: clamp(13px, 3.8vw, 16px);
     line-height: 1.28;
