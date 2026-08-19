@@ -116,7 +116,8 @@ export const systemCards: readonly SystemCard[] = [
   },
 ] as const;
 
-export const systemsBrandImage = asset("65d4aba6-c8d4-423b-8c92-31873531456b.png");
+// export const systemsBrandImage = asset("65d4aba6-c8d4-423b-8c92-31873531456b.png");
+export const systemsBrandImage = asset("be694742-7722-48b8-ba2c-88b0ef0459d9.png");
 
 export const spaceSlides: readonly SpaceSlide[] = [
   {
@@ -177,8 +178,10 @@ export const designerCards: readonly DesignerCard[] = [
   { id: "designer-5", image: asset("b502f7ec-6c8c-4f47-a5da-6abb1275b697.jpg") },
   {
     id: "designer-brand",
-    image: asset("bf4cf3b1-d2a9-460a-918a-cb6290e41bbc.jpg"),
-    mobileImage: asset("f233eb78-6457-4583-8535-12ddf344d80c.jpg"),
+    // image: asset("bf4cf3b1-d2a9-460a-918a-cb6290e41bbc.jpg"),
+    image: asset("4949b06e-9496-4665-885e-04180a248353.png"),
+    // mobileImage: asset("f233eb78-6457-4583-8535-12ddf344d80c.jpg"),
+    mobileImage: asset("4949b06e-9496-4665-885e-04180a248353.png"),
     isBrandCard: true,
     href: "/design",
   },

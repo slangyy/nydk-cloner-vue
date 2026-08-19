@@ -96,7 +96,7 @@ onBeforeUnmount(() => {
       <RouterLink class="site-header__brand" to="/" aria-label="南洋迪克首页">
         <img
           class="site-header__logo"
-          :src="useSolidTheme ? '/assets/svg/inline-02.svg' : '/assets/svg/inline-01.svg'"
+          src="/assets/svg/brand-logo.svg"
           alt="南洋迪克"
         />
       </RouterLink>

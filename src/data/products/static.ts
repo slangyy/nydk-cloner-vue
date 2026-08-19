@@ -30,7 +30,8 @@ export interface StaticFeatureSection extends ProductSectionContent {
 }
 
 export const designHero: InnerPageHeroConfig = {
-  image: "/assets/products/design/d71dbba5-5cfe-4077-a1bc-5967156d0b84.jpg",
+  // image: "/assets/products/design/d71dbba5-5cfe-4077-a1bc-5967156d0b84.jpg",
+  image: "/assets/images/e5a19485-7bf7-48e7-a222-55fa6beaa14a.png",
   imageAlt: "南洋迪克设计系统设计顾问吴滨",
   title: "Система дизайна",
   subtitle: "设计系统",

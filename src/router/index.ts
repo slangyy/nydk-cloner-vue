@@ -24,7 +24,7 @@ const router = createRouter({
       component: HomeView,
       meta: {
         headerOverlay: true,
-        title: "南洋迪克全案系统家居",
+        title: "NEWNOBEL",
       },
     },
     {
@@ -33,7 +33,7 @@ const router = createRouter({
       component: CasesView,
       meta: {
         headerOverlay: true,
-        title: "案例-南洋迪克全案系统家居",
+        title: "案例-NEWNOBEL",
       },
     },
     {
@@ -42,7 +42,7 @@ const router = createRouter({
       component: PoseenaView,
       meta: {
         headerOverlay: true,
-        title: "POSEENA普西纳-南洋迪克全案系统家居",
+        title: "POSEENA普西纳-NEWNOBEL",
       },
     },
     {
@@ -51,7 +51,7 @@ const router = createRouter({
       component: DesignSystemView,
       meta: {
         headerOverlay: true,
-        title: "设计系统-南洋迪克全案系统家居",
+        title: "设计系统-NEWNOBEL",
       },
     },
     {
@@ -60,7 +60,7 @@ const router = createRouter({
       component: ProductionSystemView,
       meta: {
         headerOverlay: true,
-        title: "生产系统-南洋迪克全案系统家居",
+        title: "生产系统-NEWNOBEL",
       },
     },
     {
@@ -69,7 +69,7 @@ const router = createRouter({
       component: ProcessSystemView,
       meta: {
         headerOverlay: true,
-        title: "工艺系统-南洋迪克全案系统家居",
+        title: "工艺系统-NEWNOBEL",
       },
     },
     {
@@ -78,7 +78,7 @@ const router = createRouter({
       component: IntelligentSystemView,
       meta: {
         headerOverlay: true,
-        title: "智家系统-南洋迪克全案系统家居",
+        title: "智家系统-NEWNOBEL",
       },
     },
     {
@@ -91,7 +91,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "POSEENA-南洋迪克全案系统家居",
+        title: "POSEENA-NEWNOBEL",
       },
     },
     {
@@ -104,7 +104,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "禾气-南洋迪克全案系统家居",
+        title: "禾气-NEWNOBEL",
       },
     },
     {
@@ -117,7 +117,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "气质-南洋迪克全案系统家居",
+        title: "气质-NEWNOBEL",
       },
     },
     {
@@ -130,7 +130,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "天际-南洋迪克全案系统家居",
+        title: "天际-NEWNOBEL",
       },
     },
     {
@@ -143,7 +143,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "领见-南洋迪克全案系统家居",
+        title: "领见-NEWNOBEL",
       },
     },
     {
@@ -156,7 +156,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "DIKO-南洋迪克全案系统家居",
+        title: "DIKO-NEWNOBEL",
       },
     },
     {
@@ -165,7 +165,7 @@ const router = createRouter({
       component: MaterialSystemView,
       meta: {
         headerOverlay: true,
-        title: "材料系统-南洋迪克全案系统家居",
+        title: "材料系统-NEWNOBEL",
       },
     },
     {
@@ -178,7 +178,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "门-南洋迪克全案系统家居",
+        title: "门-NEWNOBEL",
       },
     },
     {
@@ -191,7 +191,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "墙-南洋迪克全案系统家居",
+        title: "墙-NEWNOBEL",
       },
     },
     {
@@ -204,7 +204,7 @@ const router = createRouter({
       },
       meta: {
         headerOverlay: true,
-        title: "柜-南洋迪克全案系统家居",
+        title: "柜-NEWNOBEL",
       },
     },
     {
@@ -213,7 +213,7 @@ const router = createRouter({
       component: ServiceSystemView,
       meta: {
         headerOverlay: true,
-        title: "服务系统-南洋迪克全案系统家居",
+        title: "服务系统-NEWNOBEL",
       },
     },
     {
@@ -230,7 +230,7 @@ router.afterEach((to) => {
   document.title =
     typeof to.meta.title === "string"
       ? to.meta.title
-      : "南洋迪克全案系统家居";
+      : "NEWNOBEL";
 });
 
 export default router;
