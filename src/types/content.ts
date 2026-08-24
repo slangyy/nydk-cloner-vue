@@ -16,14 +16,41 @@ export interface SystemCard {
   readonly href: string;
 }
 
+export type SpaceSeriesId = "poseena" | "yanshan" | "panshi";
+
+export type SpaceHotspotLayout = "carousel" | "grid";
+
+export interface SpaceGalleryAsset {
+  readonly id: string;
+  readonly src: string;
+  readonly thumbnail: string;
+  readonly alt: string;
+  readonly series: readonly SpaceSeriesId[];
+}
+
+export interface SpaceGalleryHotspot {
+  readonly id: string;
+  readonly label: string;
+  readonly position: {
+    readonly x: number;
+    readonly y: number;
+  };
+  readonly layout: SpaceHotspotLayout;
+  readonly images: readonly SpaceGalleryAsset[];
+}
+
+export interface SpaceGalleryImage extends SpaceGalleryAsset {
+  readonly children?: readonly SpaceGalleryHotspot[];
+}
+
 export interface SpaceSlide {
   readonly id: string;
-  readonly title: string;
-  readonly english: string;
-  readonly image: string;
+  readonly titleZh: string;
+  readonly titleRu: string;
+  readonly coverImage: string;
   readonly icon: string;
   readonly href: string;
-  readonly external?: boolean;
+  readonly gallery: readonly SpaceGalleryImage[];
 }
 
 export interface DesignerCard {

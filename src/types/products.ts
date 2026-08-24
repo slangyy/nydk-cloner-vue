@@ -117,3 +117,33 @@ export interface FinishedSystemVariant {
   readonly introduction: ProductSectionContent;
   readonly spaces: readonly FinishedSpace[];
 }
+
+export type FinishedCatalogSourceId =
+  | "poseena"
+  | "yanshan"
+  | "panshi"
+  | "source-house"
+  | "greenland"
+  | "sunac-qujiang"
+  | "venice-wuxinhu"
+  | "baojie-villa";
+
+export interface FinishedCatalogImage {
+  readonly id: string;
+  readonly src: string;
+  readonly thumbnail: string;
+  readonly alt: string;
+  readonly sourceId: FinishedCatalogSourceId;
+  readonly sourceLabel: string;
+}
+
+export interface FinishedCatalogGroup {
+  readonly id: string;
+  readonly title: string;
+  readonly titleRu: string;
+  readonly icon: string;
+  readonly summary: string;
+  readonly coverImage: string;
+  readonly mediaFit: "contain" | "cover";
+  readonly gallery: readonly FinishedCatalogImage[];
+}

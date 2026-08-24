@@ -1,0 +1,2975 @@
+{
+  "source": "POSEENA普西纳电子画册_250930.ppsx",
+  "sourceSlideCount": 466,
+  "seriesOrder": [
+    "poseena",
+    "yanshan",
+    "panshi"
+  ],
+  "spaces": [
+    {
+      "id": "entrance",
+      "title": "入户空间",
+      "count": 7,
+      "cover": "/assets/spaces/entrance/full/001-poseena-s015.webp",
+      "images": [
+        {
+          "id": "entrance-001",
+          "src": "/assets/spaces/entrance/full/001-poseena-s015.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/001-poseena-s015.webp",
+          "alt": "入户空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 15,
+          "sourcePart": "ppt/media/image69.jpeg",
+          "sha256": "c6935cc380953aebad056065c560e198cdb7f91b89d6e5c5f8cae5a5c3e243c1",
+          "sourceWidth": 2857,
+          "sourceHeight": 1764
+        },
+        {
+          "id": "entrance-002",
+          "src": "/assets/spaces/entrance/full/002-poseena-s016.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/002-poseena-s016.webp",
+          "alt": "入户空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 16,
+          "sourcePart": "ppt/media/image71.jpeg",
+          "sha256": "ed11740b7144b41eed72a726d5bc8af94cfabcf1639637278d0ba888a12eda9a",
+          "sourceWidth": 2287,
+          "sourceHeight": 1447
+        },
+        {
+          "id": "entrance-003",
+          "src": "/assets/spaces/entrance/full/003-poseena-s017.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/003-poseena-s017.webp",
+          "alt": "入户空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 17,
+          "sourcePart": "ppt/media/image75.jpeg",
+          "sha256": "93de99a79db54c870d5ef70ee7692fe17398cce690f6d34e849bf3cad59a8e5f",
+          "sourceWidth": 2800,
+          "sourceHeight": 1777
+        },
+        {
+          "id": "entrance-004",
+          "src": "/assets/spaces/entrance/full/004-poseena-s018.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/004-poseena-s018.webp",
+          "alt": "入户空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 18,
+          "sourcePart": "ppt/media/image79.jpeg",
+          "sha256": "831bf9912a72873426278dc12ecdf921073a9b07e02da7c42f242cdcd721f202",
+          "sourceWidth": 1794,
+          "sourceHeight": 1831
+        },
+        {
+          "id": "entrance-005",
+          "src": "/assets/spaces/entrance/full/005-poseena-s019.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/005-poseena-s019.webp",
+          "alt": "入户空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 19,
+          "sourcePart": "ppt/media/image90.jpeg",
+          "sha256": "8512b24811bc77d14a85eae6e8531edd09c9d5c62b6cbeecb00699602e4939ff",
+          "sourceWidth": 1568,
+          "sourceHeight": 1045
+        },
+        {
+          "id": "entrance-006",
+          "src": "/assets/spaces/entrance/full/006-poseena-s019.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/006-poseena-s019.webp",
+          "alt": "入户空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 19,
+          "sourcePart": "ppt/media/image89.jpeg",
+          "sha256": "9326c32d8c271e0882fe327de19393fa6db9835ca67de1d2e05d47cefbdf6222",
+          "sourceWidth": 815,
+          "sourceHeight": 1040
+        },
+        {
+          "id": "entrance-007",
+          "src": "/assets/spaces/entrance/full/007-poseena-s019.webp",
+          "thumbnail": "/assets/spaces/entrance/thumbs/007-poseena-s019.webp",
+          "alt": "入户空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 19,
+          "sourcePart": "ppt/media/image83.jpeg",
+          "sha256": "5bee5fe8f10463d46f6443c76d9a0b6d443577c5a51c5017465ec4a133fd84dc",
+          "sourceWidth": 2800,
+          "sourceHeight": 1793
+        }
+      ]
+    },
+    {
+      "id": "visitor",
+      "title": "会客空间",
+      "count": 62,
+      "cover": "/assets/spaces/visitor/full/001-poseena-s021.webp",
+      "images": [
+        {
+          "id": "visitor-001",
+          "src": "/assets/spaces/visitor/full/001-poseena-s021.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/001-poseena-s021.webp",
+          "alt": "会客空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 21,
+          "sourcePart": "ppt/media/image100.jpeg",
+          "sha256": "a1da1306ccffd0aa4a8f1739c32ee806f859fedca3b58001eef789a60fe99cd9",
+          "sourceWidth": 2793,
+          "sourceHeight": 1680
+        },
+        {
+          "id": "visitor-002",
+          "src": "/assets/spaces/visitor/full/002-poseena-s022.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/002-poseena-s022.webp",
+          "alt": "会客空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 22,
+          "sourcePart": "ppt/media/image105.jpg",
+          "sha256": "4bea0874a8c96a5eacead671d7069854ebc7a052b5e1da459ea00760441b1f5c",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-003",
+          "src": "/assets/spaces/visitor/full/003-poseena-s023.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/003-poseena-s023.webp",
+          "alt": "会客空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 23,
+          "sourcePart": "ppt/media/image109.jpeg",
+          "sha256": "bde45f758fdb454ea5c79dec3040124eb36e766bcf48c9708844cf8d08b74415",
+          "sourceWidth": 2728,
+          "sourceHeight": 1641
+        },
+        {
+          "id": "visitor-004",
+          "src": "/assets/spaces/visitor/full/004-poseena-s024.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/004-poseena-s024.webp",
+          "alt": "会客空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 24,
+          "sourcePart": "ppt/media/image113.jpeg",
+          "sha256": "ba785dee9deba64437a274d43abf30ae9e9f7fd137243def6a228c71fc9e48ed",
+          "sourceWidth": 1518,
+          "sourceHeight": 1778
+        },
+        {
+          "id": "visitor-005",
+          "src": "/assets/spaces/visitor/full/005-poseena-s024.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/005-poseena-s024.webp",
+          "alt": "会客空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 24,
+          "sourcePart": "ppt/media/image112.jpeg",
+          "sha256": "9804b5312859227ae9983a13ad1f286e9b0722764ce5f677114bae876a85c24d",
+          "sourceWidth": 848,
+          "sourceHeight": 574
+        },
+        {
+          "id": "visitor-006",
+          "src": "/assets/spaces/visitor/full/006-poseena-s025.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/006-poseena-s025.webp",
+          "alt": "会客空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 25,
+          "sourcePart": "ppt/media/image118.jpeg",
+          "sha256": "18a30dfd3a88b15d287d19f19ff73c96f84fef51ae1faf2468bcb40060077ebf",
+          "sourceWidth": 1154,
+          "sourceHeight": 1729
+        },
+        {
+          "id": "visitor-007",
+          "src": "/assets/spaces/visitor/full/007-poseena-s025.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/007-poseena-s025.webp",
+          "alt": "会客空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 25,
+          "sourcePart": "ppt/media/image117.jpeg",
+          "sha256": "ee55321fc16f02102fc9d9acedbbd3e8b4416b257734d6ce79d9f4f2d26f83c4",
+          "sourceWidth": 1078,
+          "sourceHeight": 756
+        },
+        {
+          "id": "visitor-008",
+          "src": "/assets/spaces/visitor/full/008-poseena-s026.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/008-poseena-s026.webp",
+          "alt": "会客空间 · POSEENA · 第 8 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 26,
+          "sourcePart": "ppt/media/image124.jpeg",
+          "sha256": "10490dd4b70fd59f667e3bbfc1e7a02fd7745e1043883b4c55a6b41902e60715",
+          "sourceWidth": 2800,
+          "sourceHeight": 1760
+        },
+        {
+          "id": "visitor-009",
+          "src": "/assets/spaces/visitor/full/009-poseena-s027.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/009-poseena-s027.webp",
+          "alt": "会客空间 · POSEENA · 第 9 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 27,
+          "sourcePart": "ppt/media/image129.jpg",
+          "sha256": "2ec4d1aabad7d500abe2ec4b17c8425284c891194725f6ee6aa9dd3b3198e15d",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-010",
+          "src": "/assets/spaces/visitor/full/010-poseena-s028.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/010-poseena-s028.webp",
+          "alt": "会客空间 · POSEENA · 第 10 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 28,
+          "sourcePart": "ppt/media/image131.jpeg",
+          "sha256": "1f2d7d11dd8a2e587fa1527a15261971e83eb19e05c911b9e36406620699a75f",
+          "sourceWidth": 2880,
+          "sourceHeight": 1859
+        },
+        {
+          "id": "visitor-011",
+          "src": "/assets/spaces/visitor/full/011-poseena-s029.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/011-poseena-s029.webp",
+          "alt": "会客空间 · POSEENA · 第 11 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 29,
+          "sourcePart": "ppt/media/image136.jpeg",
+          "sha256": "00f75a2f67ee62d728271f9abd1da21408cb7d439b770b81b66c10c02ae97b46",
+          "sourceWidth": 1714,
+          "sourceHeight": 2115
+        },
+        {
+          "id": "visitor-012",
+          "src": "/assets/spaces/visitor/full/012-poseena-s030.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/012-poseena-s030.webp",
+          "alt": "会客空间 · POSEENA · 第 12 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 30,
+          "sourcePart": "ppt/media/image139.jpeg",
+          "sha256": "a9342cf9bdcc175c479b19127ef1f2e3741687b2f4ffecfd1960419337aff918",
+          "sourceWidth": 2789,
+          "sourceHeight": 1680
+        },
+        {
+          "id": "visitor-013",
+          "src": "/assets/spaces/visitor/full/013-poseena-s031.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/013-poseena-s031.webp",
+          "alt": "会客空间 · POSEENA · 第 13 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 31,
+          "sourcePart": "ppt/media/image145.jpeg",
+          "sha256": "ace01223ced06297383eb759069e660a2d69155f3a22900b81516175192cb732",
+          "sourceWidth": 2800,
+          "sourceHeight": 1746
+        },
+        {
+          "id": "visitor-014",
+          "src": "/assets/spaces/visitor/full/014-poseena-s031.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/014-poseena-s031.webp",
+          "alt": "会客空间 · POSEENA · 第 14 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 31,
+          "sourcePart": "ppt/media/image152.jpeg",
+          "sha256": "e0110a0315c857a1d7eb5c8b554d6a3a3da49ea13d36f5efd4710097b8b9eb4e",
+          "sourceWidth": 937,
+          "sourceHeight": 1407
+        },
+        {
+          "id": "visitor-015",
+          "src": "/assets/spaces/visitor/full/015-poseena-s031.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/015-poseena-s031.webp",
+          "alt": "会客空间 · POSEENA · 第 15 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 31,
+          "sourcePart": "ppt/media/image148.jpeg",
+          "sha256": "5b6e17a8121d4ef759b7d203003ca58c4a67f517e3012527c4288d53766c7689",
+          "sourceWidth": 937,
+          "sourceHeight": 1407
+        },
+        {
+          "id": "visitor-016",
+          "src": "/assets/spaces/visitor/full/016-poseena-s031.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/016-poseena-s031.webp",
+          "alt": "会客空间 · POSEENA · 第 16 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 31,
+          "sourcePart": "ppt/media/image151.jpeg",
+          "sha256": "8a22c9e6b4309d1d6e864574174d6d8f233a71269efee4f80a46f9afdf3ae8d4",
+          "sourceWidth": 1021,
+          "sourceHeight": 1725
+        },
+        {
+          "id": "visitor-017",
+          "src": "/assets/spaces/visitor/full/017-poseena-s031.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/017-poseena-s031.webp",
+          "alt": "会客空间 · POSEENA · 第 17 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 31,
+          "sourcePart": "ppt/media/image147.jpeg",
+          "sha256": "0e55346c466f46f42738d93fdd5bf32ed0fc95738030865ebd144d616eab529e",
+          "sourceWidth": 1021,
+          "sourceHeight": 1725
+        },
+        {
+          "id": "visitor-018",
+          "src": "/assets/spaces/visitor/full/018-poseena-s032.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/018-poseena-s032.webp",
+          "alt": "会客空间 · POSEENA · 第 18 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 32,
+          "sourcePart": "ppt/media/image155.jpeg",
+          "sha256": "fe3ab2ec58554c27baf6ca4b5de7528730b892767efd62f13c7133a5714d86ec",
+          "sourceWidth": 2800,
+          "sourceHeight": 1704
+        },
+        {
+          "id": "visitor-019",
+          "src": "/assets/spaces/visitor/full/019-poseena-s033.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/019-poseena-s033.webp",
+          "alt": "会客空间 · POSEENA · 第 19 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 33,
+          "sourcePart": "ppt/media/image159.jpeg",
+          "sha256": "ebdc1793b836d46774cc888ed569fade2496e16b671437d4111c965592c8d04f",
+          "sourceWidth": 1935,
+          "sourceHeight": 1599
+        },
+        {
+          "id": "visitor-020",
+          "src": "/assets/spaces/visitor/full/020-poseena-s034.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/020-poseena-s034.webp",
+          "alt": "会客空间 · POSEENA · 第 20 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 34,
+          "sourcePart": "ppt/media/image163.jpeg",
+          "sha256": "881bfa5669350c3ec695ce196fc90b3b8518c0239970730b65ad17b155b822dd",
+          "sourceWidth": 2800,
+          "sourceHeight": 2079
+        },
+        {
+          "id": "visitor-021",
+          "src": "/assets/spaces/visitor/full/021-poseena-s035.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/021-poseena-s035.webp",
+          "alt": "会客空间 · POSEENA · 第 21 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 35,
+          "sourcePart": "ppt/media/image169.jpeg",
+          "sha256": "cd90d2d3f30e7d710616f85c6e3fcf79aba62897961d12c234600b9d5b1f1576",
+          "sourceWidth": 2795,
+          "sourceHeight": 1751
+        },
+        {
+          "id": "visitor-022",
+          "src": "/assets/spaces/visitor/full/022-poseena-s036.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/022-poseena-s036.webp",
+          "alt": "会客空间 · POSEENA · 第 22 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 36,
+          "sourcePart": "ppt/media/image174.jpeg",
+          "sha256": "afd2d1d923cc0230cdef3087cd5fffa64ddb89577ae5e7271e2763d500aafb82",
+          "sourceWidth": 1815,
+          "sourceHeight": 1497
+        },
+        {
+          "id": "visitor-023",
+          "src": "/assets/spaces/visitor/full/023-poseena-s037.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/023-poseena-s037.webp",
+          "alt": "会客空间 · POSEENA · 第 23 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 37,
+          "sourcePart": "ppt/media/image180.jpeg",
+          "sha256": "20cd3fbe06675d916df673bf97114a366daec7e1e44a63579a4a83c6f0e25629",
+          "sourceWidth": 2124,
+          "sourceHeight": 1403
+        },
+        {
+          "id": "visitor-024",
+          "src": "/assets/spaces/visitor/full/024-poseena-s038.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/024-poseena-s038.webp",
+          "alt": "会客空间 · POSEENA · 第 24 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 38,
+          "sourcePart": "ppt/media/image184.jpeg",
+          "sha256": "bedc54fda55686acf593c50bc062a9f45324e02b8feff781a55c90f80306cc4d",
+          "sourceWidth": 2793,
+          "sourceHeight": 1751
+        },
+        {
+          "id": "visitor-025",
+          "src": "/assets/spaces/visitor/full/025-poseena-s039.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/025-poseena-s039.webp",
+          "alt": "会客空间 · POSEENA · 第 25 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 39,
+          "sourcePart": "ppt/media/image189.jpeg",
+          "sha256": "39bfda76ba7861b6d07b2844d796ec34439faa35569a6a704bc09c6f072dd984",
+          "sourceWidth": 2795,
+          "sourceHeight": 1868
+        },
+        {
+          "id": "visitor-026",
+          "src": "/assets/spaces/visitor/full/026-poseena-s040.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/026-poseena-s040.webp",
+          "alt": "会客空间 · POSEENA · 第 26 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 40,
+          "sourcePart": "ppt/media/image193.jpeg",
+          "sha256": "c2ba2b9eef9e09f56aec03aa21e7a9d894d8081526eca999bc7a703415962daa",
+          "sourceWidth": 2779,
+          "sourceHeight": 1622
+        },
+        {
+          "id": "visitor-027",
+          "src": "/assets/spaces/visitor/full/027-poseena-s041.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/027-poseena-s041.webp",
+          "alt": "会客空间 · POSEENA · 第 27 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 41,
+          "sourcePart": "ppt/media/image198.jpeg",
+          "sha256": "f88dae34aa95af241a8fbe0af909ed3f38917e52f7e07c16dedc527338faf732",
+          "sourceWidth": 1783,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-028",
+          "src": "/assets/spaces/visitor/full/028-poseena-s042.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/028-poseena-s042.webp",
+          "alt": "会客空间 · POSEENA · 第 28 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 42,
+          "sourcePart": "ppt/media/image201.jpeg",
+          "sha256": "faf27b27837db68cb5d04c6b212d2c71819d939f3cdb4b95c38a40e0afdf2a6d",
+          "sourceWidth": 2720,
+          "sourceHeight": 1570
+        },
+        {
+          "id": "visitor-029",
+          "src": "/assets/spaces/visitor/full/029-poseena-s043.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/029-poseena-s043.webp",
+          "alt": "会客空间 · POSEENA · 第 29 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 43,
+          "sourcePart": "ppt/media/image205.jpeg",
+          "sha256": "a1f1c6d81de22878ac5d3573580bad7fe6dc9f2f9b1c3b33d3663a901e3fee9c",
+          "sourceWidth": 2793,
+          "sourceHeight": 1759
+        },
+        {
+          "id": "visitor-030",
+          "src": "/assets/spaces/visitor/full/030-poseena-s044.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/030-poseena-s044.webp",
+          "alt": "会客空间 · POSEENA · 第 30 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 44,
+          "sourcePart": "ppt/media/image210.jpeg",
+          "sha256": "a3c4c6bc0156c806891448114e073921141153280f1f234d2faba1060e3d0793",
+          "sourceWidth": 1256,
+          "sourceHeight": 1819
+        },
+        {
+          "id": "visitor-031",
+          "src": "/assets/spaces/visitor/full/031-poseena-s044.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/031-poseena-s044.webp",
+          "alt": "会客空间 · POSEENA · 第 31 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 44,
+          "sourcePart": "ppt/media/image209.jpeg",
+          "sha256": "72ab0d927d4e9c5f5b663a6c93a8df112d1a13999cf88f83c20d477576970475",
+          "sourceWidth": 1112,
+          "sourceHeight": 748
+        },
+        {
+          "id": "visitor-032",
+          "src": "/assets/spaces/visitor/full/032-poseena-s045.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/032-poseena-s045.webp",
+          "alt": "会客空间 · POSEENA · 第 32 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 45,
+          "sourcePart": "ppt/media/image215.jpeg",
+          "sha256": "b44d9a8377a60753f709ddef4a39446e6d3b82fedd01f514084ab60f54c02762",
+          "sourceWidth": 913,
+          "sourceHeight": 1366
+        },
+        {
+          "id": "visitor-033",
+          "src": "/assets/spaces/visitor/full/033-poseena-s045.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/033-poseena-s045.webp",
+          "alt": "会客空间 · POSEENA · 第 33 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 45,
+          "sourcePart": "ppt/media/image214.jpeg",
+          "sha256": "7803e0d4fac5514de1029cfabd334e324de2fc560e987eb4cb0c97982741c1e7",
+          "sourceWidth": 1320,
+          "sourceHeight": 1979
+        },
+        {
+          "id": "visitor-034",
+          "src": "/assets/spaces/visitor/full/034-poseena-s046.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/034-poseena-s046.webp",
+          "alt": "会客空间 · POSEENA · 第 34 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 46,
+          "sourcePart": "ppt/media/image219.jpeg",
+          "sha256": "d0bd16a840fd61a84e0b87c3a29f24a9cfe0aea73ddeea91132f4af7fea99ea8",
+          "sourceWidth": 1387,
+          "sourceHeight": 2079
+        },
+        {
+          "id": "visitor-035",
+          "src": "/assets/spaces/visitor/full/035-poseena-s046.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/035-poseena-s046.webp",
+          "alt": "会客空间 · POSEENA · 第 35 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 46,
+          "sourcePart": "ppt/media/image218.jpeg",
+          "sha256": "a39c5cae9edad755a9bfb02992d25854d9f987a145ce1bec2b6e8bda9e2b2817",
+          "sourceWidth": 923,
+          "sourceHeight": 889
+        },
+        {
+          "id": "visitor-036",
+          "src": "/assets/spaces/visitor/full/036-poseena-s047.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/036-poseena-s047.webp",
+          "alt": "会客空间 · POSEENA · 第 36 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 47,
+          "sourcePart": "ppt/media/image221.jpeg",
+          "sha256": "7335d7e74fedd03562e562ac9c53bed52b2471309482bb052c8b2bdd1643f790",
+          "sourceWidth": 2863,
+          "sourceHeight": 1778
+        },
+        {
+          "id": "visitor-037",
+          "src": "/assets/spaces/visitor/full/037-poseena-s048.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/037-poseena-s048.webp",
+          "alt": "会客空间 · POSEENA · 第 37 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 48,
+          "sourcePart": "ppt/media/image228.jpeg",
+          "sha256": "f4562c34fe78ace8899c0d5680c8a9412cc153fce7e2263ee859cc62a0045ce1",
+          "sourceWidth": 1349,
+          "sourceHeight": 2023
+        },
+        {
+          "id": "visitor-038",
+          "src": "/assets/spaces/visitor/full/038-poseena-s049.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/038-poseena-s049.webp",
+          "alt": "会客空间 · POSEENA · 第 38 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 49,
+          "sourcePart": "ppt/media/image229.jpeg",
+          "sha256": "7e65c21c99626c269f787243ba129df20d18f6da97488e3097eb5fd9049262f5",
+          "sourceWidth": 2007,
+          "sourceHeight": 1656
+        },
+        {
+          "id": "visitor-039",
+          "src": "/assets/spaces/visitor/full/039-yanshan-s133.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/039-yanshan-s133.webp",
+          "alt": "会客空间 · 砚山 · 第 39 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 133,
+          "sourcePart": "ppt/media/image619.jpeg",
+          "sha256": "d3c3b78c3c26012ca88dbfc2c065bf0f27d9c59c25aa16f520063790d299c2c0",
+          "sourceWidth": 2779,
+          "sourceHeight": 1731
+        },
+        {
+          "id": "visitor-040",
+          "src": "/assets/spaces/visitor/full/040-yanshan-s134.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/040-yanshan-s134.webp",
+          "alt": "会客空间 · 砚山 · 第 40 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 134,
+          "sourcePart": "ppt/media/image627.jpeg",
+          "sha256": "c63713858302183aa223d993a3e309ef479605695e331cdf508c312d22f00430",
+          "sourceWidth": 1223,
+          "sourceHeight": 1835
+        },
+        {
+          "id": "visitor-041",
+          "src": "/assets/spaces/visitor/full/041-yanshan-s134.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/041-yanshan-s134.webp",
+          "alt": "会客空间 · 砚山 · 第 41 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 134,
+          "sourcePart": "ppt/media/image624.jpg",
+          "sha256": "9a26e0ec85a5a1d5f8ee4037b041d16a5512c8c8510ac01ad45a4d66dc6a706b",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-042",
+          "src": "/assets/spaces/visitor/full/042-yanshan-s134.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/042-yanshan-s134.webp",
+          "alt": "会客空间 · 砚山 · 第 42 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 134,
+          "sourcePart": "ppt/media/image630.jpeg",
+          "sha256": "28c5537de52238cf3913062720e1f3f0f78acc1c0746113d5ddf90ba48de767a",
+          "sourceWidth": 1223,
+          "sourceHeight": 1835
+        },
+        {
+          "id": "visitor-043",
+          "src": "/assets/spaces/visitor/full/043-yanshan-s134.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/043-yanshan-s134.webp",
+          "alt": "会客空间 · 砚山 · 第 43 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 134,
+          "sourcePart": "ppt/media/image628.jpeg",
+          "sha256": "e6fe9b1574c2a5a6b5c4b3c7ccda9069bbb1a86c8ab455d49fb719b912d473dd",
+          "sourceWidth": 1086,
+          "sourceHeight": 720
+        },
+        {
+          "id": "visitor-044",
+          "src": "/assets/spaces/visitor/full/044-yanshan-s134.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/044-yanshan-s134.webp",
+          "alt": "会客空间 · 砚山 · 第 44 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 134,
+          "sourcePart": "ppt/media/image631.jpeg",
+          "sha256": "1042109a698980a8ea18e88d5f5d2a6479645ad49078ee86852cefed0c3e6454",
+          "sourceWidth": 1086,
+          "sourceHeight": 720
+        },
+        {
+          "id": "visitor-045",
+          "src": "/assets/spaces/visitor/full/045-yanshan-s135.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/045-yanshan-s135.webp",
+          "alt": "会客空间 · 砚山 · 第 45 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 135,
+          "sourcePart": "ppt/media/image633.jpeg",
+          "sha256": "1023c9d6ae4c03732d8ad437c08ab6fb4f133d13bc28942e382c0e998cc7b31f",
+          "sourceWidth": 846,
+          "sourceHeight": 987
+        },
+        {
+          "id": "visitor-046",
+          "src": "/assets/spaces/visitor/full/046-yanshan-s135.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/046-yanshan-s135.webp",
+          "alt": "会客空间 · 砚山 · 第 46 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 135,
+          "sourcePart": "ppt/media/image634.jpeg",
+          "sha256": "850ad07c5b3bbbddade43c1ba7951e759debf33d5086d27b1a6060160291c10f",
+          "sourceWidth": 1640,
+          "sourceHeight": 1094
+        },
+        {
+          "id": "visitor-047",
+          "src": "/assets/spaces/visitor/full/047-yanshan-s136.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/047-yanshan-s136.webp",
+          "alt": "会客空间 · 砚山 · 第 47 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 136,
+          "sourcePart": "ppt/media/image638.jpeg",
+          "sha256": "e59c3179d726ee10b5db9f771188562b0eb7c612433081c79fe218dcdde48387",
+          "sourceWidth": 1389,
+          "sourceHeight": 2077
+        },
+        {
+          "id": "visitor-048",
+          "src": "/assets/spaces/visitor/full/048-yanshan-s136.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/048-yanshan-s136.webp",
+          "alt": "会客空间 · 砚山 · 第 48 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 136,
+          "sourcePart": "ppt/media/image640.jpeg",
+          "sha256": "779ef5d21986600762ea8506500ff12af5996bc23211df0ef47b4895ec928a05",
+          "sourceWidth": 960,
+          "sourceHeight": 959
+        },
+        {
+          "id": "visitor-049",
+          "src": "/assets/spaces/visitor/full/049-yanshan-s137.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/049-yanshan-s137.webp",
+          "alt": "会客空间 · 砚山 · 第 49 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 137,
+          "sourcePart": "ppt/media/image642.jpg",
+          "sha256": "dc378cce9a60f68759e22f8125175185b3779edae79670fcc96cdfb8e9a9a336",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-050",
+          "src": "/assets/spaces/visitor/full/050-yanshan-s137.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/050-yanshan-s137.webp",
+          "alt": "会客空间 · 砚山 · 第 50 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 137,
+          "sourcePart": "ppt/media/image644.jpg",
+          "sha256": "ec25f224fb55997aa14af828e290ece7cf8f0e36a1856b12f47e3bcf2da20b9a",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-051",
+          "src": "/assets/spaces/visitor/full/051-panshi-s153.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/051-panshi-s153.webp",
+          "alt": "会客空间 · 磐石 · 第 51 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 153,
+          "sourcePart": "ppt/media/image694.jpeg",
+          "sha256": "9108cd3f0c0b06a463481c3a1b8c3f23d62b6a347ad67a2a5225eae539e87775",
+          "sourceWidth": 2802,
+          "sourceHeight": 1729
+        },
+        {
+          "id": "visitor-052",
+          "src": "/assets/spaces/visitor/full/052-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/052-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 52 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image699.jpg",
+          "sha256": "1a69172763e656030178d49262372f4e1f64a20b3a98093e77adcfc67604e8aa",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "visitor-053",
+          "src": "/assets/spaces/visitor/full/053-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/053-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 53 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image702.jpeg",
+          "sha256": "ceb12df0d6c98f0b112b0ba12345dcba6b73d2aba23d94de33549eb54d5e69f6",
+          "sourceWidth": 1086,
+          "sourceHeight": 719
+        },
+        {
+          "id": "visitor-054",
+          "src": "/assets/spaces/visitor/full/054-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/054-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 54 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image701.jpeg",
+          "sha256": "d6c0045f647cb5f29a46b7aa197a21153d9dfccd346a9daeca938e2dcdd2ae1f",
+          "sourceWidth": 1217,
+          "sourceHeight": 1825
+        },
+        {
+          "id": "visitor-055",
+          "src": "/assets/spaces/visitor/full/055-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/055-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 55 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image705.jpeg",
+          "sha256": "8e918a431a3572650bb362a9c1484dffe3ba6f475c41f7351fbcd0d4e357e1b6",
+          "sourceWidth": 1086,
+          "sourceHeight": 719
+        },
+        {
+          "id": "visitor-056",
+          "src": "/assets/spaces/visitor/full/056-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/056-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 56 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image708.jpeg",
+          "sha256": "67d3d348527f7816389c3eb17b9102cc0193782f276242af134922d14ce9c120",
+          "sourceWidth": 1086,
+          "sourceHeight": 719
+        },
+        {
+          "id": "visitor-057",
+          "src": "/assets/spaces/visitor/full/057-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/057-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 57 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image704.jpeg",
+          "sha256": "a32baa087fdd32aba3504fe00ba9ceab3d53b2805bd8dc327cf080a0baef0e36",
+          "sourceWidth": 1217,
+          "sourceHeight": 1825
+        },
+        {
+          "id": "visitor-058",
+          "src": "/assets/spaces/visitor/full/058-panshi-s154.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/058-panshi-s154.webp",
+          "alt": "会客空间 · 磐石 · 第 58 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 154,
+          "sourcePart": "ppt/media/image707.jpeg",
+          "sha256": "e55a70ea167db28481e30b2c89875bfd4d2f558b9e5a2126fcc55c62f6320a81",
+          "sourceWidth": 1216,
+          "sourceHeight": 1825
+        },
+        {
+          "id": "visitor-059",
+          "src": "/assets/spaces/visitor/full/059-panshi-s155.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/059-panshi-s155.webp",
+          "alt": "会客空间 · 磐石 · 第 59 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 155,
+          "sourcePart": "ppt/media/image710.jpeg",
+          "sha256": "f473a572137e1ec5b05d06e7af2b2905cc7fc82c22416310588f247156bb6212",
+          "sourceWidth": 1380,
+          "sourceHeight": 1035
+        },
+        {
+          "id": "visitor-060",
+          "src": "/assets/spaces/visitor/full/060-panshi-s155.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/060-panshi-s155.webp",
+          "alt": "会客空间 · 磐石 · 第 60 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 155,
+          "sourcePart": "ppt/media/image713.jpeg",
+          "sha256": "409306fd4f4db984da0f31ef045a49e1975aa14bda19352cfaa194baf4fb12a8",
+          "sourceWidth": 899,
+          "sourceHeight": 1035
+        },
+        {
+          "id": "visitor-061",
+          "src": "/assets/spaces/visitor/full/061-panshi-s155.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/061-panshi-s155.webp",
+          "alt": "会客空间 · 磐石 · 第 61 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 155,
+          "sourcePart": "ppt/media/image711.jpeg",
+          "sha256": "b1a466a6875c95a66580943353c9abe23c505d95ede75e505acf009320ab5d66",
+          "sourceWidth": 1380,
+          "sourceHeight": 1035
+        },
+        {
+          "id": "visitor-062",
+          "src": "/assets/spaces/visitor/full/062-panshi-s156.webp",
+          "thumbnail": "/assets/spaces/visitor/thumbs/062-panshi-s156.webp",
+          "alt": "会客空间 · 磐石 · 第 62 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 156,
+          "sourcePart": "ppt/media/image717.jpeg",
+          "sha256": "fbe7e31e927bbf534a9a3cc19c6e7b520866e6c54b2bbd8feb2661687a80cf9a",
+          "sourceWidth": 1640,
+          "sourceHeight": 1613
+        }
+      ]
+    },
+    {
+      "id": "dining",
+      "title": "餐厨空间",
+      "count": 46,
+      "cover": "/assets/spaces/dining/full/001-poseena-s051.webp",
+      "images": [
+        {
+          "id": "dining-001",
+          "src": "/assets/spaces/dining/full/001-poseena-s051.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/001-poseena-s051.webp",
+          "alt": "餐厨空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 51,
+          "sourcePart": "ppt/media/image241.jpeg",
+          "sha256": "cb4a9e6a4c00eafa3de72ec9e446776e5e0b389ccd7dc2853a0208a5b2ddca05",
+          "sourceWidth": 2765,
+          "sourceHeight": 1684
+        },
+        {
+          "id": "dining-002",
+          "src": "/assets/spaces/dining/full/002-poseena-s052.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/002-poseena-s052.webp",
+          "alt": "餐厨空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 52,
+          "sourcePart": "ppt/media/image245.jpg",
+          "sha256": "17099ac90c0c39a32f721e6b8b547ec7b962769f9e50d2e05645174fa7f735a4",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-003",
+          "src": "/assets/spaces/dining/full/003-poseena-s053.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/003-poseena-s053.webp",
+          "alt": "餐厨空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 53,
+          "sourcePart": "ppt/media/image249.jpg",
+          "sha256": "5bd7e6b2c39d3d7308e37b2c25771659dee7ba6f216ec7e86be8c12f295181a1",
+          "sourceWidth": 898,
+          "sourceHeight": 1346
+        },
+        {
+          "id": "dining-004",
+          "src": "/assets/spaces/dining/full/004-poseena-s053.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/004-poseena-s053.webp",
+          "alt": "餐厨空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 53,
+          "sourcePart": "ppt/media/image248.jpg",
+          "sha256": "30aba961849939b1088677fdd1c3e6af28c128e22264670b6550adfa764a324c",
+          "sourceWidth": 1307,
+          "sourceHeight": 1960
+        },
+        {
+          "id": "dining-005",
+          "src": "/assets/spaces/dining/full/005-poseena-s054.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/005-poseena-s054.webp",
+          "alt": "餐厨空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 54,
+          "sourcePart": "ppt/media/image252.jpeg",
+          "sha256": "94f155915f2240c6f64c7808c1a896d7c834f12e30f67e9f6be6dc917553adab",
+          "sourceWidth": 2783,
+          "sourceHeight": 1674
+        },
+        {
+          "id": "dining-006",
+          "src": "/assets/spaces/dining/full/006-poseena-s055.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/006-poseena-s055.webp",
+          "alt": "餐厨空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 55,
+          "sourcePart": "ppt/media/image259.jpg",
+          "sha256": "0003f576c8fa52647c30d454713fc8222d3bfd8d0c6d84cdc0daebdd8cd5596e",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-007",
+          "src": "/assets/spaces/dining/full/007-poseena-s056.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/007-poseena-s056.webp",
+          "alt": "餐厨空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 56,
+          "sourcePart": "ppt/media/image260.jpeg",
+          "sha256": "7bd898c79b99e70f989d8214e371cf6605d3075ab2c5687946a322fb99d7d2d8",
+          "sourceWidth": 2800,
+          "sourceHeight": 1738
+        },
+        {
+          "id": "dining-008",
+          "src": "/assets/spaces/dining/full/008-poseena-s057.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/008-poseena-s057.webp",
+          "alt": "餐厨空间 · POSEENA · 第 8 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 57,
+          "sourcePart": "ppt/media/image265.jpeg",
+          "sha256": "5a6a05d13e4b74f4e359262539644bc2b893ce5447570a99ed1b448fbbcab8d3",
+          "sourceWidth": 1491,
+          "sourceHeight": 2079
+        },
+        {
+          "id": "dining-009",
+          "src": "/assets/spaces/dining/full/009-poseena-s058.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/009-poseena-s058.webp",
+          "alt": "餐厨空间 · POSEENA · 第 9 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 58,
+          "sourcePart": "ppt/media/image269.jpg",
+          "sha256": "72907e360cb6424b85a1698b764b2a4700bcb7878b0248c92166761ba121095d",
+          "sourceWidth": 2293,
+          "sourceHeight": 1495
+        },
+        {
+          "id": "dining-010",
+          "src": "/assets/spaces/dining/full/010-poseena-s059.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/010-poseena-s059.webp",
+          "alt": "餐厨空间 · POSEENA · 第 10 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 59,
+          "sourcePart": "ppt/media/image272.jpeg",
+          "sha256": "d2d28e1959afbb18dbfcf07ca64cedf5a969e30d4a04904464cfa3baae2c7947",
+          "sourceWidth": 2775,
+          "sourceHeight": 1653
+        },
+        {
+          "id": "dining-011",
+          "src": "/assets/spaces/dining/full/011-poseena-s060.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/011-poseena-s060.webp",
+          "alt": "餐厨空间 · POSEENA · 第 11 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 60,
+          "sourcePart": "ppt/media/image277.jpeg",
+          "sha256": "4a4714697f461481938b57c30a996690e1138cdd2147a8a1a959b6bcfd318ce7",
+          "sourceWidth": 2771,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-012",
+          "src": "/assets/spaces/dining/full/012-poseena-s061.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/012-poseena-s061.webp",
+          "alt": "餐厨空间 · POSEENA · 第 12 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 61,
+          "sourcePart": "ppt/media/image283.jpg",
+          "sha256": "722557e9ec83b022c949e166518e2e4f3e3238ffdef09573d0297580fcff1de8",
+          "sourceWidth": 1388,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-013",
+          "src": "/assets/spaces/dining/full/013-poseena-s061.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/013-poseena-s061.webp",
+          "alt": "餐厨空间 · POSEENA · 第 13 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 61,
+          "sourcePart": "ppt/media/image282.jpg",
+          "sha256": "737ae24ff1716f34307ce0dc177eda50240680d5c9cfdfec7a46007600cb3d9d",
+          "sourceWidth": 817,
+          "sourceHeight": 983
+        },
+        {
+          "id": "dining-014",
+          "src": "/assets/spaces/dining/full/014-poseena-s062.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/014-poseena-s062.webp",
+          "alt": "餐厨空间 · POSEENA · 第 14 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 62,
+          "sourcePart": "ppt/media/image287.jpeg",
+          "sha256": "29f756f963c4dc7732f923181c3ac19cc43be56adabc41c94f6a49717df21e81",
+          "sourceWidth": 2789,
+          "sourceHeight": 1740
+        },
+        {
+          "id": "dining-015",
+          "src": "/assets/spaces/dining/full/015-poseena-s063.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/015-poseena-s063.webp",
+          "alt": "餐厨空间 · POSEENA · 第 15 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 63,
+          "sourcePart": "ppt/media/image291.jpeg",
+          "sha256": "948b6f541bb59076be7eb8c0a391f1affcb3ba58421b89ebe3bc4c60af6be90e",
+          "sourceWidth": 2691,
+          "sourceHeight": 1748
+        },
+        {
+          "id": "dining-016",
+          "src": "/assets/spaces/dining/full/016-poseena-s064.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/016-poseena-s064.webp",
+          "alt": "餐厨空间 · POSEENA · 第 16 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 64,
+          "sourcePart": "ppt/media/image294.jpeg",
+          "sha256": "f4293fbe3ecf72c77a14fcb6cf22acf08f84012e2542265fbce3d1e97d92cc6c",
+          "sourceWidth": 2800,
+          "sourceHeight": 1660
+        },
+        {
+          "id": "dining-017",
+          "src": "/assets/spaces/dining/full/017-poseena-s065.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/017-poseena-s065.webp",
+          "alt": "餐厨空间 · POSEENA · 第 17 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 65,
+          "sourcePart": "ppt/media/image299.jpeg",
+          "sha256": "e05965ef601703f5155f199b2387a2c39b1d5e686dd1823e29f6d131fa3472bf",
+          "sourceWidth": 2763,
+          "sourceHeight": 1685
+        },
+        {
+          "id": "dining-018",
+          "src": "/assets/spaces/dining/full/018-poseena-s066.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/018-poseena-s066.webp",
+          "alt": "餐厨空间 · POSEENA · 第 18 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 66,
+          "sourcePart": "ppt/media/image311.png",
+          "sha256": "426b5de23ceb1e8648359eb53702ed74644b1660624ef4c9449b8c6df8b32c21",
+          "sourceWidth": 1019,
+          "sourceHeight": 1354
+        },
+        {
+          "id": "dining-019",
+          "src": "/assets/spaces/dining/full/019-poseena-s066.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/019-poseena-s066.webp",
+          "alt": "餐厨空间 · POSEENA · 第 19 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 66,
+          "sourcePart": "ppt/media/image310.png",
+          "sha256": "64bc55e8c9e9eecfd4a612f7b9afec0815228783041162f80a787095dfe2759d",
+          "sourceWidth": 897,
+          "sourceHeight": 1354
+        },
+        {
+          "id": "dining-020",
+          "src": "/assets/spaces/dining/full/020-poseena-s066.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/020-poseena-s066.webp",
+          "alt": "餐厨空间 · POSEENA · 第 20 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 66,
+          "sourcePart": "ppt/media/image303.jpeg",
+          "sha256": "4ba1f55d05cdcf7519fe2113acd8342273189295e33ef503b399e00c3b015c5d",
+          "sourceWidth": 2773,
+          "sourceHeight": 1720
+        },
+        {
+          "id": "dining-021",
+          "src": "/assets/spaces/dining/full/021-poseena-s066.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/021-poseena-s066.webp",
+          "alt": "餐厨空间 · POSEENA · 第 21 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 66,
+          "sourcePart": "ppt/media/image308.png",
+          "sha256": "8e5bfd8c949e827bf9b927da9dfac803c4f8d18c1cf097bf560c7ed661c2bb77",
+          "sourceWidth": 1687,
+          "sourceHeight": 1125
+        },
+        {
+          "id": "dining-022",
+          "src": "/assets/spaces/dining/full/022-poseena-s067.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/022-poseena-s067.webp",
+          "alt": "餐厨空间 · POSEENA · 第 22 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 67,
+          "sourcePart": "ppt/media/image316.jpeg",
+          "sha256": "3d6d56452b9c656a30df48c4acd31d929f0c3db3fb5932e1dd2e290938e090c1",
+          "sourceWidth": 1214,
+          "sourceHeight": 810
+        },
+        {
+          "id": "dining-023",
+          "src": "/assets/spaces/dining/full/023-poseena-s067.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/023-poseena-s067.webp",
+          "alt": "餐厨空间 · POSEENA · 第 23 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 67,
+          "sourcePart": "ppt/media/image315.jpeg",
+          "sha256": "ce54fdc32f2e580c4cd186b129cd2a40e9f62ad9f460155be9fb45adfd01a260",
+          "sourceWidth": 1214,
+          "sourceHeight": 810
+        },
+        {
+          "id": "dining-024",
+          "src": "/assets/spaces/dining/full/024-poseena-s067.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/024-poseena-s067.webp",
+          "alt": "餐厨空间 · POSEENA · 第 24 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 67,
+          "sourcePart": "ppt/media/image313.jpeg",
+          "sha256": "aacc528c55acfe14c74a669dfac1166a656718cffd4ce7b50bce939e6992a984",
+          "sourceWidth": 2720,
+          "sourceHeight": 1814
+        },
+        {
+          "id": "dining-025",
+          "src": "/assets/spaces/dining/full/025-poseena-s067.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/025-poseena-s067.webp",
+          "alt": "餐厨空间 · POSEENA · 第 25 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 67,
+          "sourcePart": "ppt/media/image319.jpeg",
+          "sha256": "9b6eb3960cbdc667cb377ec362ad9e7927a917f1ed6a4da5903e4ac66ca3cb30",
+          "sourceWidth": 1148,
+          "sourceHeight": 766
+        },
+        {
+          "id": "dining-026",
+          "src": "/assets/spaces/dining/full/026-poseena-s067.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/026-poseena-s067.webp",
+          "alt": "餐厨空间 · POSEENA · 第 26 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 67,
+          "sourcePart": "ppt/media/image318.jpeg",
+          "sha256": "db64aa6bbc29f303abfcd2193f1004655d43e958955e717414252153c01b1818",
+          "sourceWidth": 1143,
+          "sourceHeight": 1713
+        },
+        {
+          "id": "dining-027",
+          "src": "/assets/spaces/dining/full/027-poseena-s068.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/027-poseena-s068.webp",
+          "alt": "餐厨空间 · POSEENA · 第 27 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 68,
+          "sourcePart": "ppt/media/image328.jpeg",
+          "sha256": "cacc93f1b29fe4df0b08bc5d410471c8fd21e94bf29d5047d087c740a9c0da4b",
+          "sourceWidth": 1692,
+          "sourceHeight": 1101
+        },
+        {
+          "id": "dining-028",
+          "src": "/assets/spaces/dining/full/028-poseena-s068.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/028-poseena-s068.webp",
+          "alt": "餐厨空间 · POSEENA · 第 28 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 68,
+          "sourcePart": "ppt/media/image321.jpg",
+          "sha256": "62ba9db5d75b34b845de2370866a5c915e85eca6640734578e9f7cea2dd3e97b",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-029",
+          "src": "/assets/spaces/dining/full/029-poseena-s068.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/029-poseena-s068.webp",
+          "alt": "餐厨空间 · POSEENA · 第 29 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 68,
+          "sourcePart": "ppt/media/image331.png",
+          "sha256": "ddab657cfbd1034ae06e1c3e7c486f538628b0d9f6142d3bad932591f584f3de",
+          "sourceWidth": 1454,
+          "sourceHeight": 1080
+        },
+        {
+          "id": "dining-030",
+          "src": "/assets/spaces/dining/full/030-poseena-s068.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/030-poseena-s068.webp",
+          "alt": "餐厨空间 · POSEENA · 第 30 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 68,
+          "sourcePart": "ppt/media/image326.png",
+          "sha256": "737db1f51d9e4ba0664204aa01afcfe3141ba1eda1752419d11630b00b0c99b4",
+          "sourceWidth": 1080,
+          "sourceHeight": 1454
+        },
+        {
+          "id": "dining-031",
+          "src": "/assets/spaces/dining/full/031-poseena-s069.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/031-poseena-s069.webp",
+          "alt": "餐厨空间 · POSEENA · 第 31 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 69,
+          "sourcePart": "ppt/media/image336.jpeg",
+          "sha256": "ca7ac29e56714638cf6822e7e29bcb1ec952e659be3ed1cf4f16ae66981b7f30",
+          "sourceWidth": 1002,
+          "sourceHeight": 751
+        },
+        {
+          "id": "dining-032",
+          "src": "/assets/spaces/dining/full/032-poseena-s069.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/032-poseena-s069.webp",
+          "alt": "餐厨空间 · POSEENA · 第 32 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 69,
+          "sourcePart": "ppt/media/image335.jpeg",
+          "sha256": "f00e65e9fd10b9061b133a5aea51e6e92470e0ba8b5af7030ed643b8706d3fbf",
+          "sourceWidth": 1179,
+          "sourceHeight": 1649
+        },
+        {
+          "id": "dining-033",
+          "src": "/assets/spaces/dining/full/033-poseena-s070.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/033-poseena-s070.webp",
+          "alt": "餐厨空间 · POSEENA · 第 33 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 70,
+          "sourcePart": "ppt/media/image338.jpeg",
+          "sha256": "6e0a0a6938093539a506bc622ad32b354a4e86ba6056d6235b3a69a4fc2855f3",
+          "sourceWidth": 2800,
+          "sourceHeight": 1738
+        },
+        {
+          "id": "dining-034",
+          "src": "/assets/spaces/dining/full/034-poseena-s071.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/034-poseena-s071.webp",
+          "alt": "餐厨空间 · POSEENA · 第 34 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 71,
+          "sourcePart": "ppt/media/image348.jpeg",
+          "sha256": "05bbb14d25c5b0f57330cdafa6ac6aa149e87ccae8d52617137155ea1e930dc7",
+          "sourceWidth": 1128,
+          "sourceHeight": 1841
+        },
+        {
+          "id": "dining-035",
+          "src": "/assets/spaces/dining/full/035-poseena-s071.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/035-poseena-s071.webp",
+          "alt": "餐厨空间 · POSEENA · 第 35 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 71,
+          "sourcePart": "ppt/media/image343.jpg",
+          "sha256": "6223592f5223cf36e64f90177ee415bc9222cc2cc18b62c504d3d059c0c006de",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-036",
+          "src": "/assets/spaces/dining/full/036-poseena-s071.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/036-poseena-s071.webp",
+          "alt": "餐厨空间 · POSEENA · 第 36 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 71,
+          "sourcePart": "ppt/media/image345.jpeg",
+          "sha256": "2a0388231c2c40ee21cf5099acbb23028be0aecafcf8760c90ec7854a4ed77e0",
+          "sourceWidth": 1656,
+          "sourceHeight": 1077
+        },
+        {
+          "id": "dining-037",
+          "src": "/assets/spaces/dining/full/037-poseena-s072.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/037-poseena-s072.webp",
+          "alt": "餐厨空间 · POSEENA · 第 37 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 72,
+          "sourcePart": "ppt/media/image351.jpeg",
+          "sha256": "c5392a9390244e49a28ffc85a2d5dd2be82cb67d0756aa5119ffeccbe89c85c9",
+          "sourceWidth": 1053,
+          "sourceHeight": 704
+        },
+        {
+          "id": "dining-038",
+          "src": "/assets/spaces/dining/full/038-poseena-s072.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/038-poseena-s072.webp",
+          "alt": "餐厨空间 · POSEENA · 第 38 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 72,
+          "sourcePart": "ppt/media/image350.jpeg",
+          "sha256": "a86c8e9753ec7d3fc232a7a4d8d771cdf56abde8f81ac40754aa9e67d73a651e",
+          "sourceWidth": 1388,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-039",
+          "src": "/assets/spaces/dining/full/039-poseena-s073.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/039-poseena-s073.webp",
+          "alt": "餐厨空间 · POSEENA · 第 39 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 73,
+          "sourcePart": "ppt/media/image358.jpeg",
+          "sha256": "b3f9a1d7212dcd194bc76c08e105b04887f99170b5eef0978b610c42bc8ab657",
+          "sourceWidth": 1387,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-040",
+          "src": "/assets/spaces/dining/full/040-yanshan-s140.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/040-yanshan-s140.webp",
+          "alt": "餐厨空间 · 砚山 · 第 40 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 140,
+          "sourcePart": "ppt/media/image654.png",
+          "sha256": "0c88d141422430b184e8bf0c9009122849dddf590d380288bc656d674d82a514",
+          "sourceWidth": 2802,
+          "sourceHeight": 1746
+        },
+        {
+          "id": "dining-041",
+          "src": "/assets/spaces/dining/full/041-yanshan-s141.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/041-yanshan-s141.webp",
+          "alt": "餐厨空间 · 砚山 · 第 41 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 141,
+          "sourcePart": "ppt/media/image660.png",
+          "sha256": "c8fce5fbc56fe778cc0755ab713e3ca13ac68d9bc7222725067859b5ec8c76ab",
+          "sourceWidth": 1518,
+          "sourceHeight": 1778
+        },
+        {
+          "id": "dining-042",
+          "src": "/assets/spaces/dining/full/042-yanshan-s142.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/042-yanshan-s142.webp",
+          "alt": "餐厨空间 · 砚山 · 第 42 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 142,
+          "sourcePart": "ppt/media/image661.png",
+          "sha256": "c07195d650b443974cff86029b3584cfa96c890ba4d9ebcd2622bedb9a5a4c7c",
+          "sourceWidth": 2802,
+          "sourceHeight": 1746
+        },
+        {
+          "id": "dining-043",
+          "src": "/assets/spaces/dining/full/043-yanshan-s143.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/043-yanshan-s143.webp",
+          "alt": "餐厨空间 · 砚山 · 第 43 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 143,
+          "sourcePart": "ppt/media/image668.png",
+          "sha256": "869759e193ef84722609234d8058b760a950ab7380e4863a5f510245c736cee6",
+          "sourceWidth": 1518,
+          "sourceHeight": 1778
+        },
+        {
+          "id": "dining-044",
+          "src": "/assets/spaces/dining/full/044-panshi-s158.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/044-panshi-s158.webp",
+          "alt": "餐厨空间 · 磐石 · 第 44 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 158,
+          "sourcePart": "ppt/media/image721.jpeg",
+          "sha256": "b85be7391a26ae96b1d6997703868704e319e27334d2e0e3b030bc9a809913f5",
+          "sourceWidth": 2800,
+          "sourceHeight": 1862
+        },
+        {
+          "id": "dining-045",
+          "src": "/assets/spaces/dining/full/045-panshi-s159.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/045-panshi-s159.webp",
+          "alt": "餐厨空间 · 磐石 · 第 45 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 159,
+          "sourcePart": "ppt/media/image725.jpg",
+          "sha256": "dcf84fb5c79ad07919014febe69b4ac02c162dad902b5557348b1b50db31641e",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "dining-046",
+          "src": "/assets/spaces/dining/full/046-panshi-s160.webp",
+          "thumbnail": "/assets/spaces/dining/thumbs/046-panshi-s160.webp",
+          "alt": "餐厨空间 · 磐石 · 第 46 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 160,
+          "sourcePart": "ppt/media/image727.jpeg",
+          "sha256": "2fe2526ab3802fab7d4f478f1bb76e5155d8febaa9ce4e60f1ea7a78608a6325",
+          "sourceWidth": 1549,
+          "sourceHeight": 2000
+        }
+      ]
+    },
+    {
+      "id": "sleep",
+      "title": "睡眠空间",
+      "count": 29,
+      "cover": "/assets/spaces/sleep/full/001-poseena-s075.webp",
+      "images": [
+        {
+          "id": "sleep-001",
+          "src": "/assets/spaces/sleep/full/001-poseena-s075.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/001-poseena-s075.webp",
+          "alt": "睡眠空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 75,
+          "sourcePart": "ppt/media/image368.jpeg",
+          "sha256": "832bb283fa297266f3b9b35925d6ea5ef485098216afb64fd36915a4e560b61f",
+          "sourceWidth": 2779,
+          "sourceHeight": 1813
+        },
+        {
+          "id": "sleep-002",
+          "src": "/assets/spaces/sleep/full/002-poseena-s076.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/002-poseena-s076.webp",
+          "alt": "睡眠空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 76,
+          "sourcePart": "ppt/media/image373.jpeg",
+          "sha256": "c6b2abe6136da02c17c3aad72fbe01da385bf9fdd7cc316c9140c25d11283b0a",
+          "sourceWidth": 1538,
+          "sourceHeight": 1363
+        },
+        {
+          "id": "sleep-003",
+          "src": "/assets/spaces/sleep/full/003-poseena-s076.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/003-poseena-s076.webp",
+          "alt": "睡眠空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 76,
+          "sourcePart": "ppt/media/image372.jpeg",
+          "sha256": "01363b8f28277392b2c444d53a35c23ea812c03579cf8445e60abc51d33ffef8",
+          "sourceWidth": 903,
+          "sourceHeight": 573
+        },
+        {
+          "id": "sleep-004",
+          "src": "/assets/spaces/sleep/full/004-poseena-s077.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/004-poseena-s077.webp",
+          "alt": "睡眠空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 77,
+          "sourcePart": "ppt/media/image376.jpeg",
+          "sha256": "d10519a68cb9533c8c129a2c019980d95fc227216eb69b215230ba34963a9ec8",
+          "sourceWidth": 2495,
+          "sourceHeight": 1663
+        },
+        {
+          "id": "sleep-005",
+          "src": "/assets/spaces/sleep/full/005-poseena-s078.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/005-poseena-s078.webp",
+          "alt": "睡眠空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 78,
+          "sourcePart": "ppt/media/image378.jpeg",
+          "sha256": "0770039011c9b22e1193eadf99da5b540c2c478df3ae3e937b973f7a2ff9025f",
+          "sourceWidth": 2747,
+          "sourceHeight": 1725
+        },
+        {
+          "id": "sleep-006",
+          "src": "/assets/spaces/sleep/full/006-poseena-s079.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/006-poseena-s079.webp",
+          "alt": "睡眠空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 79,
+          "sourcePart": "ppt/media/image382.jpeg",
+          "sha256": "7eb0dd829093dcf43cf834164dffeb87eb7be81a43ac9f7c792fecf1072b9ad2",
+          "sourceWidth": 2114,
+          "sourceHeight": 1543
+        },
+        {
+          "id": "sleep-007",
+          "src": "/assets/spaces/sleep/full/007-poseena-s080.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/007-poseena-s080.webp",
+          "alt": "睡眠空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 80,
+          "sourcePart": "ppt/media/image386.jpeg",
+          "sha256": "78266c6f1cc2bd36df5ba3b31500dd8605a563105bdb61dde99c1ca3e8abca03",
+          "sourceWidth": 1977,
+          "sourceHeight": 1791
+        },
+        {
+          "id": "sleep-008",
+          "src": "/assets/spaces/sleep/full/008-poseena-s081.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/008-poseena-s081.webp",
+          "alt": "睡眠空间 · POSEENA · 第 8 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 81,
+          "sourcePart": "ppt/media/image390.jpeg",
+          "sha256": "dcb145de8d912e0dfcda7a82dd4a4a66bd5d969f58d5676b9de02f3b8ce8d559",
+          "sourceWidth": 2799,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-009",
+          "src": "/assets/spaces/sleep/full/009-poseena-s082.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/009-poseena-s082.webp",
+          "alt": "睡眠空间 · POSEENA · 第 9 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 82,
+          "sourcePart": "ppt/media/image401.jpeg",
+          "sha256": "314c215a879ea27c27b0c063487151ef87bcfe30b157bb608b2752dbc4035675",
+          "sourceWidth": 1886,
+          "sourceHeight": 1228
+        },
+        {
+          "id": "sleep-010",
+          "src": "/assets/spaces/sleep/full/010-poseena-s082.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/010-poseena-s082.webp",
+          "alt": "睡眠空间 · POSEENA · 第 10 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 82,
+          "sourcePart": "ppt/media/image397.jpeg",
+          "sha256": "538ba7ff9e01d1cd2abb043eb7e7ef43af686ebdbe3b39a6b207cdacc0a3f213",
+          "sourceWidth": 2785,
+          "sourceHeight": 1733
+        },
+        {
+          "id": "sleep-011",
+          "src": "/assets/spaces/sleep/full/011-poseena-s083.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/011-poseena-s083.webp",
+          "alt": "睡眠空间 · POSEENA · 第 11 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 83,
+          "sourcePart": "ppt/media/image403.jpeg",
+          "sha256": "765baded6cf873e1c5f4b008b270874a908ab2ca803d8657a5f15d9277dabbe2",
+          "sourceWidth": 2773,
+          "sourceHeight": 1765
+        },
+        {
+          "id": "sleep-012",
+          "src": "/assets/spaces/sleep/full/012-poseena-s084.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/012-poseena-s084.webp",
+          "alt": "睡眠空间 · POSEENA · 第 12 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 84,
+          "sourcePart": "ppt/media/image407.jpg",
+          "sha256": "7003e7348cddfd875affd358ec690df9de0a79a48bde90dad04024c97d4ed394",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-013",
+          "src": "/assets/spaces/sleep/full/013-poseena-s084.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/013-poseena-s084.webp",
+          "alt": "睡眠空间 · POSEENA · 第 13 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 84,
+          "sourcePart": "ppt/media/image409.jpeg",
+          "sha256": "8d52231e5eeae92726292e8906d8c6eeac3c5c5836bd5b7a927e75dfa39643ba",
+          "sourceWidth": 1033,
+          "sourceHeight": 1551
+        },
+        {
+          "id": "sleep-014",
+          "src": "/assets/spaces/sleep/full/014-poseena-s084.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/014-poseena-s084.webp",
+          "alt": "睡眠空间 · POSEENA · 第 14 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 84,
+          "sourcePart": "ppt/media/image408.jpeg",
+          "sha256": "fd17e783692c2b9bda2a82d2a1024f6e141532b676e4cfed95c5d5ad2e8790aa",
+          "sourceWidth": 1044,
+          "sourceHeight": 696
+        },
+        {
+          "id": "sleep-015",
+          "src": "/assets/spaces/sleep/full/015-poseena-s085.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/015-poseena-s085.webp",
+          "alt": "睡眠空间 · POSEENA · 第 15 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 85,
+          "sourcePart": "ppt/media/image415.jpeg",
+          "sha256": "cf1fb0d2de263627c12665ee04ddeb72e3ae7e7499a60856e5b727a89ec41481",
+          "sourceWidth": 1170,
+          "sourceHeight": 1755
+        },
+        {
+          "id": "sleep-016",
+          "src": "/assets/spaces/sleep/full/016-poseena-s085.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/016-poseena-s085.webp",
+          "alt": "睡眠空间 · POSEENA · 第 16 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 85,
+          "sourcePart": "ppt/media/image411.jpeg",
+          "sha256": "f1d1425927375d481dfa3382ee28517102c8612724998aa07998802419f08ee3",
+          "sourceWidth": 2800,
+          "sourceHeight": 1826
+        },
+        {
+          "id": "sleep-017",
+          "src": "/assets/spaces/sleep/full/017-poseena-s086.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/017-poseena-s086.webp",
+          "alt": "睡眠空间 · POSEENA · 第 17 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 86,
+          "sourcePart": "ppt/media/image417.jpeg",
+          "sha256": "4ae1720f54fb4c27f11eeac2d8991df8ddac7d167a9d702c1f5af4d8e4be36e7",
+          "sourceWidth": 1964,
+          "sourceHeight": 1541
+        },
+        {
+          "id": "sleep-018",
+          "src": "/assets/spaces/sleep/full/018-poseena-s087.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/018-poseena-s087.webp",
+          "alt": "睡眠空间 · POSEENA · 第 18 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 87,
+          "sourcePart": "ppt/media/image421.jpeg",
+          "sha256": "69a154e56959dc51731e5eb247831f9a27b98bc0b2c4022d7ad39a4a96c50858",
+          "sourceWidth": 2401,
+          "sourceHeight": 1803
+        },
+        {
+          "id": "sleep-019",
+          "src": "/assets/spaces/sleep/full/019-poseena-s088.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/019-poseena-s088.webp",
+          "alt": "睡眠空间 · POSEENA · 第 19 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 88,
+          "sourcePart": "ppt/media/image426.jpeg",
+          "sha256": "3a8b5a3952bb051df0380e0e9f584992be981dbfba0a1f407fd884864763769a",
+          "sourceWidth": 2800,
+          "sourceHeight": 1868
+        },
+        {
+          "id": "sleep-020",
+          "src": "/assets/spaces/sleep/full/020-poseena-s089.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/020-poseena-s089.webp",
+          "alt": "睡眠空间 · POSEENA · 第 20 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 89,
+          "sourcePart": "ppt/media/image429.jpeg",
+          "sha256": "603716a8caf61047b184de299a7c6d21b73bd2581fcece7d9caf2c692478b47d",
+          "sourceWidth": 2092,
+          "sourceHeight": 1571
+        },
+        {
+          "id": "sleep-021",
+          "src": "/assets/spaces/sleep/full/021-poseena-s090.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/021-poseena-s090.webp",
+          "alt": "睡眠空间 · POSEENA · 第 21 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 90,
+          "sourcePart": "ppt/media/image433.jpeg",
+          "sha256": "1445fc8e71d1983671ad3b8224d3a15199d7967a07aabc5191a32cb147bc2c86",
+          "sourceWidth": 1387,
+          "sourceHeight": 1254
+        },
+        {
+          "id": "sleep-022",
+          "src": "/assets/spaces/sleep/full/022-yanshan-s145.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/022-yanshan-s145.webp",
+          "alt": "睡眠空间 · 砚山 · 第 22 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 145,
+          "sourcePart": "ppt/media/image671.png",
+          "sha256": "cfcfe8c8b6f44f58b33af5f59bfc2f8337dbe4b6ca6089bbf3d2ad24a22fb5b7",
+          "sourceWidth": 2802,
+          "sourceHeight": 1746
+        },
+        {
+          "id": "sleep-023",
+          "src": "/assets/spaces/sleep/full/023-yanshan-s146.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/023-yanshan-s146.webp",
+          "alt": "睡眠空间 · 砚山 · 第 23 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 146,
+          "sourcePart": "ppt/media/image675.png",
+          "sha256": "6c7005a1f2fb611ac0c9be7c62e1a4f864544dfb541d1948dc87c940a8a404fb",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-024",
+          "src": "/assets/spaces/sleep/full/024-yanshan-s146.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/024-yanshan-s146.webp",
+          "alt": "睡眠空间 · 砚山 · 第 24 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 146,
+          "sourcePart": "ppt/media/image678.jpg",
+          "sha256": "6d6663992c658a2d515ae5129725688df4a2bd3247a044e044ea6dd283cc17d8",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-025",
+          "src": "/assets/spaces/sleep/full/025-yanshan-s147.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/025-yanshan-s147.webp",
+          "alt": "睡眠空间 · 砚山 · 第 25 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 147,
+          "sourcePart": "ppt/media/image679.png",
+          "sha256": "4ebae6b6b27e97cdd0ba57f6123d9ebb7b672b117789b2e954de59a7f24ae9ce",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-026",
+          "src": "/assets/spaces/sleep/full/026-yanshan-s147.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/026-yanshan-s147.webp",
+          "alt": "睡眠空间 · 砚山 · 第 26 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 147,
+          "sourcePart": "ppt/media/image680.png",
+          "sha256": "2a1c6ca057220d873b98d2cd623bc715ae82de858a82efb3a1c61ff5c4ef7a25",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-027",
+          "src": "/assets/spaces/sleep/full/027-panshi-s162.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/027-panshi-s162.webp",
+          "alt": "睡眠空间 · 磐石 · 第 27 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 162,
+          "sourcePart": "ppt/media/image732.jpeg",
+          "sha256": "8d2660c9a6d2b75d1220f843897394ed79f1f57c3d2e6cd5846dfb4e504f97c0",
+          "sourceWidth": 2800,
+          "sourceHeight": 1862
+        },
+        {
+          "id": "sleep-028",
+          "src": "/assets/spaces/sleep/full/028-panshi-s163.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/028-panshi-s163.webp",
+          "alt": "睡眠空间 · 磐石 · 第 28 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 163,
+          "sourcePart": "ppt/media/image736.jpg",
+          "sha256": "9d80b52b6fb6006dfca208fedaa839788d87cfb9fce369a6a992b34f4343ecf4",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "sleep-029",
+          "src": "/assets/spaces/sleep/full/029-panshi-s164.webp",
+          "thumbnail": "/assets/spaces/sleep/thumbs/029-panshi-s164.webp",
+          "alt": "睡眠空间 · 磐石 · 第 29 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 164,
+          "sourcePart": "ppt/media/image738.jpeg",
+          "sha256": "9a970794e6aa127cef7c55b6dd2becfb080d9568ecd972c98bd2dd13e2b9ecd2",
+          "sourceWidth": 1872,
+          "sourceHeight": 1249
+        }
+      ]
+    },
+    {
+      "id": "cloakroom",
+      "title": "衣帽空间",
+      "count": 12,
+      "cover": "/assets/spaces/cloakroom/full/001-poseena-s092.webp",
+      "images": [
+        {
+          "id": "cloakroom-001",
+          "src": "/assets/spaces/cloakroom/full/001-poseena-s092.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/001-poseena-s092.webp",
+          "alt": "衣帽空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 92,
+          "sourcePart": "ppt/media/image442.jpeg",
+          "sha256": "ea96bcbed3373661c2b972abd5a15549959060fc1855d3f32b5bf93a19cf8552",
+          "sourceWidth": 2769,
+          "sourceHeight": 1680
+        },
+        {
+          "id": "cloakroom-002",
+          "src": "/assets/spaces/cloakroom/full/002-poseena-s093.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/002-poseena-s093.webp",
+          "alt": "衣帽空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 93,
+          "sourcePart": "ppt/media/image456.png",
+          "sha256": "da3a68a13fc0856474b864ba0e01c1f48aabbd2ed10ac9ea1800eaa84cdc37f3",
+          "sourceWidth": 887,
+          "sourceHeight": 1212
+        },
+        {
+          "id": "cloakroom-003",
+          "src": "/assets/spaces/cloakroom/full/003-poseena-s093.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/003-poseena-s093.webp",
+          "alt": "衣帽空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 93,
+          "sourcePart": "ppt/media/image446.jpeg",
+          "sha256": "73802cccdddb84981eb3acf48ffb726649e62549b80d7328a46368d223251262",
+          "sourceWidth": 2761,
+          "sourceHeight": 1662
+        },
+        {
+          "id": "cloakroom-004",
+          "src": "/assets/spaces/cloakroom/full/004-poseena-s093.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/004-poseena-s093.webp",
+          "alt": "衣帽空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 93,
+          "sourcePart": "ppt/media/image450.jpeg",
+          "sha256": "b1f90039bec4e8fa02c32e00b8c46ea610d73a17e465fe6b9bd313adf3e7aacd",
+          "sourceWidth": 981,
+          "sourceHeight": 1470
+        },
+        {
+          "id": "cloakroom-005",
+          "src": "/assets/spaces/cloakroom/full/005-poseena-s093.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/005-poseena-s093.webp",
+          "alt": "衣帽空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 93,
+          "sourcePart": "ppt/media/image454.jpeg",
+          "sha256": "b5e8d246860972d50ad29c39a7bb76dc07afd4a828ebf11e9b15c5f420ae5de8",
+          "sourceWidth": 1719,
+          "sourceHeight": 1119
+        },
+        {
+          "id": "cloakroom-006",
+          "src": "/assets/spaces/cloakroom/full/006-poseena-s093.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/006-poseena-s093.webp",
+          "alt": "衣帽空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 93,
+          "sourcePart": "ppt/media/image458.png",
+          "sha256": "901e1ecf434c029e52d6c741acaf489ca8435dcf6cd8df991eff356015100ed6",
+          "sourceWidth": 888,
+          "sourceHeight": 1212
+        },
+        {
+          "id": "cloakroom-007",
+          "src": "/assets/spaces/cloakroom/full/007-poseena-s094.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/007-poseena-s094.webp",
+          "alt": "衣帽空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 94,
+          "sourcePart": "ppt/media/image463.jpeg",
+          "sha256": "e64210b713e6b466c8212d0a3ba5406e7265cac32a8519cee1d2c7c77a11e68b",
+          "sourceWidth": 950,
+          "sourceHeight": 1302
+        },
+        {
+          "id": "cloakroom-008",
+          "src": "/assets/spaces/cloakroom/full/008-poseena-s094.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/008-poseena-s094.webp",
+          "alt": "衣帽空间 · POSEENA · 第 8 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 94,
+          "sourcePart": "ppt/media/image459.jpeg",
+          "sha256": "6b26368c995b839e36437611794aad95c839e5f466d43225969c62deb86a2ad5",
+          "sourceWidth": 1984,
+          "sourceHeight": 1599
+        },
+        {
+          "id": "cloakroom-009",
+          "src": "/assets/spaces/cloakroom/full/009-poseena-s095.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/009-poseena-s095.webp",
+          "alt": "衣帽空间 · POSEENA · 第 9 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 95,
+          "sourcePart": "ppt/media/image466.jpeg",
+          "sha256": "b10824adc211058afb3e7e09e31df93d3e454991f56e42e1c59e08eae4eadcc1",
+          "sourceWidth": 2779,
+          "sourceHeight": 1656
+        },
+        {
+          "id": "cloakroom-010",
+          "src": "/assets/spaces/cloakroom/full/010-poseena-s096.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/010-poseena-s096.webp",
+          "alt": "衣帽空间 · POSEENA · 第 10 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 96,
+          "sourcePart": "ppt/media/image468.jpeg",
+          "sha256": "7a8614c3b578a3c2eebf981282a2a74e4dac60ab0929526b083d25a2ef39748d",
+          "sourceWidth": 2839,
+          "sourceHeight": 1873
+        },
+        {
+          "id": "cloakroom-011",
+          "src": "/assets/spaces/cloakroom/full/011-poseena-s097.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/011-poseena-s097.webp",
+          "alt": "衣帽空间 · POSEENA · 第 11 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 97,
+          "sourcePart": "ppt/media/image471.jpeg",
+          "sha256": "34990bdd12ae751bfdddddf5b26cd9c563859a4687f206e535422ddad479216e",
+          "sourceWidth": 2767,
+          "sourceHeight": 1724
+        },
+        {
+          "id": "cloakroom-012",
+          "src": "/assets/spaces/cloakroom/full/012-poseena-s098.webp",
+          "thumbnail": "/assets/spaces/cloakroom/thumbs/012-poseena-s098.webp",
+          "alt": "衣帽空间 · POSEENA · 第 12 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 98,
+          "sourcePart": "ppt/media/image473.jpg",
+          "sha256": "b84188a0efd556e36305b13a882df7e8b032e4c03a8f80bb8065892007737438",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "title": "书茶空间",
+      "count": 34,
+      "cover": "/assets/spaces/study/full/001-poseena-s100.webp",
+      "images": [
+        {
+          "id": "study-001",
+          "src": "/assets/spaces/study/full/001-poseena-s100.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/001-poseena-s100.webp",
+          "alt": "书茶空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 100,
+          "sourcePart": "ppt/media/image483.jpeg",
+          "sha256": "cdedc92079efc2374d128fce33f06a6c222650a559e68b3ac27951ad9a36fbad",
+          "sourceWidth": 2771,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "study-002",
+          "src": "/assets/spaces/study/full/002-poseena-s101.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/002-poseena-s101.webp",
+          "alt": "书茶空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 101,
+          "sourcePart": "ppt/media/image488.jpeg",
+          "sha256": "c83deaf3ab9de3f572abd561357e8a339a4b171a988585d2867c876938ccc679",
+          "sourceWidth": 2800,
+          "sourceHeight": 1867
+        },
+        {
+          "id": "study-003",
+          "src": "/assets/spaces/study/full/003-poseena-s102.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/003-poseena-s102.webp",
+          "alt": "书茶空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 102,
+          "sourcePart": "ppt/media/image492.jpeg",
+          "sha256": "caa8a9c057244c25a72a201398042aac14e658adc6fe252c6d8662d37ca5546b",
+          "sourceWidth": 2278,
+          "sourceHeight": 1645
+        },
+        {
+          "id": "study-004",
+          "src": "/assets/spaces/study/full/004-poseena-s103.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/004-poseena-s103.webp",
+          "alt": "书茶空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 103,
+          "sourcePart": "ppt/media/image497.jpeg",
+          "sha256": "1beb953ee017a58f380e57818511e6ad42f9149943d6d6ee328d9c9320322846",
+          "sourceWidth": 2735,
+          "sourceHeight": 1767
+        },
+        {
+          "id": "study-005",
+          "src": "/assets/spaces/study/full/005-poseena-s104.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/005-poseena-s104.webp",
+          "alt": "书茶空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 104,
+          "sourcePart": "ppt/media/image503.jpeg",
+          "sha256": "90b56fe6776655407a662c393ef766995455417d042d9cff9766b998be180c27",
+          "sourceWidth": 1314,
+          "sourceHeight": 877
+        },
+        {
+          "id": "study-006",
+          "src": "/assets/spaces/study/full/006-poseena-s104.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/006-poseena-s104.webp",
+          "alt": "书茶空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 104,
+          "sourcePart": "ppt/media/image502.jpeg",
+          "sha256": "c173b18c3f47b151b5d3196ac9176ac0307d06568b04ae0a4226cf187692d64a",
+          "sourceWidth": 1114,
+          "sourceHeight": 1669
+        },
+        {
+          "id": "study-007",
+          "src": "/assets/spaces/study/full/007-poseena-s105.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/007-poseena-s105.webp",
+          "alt": "书茶空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 105,
+          "sourcePart": "ppt/media/image507.jpeg",
+          "sha256": "16299a160dcc0b6d64801029b3d33defe8bca1a4845c93bd50e3d7025e69d165",
+          "sourceWidth": 1681,
+          "sourceHeight": 1123
+        },
+        {
+          "id": "study-008",
+          "src": "/assets/spaces/study/full/008-poseena-s105.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/008-poseena-s105.webp",
+          "alt": "书茶空间 · POSEENA · 第 8 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 105,
+          "sourcePart": "ppt/media/image509.jpeg",
+          "sha256": "3d7d280a4c611bab1712c8b33b18e212728327b08582478a443b3434f19607a7",
+          "sourceWidth": 1102,
+          "sourceHeight": 737
+        },
+        {
+          "id": "study-009",
+          "src": "/assets/spaces/study/full/009-poseena-s106.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/009-poseena-s106.webp",
+          "alt": "书茶空间 · POSEENA · 第 9 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 106,
+          "sourcePart": "ppt/media/image513.jpeg",
+          "sha256": "2a179a72cbd128602552e06262d50e17a93db6b53cb2316b13b8d6d86965ce72",
+          "sourceWidth": 3041,
+          "sourceHeight": 1887
+        },
+        {
+          "id": "study-010",
+          "src": "/assets/spaces/study/full/010-poseena-s107.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/010-poseena-s107.webp",
+          "alt": "书茶空间 · POSEENA · 第 10 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 107,
+          "sourcePart": "ppt/media/image518.jpg",
+          "sha256": "fc58f8b0f57d547eafce5e8c0123b1c722d8295987a41ab88f35262235c8d84d",
+          "sourceWidth": 947,
+          "sourceHeight": 1419
+        },
+        {
+          "id": "study-011",
+          "src": "/assets/spaces/study/full/011-poseena-s108.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/011-poseena-s108.webp",
+          "alt": "书茶空间 · POSEENA · 第 11 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 108,
+          "sourcePart": "ppt/media/image523.jpeg",
+          "sha256": "c36923ccd5675b3009147983245c93b72b12db38b98c70f0d9002b05d67239cd",
+          "sourceWidth": 2800,
+          "sourceHeight": 1761
+        },
+        {
+          "id": "study-012",
+          "src": "/assets/spaces/study/full/012-poseena-s109.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/012-poseena-s109.webp",
+          "alt": "书茶空间 · POSEENA · 第 12 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 109,
+          "sourcePart": "ppt/media/image527.jpeg",
+          "sha256": "c0fb983d10864450ec5960fe6862d25b7196672c854f0fd061d60150bc16eb4f",
+          "sourceWidth": 2813,
+          "sourceHeight": 1829
+        },
+        {
+          "id": "study-013",
+          "src": "/assets/spaces/study/full/013-poseena-s110.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/013-poseena-s110.webp",
+          "alt": "书茶空间 · POSEENA · 第 13 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 110,
+          "sourcePart": "ppt/media/image531.jpeg",
+          "sha256": "c3052cf7879c64b216b153088b5d76c84800fdd43ee41becc751a44f3c6e19ab",
+          "sourceWidth": 2427,
+          "sourceHeight": 1597
+        },
+        {
+          "id": "study-014",
+          "src": "/assets/spaces/study/full/014-poseena-s111.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/014-poseena-s111.webp",
+          "alt": "书茶空间 · POSEENA · 第 14 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 111,
+          "sourcePart": "ppt/media/image535.jpeg",
+          "sha256": "4aab690e805c32f1fe10dfa18c73e9ce9a92c8be99d63e89fc43e4e7ef060380",
+          "sourceWidth": 2800,
+          "sourceHeight": 1861
+        },
+        {
+          "id": "study-015",
+          "src": "/assets/spaces/study/full/015-poseena-s112.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/015-poseena-s112.webp",
+          "alt": "书茶空间 · POSEENA · 第 15 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 112,
+          "sourcePart": "ppt/media/image540.jpeg",
+          "sha256": "f077dd4c2c75cfaa4e8e6b92e720b0d4f7c24602a380c21d6326d2063dc671e9",
+          "sourceWidth": 933,
+          "sourceHeight": 780
+        },
+        {
+          "id": "study-016",
+          "src": "/assets/spaces/study/full/016-poseena-s112.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/016-poseena-s112.webp",
+          "alt": "书茶空间 · POSEENA · 第 16 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 112,
+          "sourcePart": "ppt/media/image539.jpeg",
+          "sha256": "4438928ed60c0d4c5b689a42c2090184de5151d9108025944fa19884279d6f27",
+          "sourceWidth": 1390,
+          "sourceHeight": 2082
+        },
+        {
+          "id": "study-017",
+          "src": "/assets/spaces/study/full/017-poseena-s113.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/017-poseena-s113.webp",
+          "alt": "书茶空间 · POSEENA · 第 17 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 113,
+          "sourcePart": "ppt/media/image544.jpeg",
+          "sha256": "4c900b05540923d6fb10bd9b14381522171116c2d609a46077b77b2b48991b27",
+          "sourceWidth": 1144,
+          "sourceHeight": 2036
+        },
+        {
+          "id": "study-018",
+          "src": "/assets/spaces/study/full/018-poseena-s113.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/018-poseena-s113.webp",
+          "alt": "书茶空间 · POSEENA · 第 18 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 113,
+          "sourcePart": "ppt/media/image545.jpeg",
+          "sha256": "7985fa0d7a4889d32b350586d4ebaecea147105ec95ec07467f34ec375d3c346",
+          "sourceWidth": 837,
+          "sourceHeight": 1253
+        },
+        {
+          "id": "study-019",
+          "src": "/assets/spaces/study/full/019-poseena-s114.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/019-poseena-s114.webp",
+          "alt": "书茶空间 · POSEENA · 第 19 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 114,
+          "sourcePart": "ppt/media/image548.jpeg",
+          "sha256": "ea376581b6d6f665356c45ff1242976ad7f2ee2b9a76e077b0c98502962675cb",
+          "sourceWidth": 2487,
+          "sourceHeight": 1774
+        },
+        {
+          "id": "study-020",
+          "src": "/assets/spaces/study/full/020-poseena-s115.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/020-poseena-s115.webp",
+          "alt": "书茶空间 · POSEENA · 第 20 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 115,
+          "sourcePart": "ppt/media/image552.jpg",
+          "sha256": "db540c7c2fb2ded449c1bea421070a9c1d2d0811c1b5d70ef11a3823b8490d62",
+          "sourceWidth": 2880,
+          "sourceHeight": 1920
+        },
+        {
+          "id": "study-021",
+          "src": "/assets/spaces/study/full/021-poseena-s116.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/021-poseena-s116.webp",
+          "alt": "书茶空间 · POSEENA · 第 21 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 116,
+          "sourcePart": "ppt/media/image556.jpg",
+          "sha256": "4b0aa2280ffb1b633ae7792dd49bfebde9f79542b5cf558962ae8d4f74971669",
+          "sourceWidth": 1543,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "study-022",
+          "src": "/assets/spaces/study/full/022-poseena-s116.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/022-poseena-s116.webp",
+          "alt": "书茶空间 · POSEENA · 第 22 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 116,
+          "sourcePart": "ppt/media/image555.jpg",
+          "sha256": "0e659a02ef22cda82bb4dae60d28b4455d3f7244cb9dd1073e947f1eb1663cfa",
+          "sourceWidth": 801,
+          "sourceHeight": 1022
+        },
+        {
+          "id": "study-023",
+          "src": "/assets/spaces/study/full/023-yanshan-s149.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/023-yanshan-s149.webp",
+          "alt": "书茶空间 · 砚山 · 第 23 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 149,
+          "sourcePart": "ppt/media/image684.png",
+          "sha256": "c97bf828e9ebebb6c0aa169d91ad66fcd4ce19a141e260b892bec95f8343061f",
+          "sourceWidth": 2802,
+          "sourceHeight": 1746
+        },
+        {
+          "id": "study-024",
+          "src": "/assets/spaces/study/full/024-yanshan-s150.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/024-yanshan-s150.webp",
+          "alt": "书茶空间 · 砚山 · 第 24 张",
+          "series": [
+            "yanshan"
+          ],
+          "sourceSlide": 150,
+          "sourcePart": "ppt/media/image688.png",
+          "sha256": "36ef6ed60f914c352facbfdea84f6e53c0cfb334347a24a63975b2b03eb4d8db",
+          "sourceWidth": 1741,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "study-025",
+          "src": "/assets/spaces/study/full/025-panshi-s166.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/025-panshi-s166.webp",
+          "alt": "书茶空间 · 磐石 · 第 25 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 166,
+          "sourcePart": "ppt/media/image744.jpeg",
+          "sha256": "a59ada38d34246270efcc73852f6052cbc8116d8567dc1d3a34689d0d289958f",
+          "sourceWidth": 2767,
+          "sourceHeight": 1846
+        },
+        {
+          "id": "study-026",
+          "src": "/assets/spaces/study/full/026-panshi-s167.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/026-panshi-s167.webp",
+          "alt": "书茶空间 · 磐石 · 第 26 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 167,
+          "sourcePart": "ppt/media/image751.jpeg",
+          "sha256": "7df07432dcbded5af38f994da22a1ff214d4baab5f1a1d9483400037a64d7f2a",
+          "sourceWidth": 1217,
+          "sourceHeight": 1825
+        },
+        {
+          "id": "study-027",
+          "src": "/assets/spaces/study/full/027-panshi-s167.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/027-panshi-s167.webp",
+          "alt": "书茶空间 · 磐石 · 第 27 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 167,
+          "sourcePart": "ppt/media/image748.jpg",
+          "sha256": "be2d14a63fb3f594b40552440b3385c38e3d4535d809b7d84f2bdcb4096bdcab",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "study-028",
+          "src": "/assets/spaces/study/full/028-panshi-s167.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/028-panshi-s167.webp",
+          "alt": "书茶空间 · 磐石 · 第 28 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 167,
+          "sourcePart": "ppt/media/image754.jpeg",
+          "sha256": "894d2a8ed0bdac066943c0ddd9cff906f4c57bfb9d480c464fcc8350cdc8a48e",
+          "sourceWidth": 1866,
+          "sourceHeight": 1245
+        },
+        {
+          "id": "study-029",
+          "src": "/assets/spaces/study/full/029-panshi-s167.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/029-panshi-s167.webp",
+          "alt": "书茶空间 · 磐石 · 第 29 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 167,
+          "sourcePart": "ppt/media/image756.jpeg",
+          "sha256": "d92954e187473eac9f26eb4bcbf3f17d1c325402374ed6f8a135a095b61f251f",
+          "sourceWidth": 1086,
+          "sourceHeight": 720
+        },
+        {
+          "id": "study-030",
+          "src": "/assets/spaces/study/full/030-panshi-s167.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/030-panshi-s167.webp",
+          "alt": "书茶空间 · 磐石 · 第 30 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 167,
+          "sourcePart": "ppt/media/image755.jpeg",
+          "sha256": "c66459b64cd8e64ba154263220c1030f73c923fedadd3cae13fa261682759b00",
+          "sourceWidth": 1223,
+          "sourceHeight": 1835
+        },
+        {
+          "id": "study-031",
+          "src": "/assets/spaces/study/full/031-panshi-s168.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/031-panshi-s168.webp",
+          "alt": "书茶空间 · 磐石 · 第 31 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 168,
+          "sourcePart": "ppt/media/image759.jpeg",
+          "sha256": "e7c3005a741b0c85575c9cc864eb81b38e2dd4891f155cfc42ec323ff9ffefad",
+          "sourceWidth": 1861,
+          "sourceHeight": 1396
+        },
+        {
+          "id": "study-032",
+          "src": "/assets/spaces/study/full/032-panshi-s169.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/032-panshi-s169.webp",
+          "alt": "书茶空间 · 磐石 · 第 32 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 169,
+          "sourcePart": "ppt/media/image768.jpeg",
+          "sha256": "531079fc510143a5afc53bbae9ddc2c739b554859fc06d1d834970ee3ac2ccd1",
+          "sourceWidth": 1079,
+          "sourceHeight": 720
+        },
+        {
+          "id": "study-033",
+          "src": "/assets/spaces/study/full/033-panshi-s169.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/033-panshi-s169.webp",
+          "alt": "书茶空间 · 磐石 · 第 33 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 169,
+          "sourcePart": "ppt/media/image767.jpeg",
+          "sha256": "dda72ca816bdb851151836f33aa6f81c0e5c5bc4476c2d7f3d2629596f32f6d6",
+          "sourceWidth": 1389,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "study-034",
+          "src": "/assets/spaces/study/full/034-panshi-s169.webp",
+          "thumbnail": "/assets/spaces/study/thumbs/034-panshi-s169.webp",
+          "alt": "书茶空间 · 磐石 · 第 34 张",
+          "series": [
+            "panshi"
+          ],
+          "sourceSlide": 169,
+          "sourcePart": "ppt/media/image769.png",
+          "sha256": "b94566311a1ae36b9a2e507aa528d788dccb2e43e9462d7b6e6d30a6a951c31f",
+          "sourceWidth": 1080,
+          "sourceHeight": 1454
+        }
+      ]
+    },
+    {
+      "id": "bathroom",
+      "title": "卫浴空间",
+      "count": 5,
+      "cover": "/assets/spaces/bathroom/full/001-poseena-s118.webp",
+      "images": [
+        {
+          "id": "bathroom-001",
+          "src": "/assets/spaces/bathroom/full/001-poseena-s118.webp",
+          "thumbnail": "/assets/spaces/bathroom/thumbs/001-poseena-s118.webp",
+          "alt": "卫浴空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 118,
+          "sourcePart": "ppt/media/image561.jpeg",
+          "sha256": "2e784742592fe42bf82b98921917b77c6e0bb2d2cf03b22f39d494a61de7af43",
+          "sourceWidth": 2777,
+          "sourceHeight": 1740
+        },
+        {
+          "id": "bathroom-002",
+          "src": "/assets/spaces/bathroom/full/002-poseena-s119.webp",
+          "thumbnail": "/assets/spaces/bathroom/thumbs/002-poseena-s119.webp",
+          "alt": "卫浴空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 119,
+          "sourcePart": "ppt/media/image564.png",
+          "sha256": "7b3c6d3eec69a8d0ddabfb6c7191a5919e6500cd1ae787dc41905410665ed1df",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "bathroom-003",
+          "src": "/assets/spaces/bathroom/full/003-poseena-s120.webp",
+          "thumbnail": "/assets/spaces/bathroom/thumbs/003-poseena-s120.webp",
+          "alt": "卫浴空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 120,
+          "sourcePart": "ppt/media/image568.jpg",
+          "sha256": "f8059eb9a9625cef4c6c574d425e81996a8e8ff8df03476974a596af55b69073",
+          "sourceWidth": 1088,
+          "sourceHeight": 726
+        },
+        {
+          "id": "bathroom-004",
+          "src": "/assets/spaces/bathroom/full/004-poseena-s120.webp",
+          "thumbnail": "/assets/spaces/bathroom/thumbs/004-poseena-s120.webp",
+          "alt": "卫浴空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 120,
+          "sourcePart": "ppt/media/image570.jpg",
+          "sha256": "3c8271f13b578b5e5a94f2c0e887fa7e0a6c00149b5ec6d3c3212f1ae593a775",
+          "sourceWidth": 1331,
+          "sourceHeight": 889
+        },
+        {
+          "id": "bathroom-005",
+          "src": "/assets/spaces/bathroom/full/005-poseena-s120.webp",
+          "thumbnail": "/assets/spaces/bathroom/thumbs/005-poseena-s120.webp",
+          "alt": "卫浴空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 120,
+          "sourcePart": "ppt/media/image569.jpg",
+          "sha256": "944b836c7935dfb82bd614ffbc259ee7d3bab7aac3828bef9442c155fdaacc26",
+          "sourceWidth": 1088,
+          "sourceHeight": 726
+        }
+      ]
+    },
+    {
+      "id": "balcony",
+      "title": "阳台空间",
+      "count": 2,
+      "cover": "/assets/spaces/balcony/full/001-poseena-s122.webp",
+      "images": [
+        {
+          "id": "balcony-001",
+          "src": "/assets/spaces/balcony/full/001-poseena-s122.webp",
+          "thumbnail": "/assets/spaces/balcony/thumbs/001-poseena-s122.webp",
+          "alt": "阳台空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 122,
+          "sourcePart": "ppt/media/image575.jpeg",
+          "sha256": "b2bd7acaf696c327a4d63c363cc6f3935f4146b33e06451aa0a8ea4c4a2e784e",
+          "sourceWidth": 2723,
+          "sourceHeight": 1634
+        },
+        {
+          "id": "balcony-002",
+          "src": "/assets/spaces/balcony/full/002-poseena-s123.webp",
+          "thumbnail": "/assets/spaces/balcony/thumbs/002-poseena-s123.webp",
+          "alt": "阳台空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 123,
+          "sourcePart": "ppt/media/image580.jpeg",
+          "sha256": "31579c0bcedf71b6fb716bdf7f75432e07d5c61062da452d826de82710b5df69",
+          "sourceWidth": 2800,
+          "sourceHeight": 1750
+        }
+      ]
+    },
+    {
+      "id": "recreation",
+      "title": "康乐空间",
+      "count": 2,
+      "cover": "/assets/spaces/recreation/full/001-poseena-s125.webp",
+      "images": [
+        {
+          "id": "recreation-001",
+          "src": "/assets/spaces/recreation/full/001-poseena-s125.webp",
+          "thumbnail": "/assets/spaces/recreation/thumbs/001-poseena-s125.webp",
+          "alt": "康乐空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 125,
+          "sourcePart": "ppt/media/image584.jpeg",
+          "sha256": "a60a0110dc2b2ec5eb319dd14ed296fe17282fb4d3d3e4d091dfc3c69ca31bd1",
+          "sourceWidth": 2769,
+          "sourceHeight": 1545
+        },
+        {
+          "id": "recreation-002",
+          "src": "/assets/spaces/recreation/full/002-poseena-s126.webp",
+          "thumbnail": "/assets/spaces/recreation/thumbs/002-poseena-s126.webp",
+          "alt": "康乐空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 126,
+          "sourcePart": "ppt/media/image590.jpeg",
+          "sha256": "a2e626700371a72ec229be98a670da04e575c27da060ad5dd8e3a43b473b5b7a",
+          "sourceWidth": 2733,
+          "sourceHeight": 1475
+        }
+      ]
+    },
+    {
+      "id": "collection",
+      "title": "典藏空间",
+      "count": 7,
+      "cover": "/assets/spaces/collection/full/001-poseena-s128.webp",
+      "images": [
+        {
+          "id": "collection-001",
+          "src": "/assets/spaces/collection/full/001-poseena-s128.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/001-poseena-s128.webp",
+          "alt": "典藏空间 · POSEENA · 第 1 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 128,
+          "sourcePart": "ppt/media/image595.jpeg",
+          "sha256": "6b36aeecdf45f8e653350f9e29606ce7db0d6e612ffa8c9266522bed39627e66",
+          "sourceWidth": 2773,
+          "sourceHeight": 1606
+        },
+        {
+          "id": "collection-002",
+          "src": "/assets/spaces/collection/full/002-poseena-s129.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/002-poseena-s129.webp",
+          "alt": "典藏空间 · POSEENA · 第 2 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 129,
+          "sourcePart": "ppt/media/image604.jpeg",
+          "sha256": "7f9ee00d9d0a6a68fe2b5f30ba7190675a5fdb5e74f7ea54976526962b486acc",
+          "sourceWidth": 1867,
+          "sourceHeight": 1215
+        },
+        {
+          "id": "collection-003",
+          "src": "/assets/spaces/collection/full/003-poseena-s129.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/003-poseena-s129.webp",
+          "alt": "典藏空间 · POSEENA · 第 3 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 129,
+          "sourcePart": "ppt/media/image599.jpg",
+          "sha256": "cf573d31a89e4fe1fe9f8530e8f2b11b91ba8ef38864de789d6ec4dee2291caa",
+          "sourceWidth": 2800,
+          "sourceHeight": 2080
+        },
+        {
+          "id": "collection-004",
+          "src": "/assets/spaces/collection/full/004-poseena-s129.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/004-poseena-s129.webp",
+          "alt": "典藏空间 · POSEENA · 第 4 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 129,
+          "sourcePart": "ppt/media/image607.jpeg",
+          "sha256": "ee8c218f2ca67df620c626371c6746e93bdb26450cd9c020ef8a60193ccffc5e",
+          "sourceWidth": 1306,
+          "sourceHeight": 1957
+        },
+        {
+          "id": "collection-005",
+          "src": "/assets/spaces/collection/full/005-poseena-s129.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/005-poseena-s129.webp",
+          "alt": "典藏空间 · POSEENA · 第 5 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 129,
+          "sourcePart": "ppt/media/image606.png",
+          "sha256": "9785062650380724f2a75834c2cd85569911ad1917d54429d7f09abb0a910116",
+          "sourceWidth": 1070,
+          "sourceHeight": 1442
+        },
+        {
+          "id": "collection-006",
+          "src": "/assets/spaces/collection/full/006-poseena-s130.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/006-poseena-s130.webp",
+          "alt": "典藏空间 · POSEENA · 第 6 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 130,
+          "sourcePart": "ppt/media/image609.jpeg",
+          "sha256": "47030606a498f23446c1a444f4b056ef8a8b67b9135820b038dda08037b711be",
+          "sourceWidth": 1389,
+          "sourceHeight": 2077
+        },
+        {
+          "id": "collection-007",
+          "src": "/assets/spaces/collection/full/007-poseena-s130.webp",
+          "thumbnail": "/assets/spaces/collection/thumbs/007-poseena-s130.webp",
+          "alt": "典藏空间 · POSEENA · 第 7 张",
+          "series": [
+            "poseena"
+          ],
+          "sourceSlide": 130,
+          "sourcePart": "ppt/media/image611.jpeg",
+          "sha256": "6bff038c465db01652f7a744ce64c7f9157216e0fab0c271f8f693de94eb8c4c",
+          "sourceWidth": 911,
+          "sourceHeight": 1364
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 import { computed } from "vue";
 
 import FinishedSeriesTabs from "@/components/products/FinishedSeriesTabs.vue";
+import FinishedCatalogShowcase from "@/components/products/FinishedCatalogShowcase.vue";
 import FinishedSpaceShowcase from "@/components/products/FinishedSpaceShowcase.vue";
 import ProductPageShell from "@/components/products/ProductPageShell.vue";
 import ProductReveal from "@/components/products/ProductReveal.vue";
@@ -9,6 +10,7 @@ import {
   finishedSeriesTabs,
   finishedSystemVariants,
 } from "@/data/products/finished";
+import { poseenaFinishedCatalogGroups } from "@/data/products/poseenaCatalog";
 import type { FinishedSeriesKey } from "@/types/products";
 
 const props = defineProps<{
@@ -69,7 +71,12 @@ const hasCyrillicIntroduction = computed(() =>
       </div>
     </section>
 
+    <FinishedCatalogShowcase
+      v-if="variant.key === 'poseena'"
+      :groups="poseenaFinishedCatalogGroups"
+    />
     <FinishedSpaceShowcase
+      v-else
       :spaces="variant.spaces"
       :series-label="variant.introduction.title"
     />

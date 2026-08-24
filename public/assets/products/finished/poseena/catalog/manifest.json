@@ -1,0 +1,1796 @@
+{
+  "groups": [
+    {
+      "id": "sofa",
+      "label": "沙发",
+      "firstSlide": 238,
+      "lastSlide": 247,
+      "images": [
+        {
+          "id": "sofa-001",
+          "slide": 238,
+          "filename": "001-s238.webp",
+          "sha256": "a68cfcb6bb73e5e0836bf4960b8d81955c4bad42403ca7aff872e624029a09d7",
+          "width": 2515,
+          "height": 581,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-002",
+          "slide": 239,
+          "filename": "002-s239.webp",
+          "sha256": "a85be7d2198c9bfd414577fe29282d23be23fc3417f96758239b5c4869f7446e",
+          "width": 2560,
+          "height": 561,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-003",
+          "slide": 240,
+          "filename": "003-s240.webp",
+          "sha256": "c1715b3052d36371b06caee009866b6b029f3f3e8df73018e71c4241f423df83",
+          "width": 2347,
+          "height": 937,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-004",
+          "slide": 241,
+          "filename": "004-s241.webp",
+          "sha256": "b609f78a2622ecfd7b958a769681c19c3670d20d733695933e0dd7dde10ed647",
+          "width": 2006,
+          "height": 850,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-005",
+          "slide": 242,
+          "filename": "005-s242.webp",
+          "sha256": "aa14c5e87d3424f42b59ac19436800165d69d75969ce0194d20efdf7268b5d12",
+          "width": 1775,
+          "height": 834,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-006",
+          "slide": 243,
+          "filename": "006-s243.webp",
+          "sha256": "fd24f776cc89053aa472d6f27d07fa2d5effe6fe3f209c89fb7e710d818035f8",
+          "width": 1709,
+          "height": 795,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-007",
+          "slide": 244,
+          "filename": "007-s244.webp",
+          "sha256": "bd81abdb9e46ba571f950317add04fbc1c6f38b568b9abe4415ee5545c8142df",
+          "width": 2475,
+          "height": 655,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-008",
+          "slide": 245,
+          "filename": "008-s245.webp",
+          "sha256": "6efde0254e42c31d9264319d7b74600e2945e7b621c97e36a8929d0339766be8",
+          "width": 2423,
+          "height": 767,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-009",
+          "slide": 246,
+          "filename": "009-s246.webp",
+          "sha256": "bb68d177fb484e19b54ba08e7feb5ee229749c21b9b77c0015c9b8f6d70bf4bf",
+          "width": 1549,
+          "height": 778,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "sofa-010",
+          "slide": 247,
+          "filename": "010-s247.webp",
+          "sha256": "acad9884400770d38f36a2ea45b37863eb013fd24581240336c648e8daef6761",
+          "width": 1737,
+          "height": 803,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "chair-stool",
+      "label": "椅凳",
+      "firstSlide": 248,
+      "lastSlide": 276,
+      "images": [
+        {
+          "id": "chair-stool-001",
+          "slide": 248,
+          "filename": "001-s248.webp",
+          "sha256": "7a86a50fe460f9575ac90702991cb66271fa93520920f17af38ee4ffed171dbd",
+          "width": 917,
+          "height": 884,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-002",
+          "slide": 249,
+          "filename": "002-s249.webp",
+          "sha256": "1f69f497299e5b8802903c48cd63c5001a4d62f78f38bdc73d37d9beac68bca6",
+          "width": 1056,
+          "height": 887,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-003",
+          "slide": 250,
+          "filename": "003-s250.webp",
+          "sha256": "0a66db91b1c3de9d5d90fe99dde72039c18686d03a1f956b07e102e1efb2f1df",
+          "width": 963,
+          "height": 896,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-004",
+          "slide": 251,
+          "filename": "004-s251.webp",
+          "sha256": "182323f09036150adae1673de5e586f98267e024f11d1a4ee804b297d6c9c7e9",
+          "width": 972,
+          "height": 901,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-005",
+          "slide": 252,
+          "filename": "005-s252.webp",
+          "sha256": "579a490d61d04c19cf3240f1e9a6ccd8223d7c5e3ae47b0efb72e0a7fe9c1b91",
+          "width": 943,
+          "height": 1003,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-006",
+          "slide": 253,
+          "filename": "006-s253.webp",
+          "sha256": "78888844b58f9d67f5a7d86ce4266dafa277cb1734b3301d573c10d75912c5c8",
+          "width": 916,
+          "height": 811,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-007",
+          "slide": 254,
+          "filename": "007-s254.webp",
+          "sha256": "be5e15977c6cb632beafc363cd67ee76997a3a54aafb2d1d4ed76a36a5ede7b0",
+          "width": 890,
+          "height": 948,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-008",
+          "slide": 255,
+          "filename": "008-s255.webp",
+          "sha256": "a4ecdd11dc85547f7d4b4b746158758a9b53d77b66a8cc8473750b59c155316e",
+          "width": 1382,
+          "height": 1070,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-009",
+          "slide": 256,
+          "filename": "009-s256.webp",
+          "sha256": "f9a356b18018dd386f1910b25e839fb181b878c438bf5d35250d55c6b9f70218",
+          "width": 832,
+          "height": 966,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-010",
+          "slide": 257,
+          "filename": "010-s257.webp",
+          "sha256": "a84d19ff1e4d478c95b3d9559f55cc03fac8fbb3d1c9019da910d67885c7f355",
+          "width": 773,
+          "height": 907,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-011",
+          "slide": 258,
+          "filename": "011-s258.webp",
+          "sha256": "180e1a3def48229bad3dd3b07323a79da852042040353673968a1f0dc7cc4154",
+          "width": 759,
+          "height": 897,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-012",
+          "slide": 259,
+          "filename": "012-s259.webp",
+          "sha256": "8a6731b59ef230f104d5a22a8f0227ab33c597c139470927fc9a53032f5e8ad7",
+          "width": 763,
+          "height": 937,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-013",
+          "slide": 260,
+          "filename": "013-s260.webp",
+          "sha256": "49c6ced486cc85ebfaff4a5b824d5e85f0dd2e206a77317c6477e013938b822d",
+          "width": 760,
+          "height": 917,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-014",
+          "slide": 261,
+          "filename": "014-s261.webp",
+          "sha256": "f521b258ea613042eff3b5f88d6ecd1ca55126f588c89f76310ffd3b1993178e",
+          "width": 740,
+          "height": 884,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-015",
+          "slide": 262,
+          "filename": "015-s262.webp",
+          "sha256": "b95dd449bb503c698c3a3480ec02ddb8a1d4bdcb9a0114fe3e177ecb77266afc",
+          "width": 784,
+          "height": 895,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-016",
+          "slide": 263,
+          "filename": "016-s263.webp",
+          "sha256": "08b95d502e90c51a65a51bf53933bc165f518569d8903af4d23cc164271b6956",
+          "width": 644,
+          "height": 982,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-017",
+          "slide": 264,
+          "filename": "017-s264.webp",
+          "sha256": "03b3fad9895819daf8f0bcb7452e82efb01f3a26ff48e0c40f0959ce278c8a8a",
+          "width": 867,
+          "height": 881,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-018",
+          "slide": 265,
+          "filename": "018-s265.webp",
+          "sha256": "3b03e61de7fa2dd32f0f549151e283075c9f7302a748856ad87b74487249e658",
+          "width": 770,
+          "height": 985,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-019",
+          "slide": 266,
+          "filename": "019-s266.webp",
+          "sha256": "36189daa0395d1691de2e8c2e2fb657224fd5d578b4afbc232cf32890beaa2f5",
+          "width": 881,
+          "height": 1116,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-020",
+          "slide": 267,
+          "filename": "020-s267.webp",
+          "sha256": "b8569464bd39eb2d0edebbc80daa0e7f178c75fa0fb29177b32ee43e6b68c07b",
+          "width": 786,
+          "height": 981,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-021",
+          "slide": 268,
+          "filename": "021-s268.webp",
+          "sha256": "e69025696ae6c3b660816cc8315302c8f5573cc95e30dc72b92d10657170c032",
+          "width": 787,
+          "height": 959,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-022",
+          "slide": 269,
+          "filename": "022-s269.webp",
+          "sha256": "201ba9bf4ba1dbaebea6c24d240027259e0211436e24730f38511574910d10f0",
+          "width": 787,
+          "height": 959,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-023",
+          "slide": 270,
+          "filename": "023-s270.webp",
+          "sha256": "0af520ef8a4eeafa3429199842fc13119c60db104e75c8aab0232dc5f9693e41",
+          "width": 712,
+          "height": 871,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-024",
+          "slide": 271,
+          "filename": "024-s271.webp",
+          "sha256": "c51b816a8adfaf13a2c885b70e09a4953938fd25789bb5b7bd197a028e1dd341",
+          "width": 1160,
+          "height": 896,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-025",
+          "slide": 272,
+          "filename": "025-s272.webp",
+          "sha256": "25bc3fcaa983575883a802aa261b0bf467515e35ce679463893945b91a2c3682",
+          "width": 641,
+          "height": 783,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-026",
+          "slide": 273,
+          "filename": "026-s273.webp",
+          "sha256": "43d10ccbc1a0a387d5d0fcc17265852343424cd08f02bf9a92e5c49ecb6382ed",
+          "width": 616,
+          "height": 762,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-027",
+          "slide": 274,
+          "filename": "027-s274.webp",
+          "sha256": "65ccfdc8bf1af4c677e4db4929823cb9c81140a0e16c53e8a96ce43c7153b058",
+          "width": 790,
+          "height": 788,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-028",
+          "slide": 275,
+          "filename": "028-s275.webp",
+          "sha256": "75eb870209e08893e522fe34c0c36b84bf7c97a03a693f0ab10f1c1965a382d7",
+          "width": 690,
+          "height": 716,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "chair-stool-029",
+          "slide": 276,
+          "filename": "029-s276.webp",
+          "sha256": "a8c3291b1459e722f5ae179bb826517f0e9e81df88157437c4f4e7dd21ab02cf",
+          "width": 595,
+          "height": 719,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "occasional-table",
+      "label": "几类",
+      "firstSlide": 277,
+      "lastSlide": 297,
+      "images": [
+        {
+          "id": "occasional-table-001",
+          "slide": 277,
+          "filename": "001-s277.webp",
+          "sha256": "4241acd3ef73a5c60cffe316451ffb6fc574fe61be6a4bc50636b52abc43f3be",
+          "width": 1430,
+          "height": 610,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-002",
+          "slide": 278,
+          "filename": "002-s278.webp",
+          "sha256": "4ee81453048a1d479454777197c824b7bb54793fc644355f45985d90f49557d0",
+          "width": 1514,
+          "height": 658,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-003",
+          "slide": 279,
+          "filename": "003-s279.webp",
+          "sha256": "f079f13cb33b094d9fbfa9aecdcb21e65efb3e996979b5c17104de732b2525f8",
+          "width": 1399,
+          "height": 555,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-004",
+          "slide": 280,
+          "filename": "004-s280.webp",
+          "sha256": "1f432e5a2ed7c7a6268a28baac4d8dbf5d8e08172eb0df476f5e03794c5e662e",
+          "width": 1447,
+          "height": 571,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-005",
+          "slide": 281,
+          "filename": "005-s281.webp",
+          "sha256": "dc33ba98652f3f9a070008e8fe6a4a19686593e8afb3ffb7148d699b8895b752",
+          "width": 1466,
+          "height": 564,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-006",
+          "slide": 282,
+          "filename": "006-s282.webp",
+          "sha256": "15026579fdfeefa72ecedcda4254b4f4abcf6277ad743ded2972e32743637291",
+          "width": 756,
+          "height": 693,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-007",
+          "slide": 283,
+          "filename": "007-s283.webp",
+          "sha256": "0756ca8264c87bfc0e138625585af1b2f8b7efe381b0d48800d468ceb19444f2",
+          "width": 967,
+          "height": 786,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-008",
+          "slide": 284,
+          "filename": "008-s284.webp",
+          "sha256": "73065e1f827e3274040f33134865ec405859fa358a6f50ea25cad391639e7fb2",
+          "width": 601,
+          "height": 712,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-009",
+          "slide": 285,
+          "filename": "009-s285.webp",
+          "sha256": "9a3e9961154add0d21715fda3eb9212a28b67e43a876d04f853169750137fda2",
+          "width": 1105,
+          "height": 548,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-010",
+          "slide": 286,
+          "filename": "010-s286.webp",
+          "sha256": "2f801751aac56366244aabdbbfa46d9336d210cfef55ef2d38033be8a9d18946",
+          "width": 561,
+          "height": 719,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-011",
+          "slide": 287,
+          "filename": "011-s287.webp",
+          "sha256": "234a58713722f19e530967b038c4b63a066c3f03acab9ab16a136329f4d17a40",
+          "width": 1490,
+          "height": 592,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-012",
+          "slide": 288,
+          "filename": "012-s288.webp",
+          "sha256": "05948d04fbd6a56ee725f2803036f999d58ffbf5406067ff6df94d06dabe5f0d",
+          "width": 958,
+          "height": 704,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-013",
+          "slide": 289,
+          "filename": "013-s289.webp",
+          "sha256": "47b6c89255d1b0637df97cfbdfd9cfadc6968ae091624b5daa1e91e3880e5c51",
+          "width": 672,
+          "height": 790,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-014",
+          "slide": 290,
+          "filename": "014-s290.webp",
+          "sha256": "125ceb695fa0e659c02b6999654039b183904832f1e0acef795883609421c663",
+          "width": 1506,
+          "height": 634,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-015",
+          "slide": 291,
+          "filename": "015-s291.webp",
+          "sha256": "35a1a393ffa3f96b4966258fc480470e0b7a061784a5f28b93013c8e8a779049",
+          "width": 910,
+          "height": 729,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-016",
+          "slide": 292,
+          "filename": "016-s292.webp",
+          "sha256": "26e28e977910642f89e33e8b6132aab4ac7fd7eaeda16fcbac433940a3d69f2f",
+          "width": 713,
+          "height": 804,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-017",
+          "slide": 293,
+          "filename": "017-s293.webp",
+          "sha256": "887082b95c59cbfa02c06bee8e5e205a3ac6e406b3ffee7a2afaf29952960969",
+          "width": 1488,
+          "height": 583,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-018",
+          "slide": 294,
+          "filename": "018-s294.webp",
+          "sha256": "a895266f3d6a386b5959cb9de6debafdcaf2c9ddab1069b539168fae966fca12",
+          "width": 966,
+          "height": 607,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-019",
+          "slide": 295,
+          "filename": "019-s295.webp",
+          "sha256": "f09d04ba4f473979349ae6dfc74a7296ebc6465cb7d9b3efc025e9e54d9a62b5",
+          "width": 1042,
+          "height": 557,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-020",
+          "slide": 296,
+          "filename": "020-s296.webp",
+          "sha256": "5f8470975c9400a8b87b5264e165c2c5b1fac903118e8d825f933ec6f95b951d",
+          "width": 704,
+          "height": 710,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "occasional-table-021",
+          "slide": 297,
+          "filename": "021-s297.webp",
+          "sha256": "2dd873996a9590b0b452bac7bc10c9855a0e48c78c45a94a611a7d6792b5a457",
+          "width": 1303,
+          "height": 777,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "cabinet",
+      "label": "柜类",
+      "firstSlide": 298,
+      "lastSlide": 311,
+      "images": [
+        {
+          "id": "cabinet-001",
+          "slide": 298,
+          "filename": "001-s298.webp",
+          "sha256": "35c26457f9cdfedaa8241d5b9bc140699116d1904afd6f68b1ddd346af428405",
+          "width": 561,
+          "height": 740,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-002",
+          "slide": 299,
+          "filename": "002-s299.webp",
+          "sha256": "01d7e1e7027b2e8bf76e44868916da5e206f9f4605417c6c80a88cd16e5fa9c9",
+          "width": 688,
+          "height": 681,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-003",
+          "slide": 300,
+          "filename": "003-s300.webp",
+          "sha256": "747a5f3a415a0057664e58e41928ed2fdc6cc68a86a47c86dfd92fe3e23fb944",
+          "width": 1860,
+          "height": 926,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-004",
+          "slide": 301,
+          "filename": "004-s301.webp",
+          "sha256": "999da1c90184a04bfb3186433dffaea3c03fa99c14e7627f4d8d3968c91a6ea3",
+          "width": 1753,
+          "height": 618,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-005",
+          "slide": 302,
+          "filename": "005-s302.webp",
+          "sha256": "537310b8ea6611f37e01da5d9c5038a65fb8ca735880520f0443c3a4f4ef07a9",
+          "width": 1499,
+          "height": 825,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-006",
+          "slide": 303,
+          "filename": "006-s303.webp",
+          "sha256": "82af5520a615c72508b19e13c650fa5042ed019f2a692a873094bd3059ca5ef9",
+          "width": 980,
+          "height": 1222,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-007",
+          "slide": 304,
+          "filename": "007-s304.webp",
+          "sha256": "ccd6a18e7c833e24344ec7669adecaf89c56146fc179709e537bcf0e6f028571",
+          "width": 944,
+          "height": 1486,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-008",
+          "slide": 305,
+          "filename": "008-s305.webp",
+          "sha256": "a766d5b07a101388650fd1be9dd2cf1ac186a7c93a49ececf5b28cf7710e0461",
+          "width": 921,
+          "height": 1389,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-009",
+          "slide": 306,
+          "filename": "009-s306.webp",
+          "sha256": "8a813766266c6ad16961c6d3baeffb220bfc16f9829b8897d400d73064549877",
+          "width": 1539,
+          "height": 900,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-010",
+          "slide": 307,
+          "filename": "010-s307.webp",
+          "sha256": "81d3491c57bc9da21d03380d75959c8e7e781a3bd035dfd6ee47609fb574ea35",
+          "width": 873,
+          "height": 742,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-011",
+          "slide": 308,
+          "filename": "011-s308.webp",
+          "sha256": "9cc924efec2d172a3f6d9dc095af00030fa97dfc2337863ea4b264120fc35674",
+          "width": 830,
+          "height": 699,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-012",
+          "slide": 309,
+          "filename": "012-s309.webp",
+          "sha256": "fcd6ad14974784c80021c6d58e240ab81f6222fedd3cf9ada286946f98d5c04c",
+          "width": 867,
+          "height": 754,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-013",
+          "slide": 310,
+          "filename": "013-s310.webp",
+          "sha256": "a237f03251a877648bef3a7b16bd91b98e9f7a8a38c0a566cb6fad9804ca19a4",
+          "width": 754,
+          "height": 697,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "cabinet-014",
+          "slide": 311,
+          "filename": "014-s311.webp",
+          "sha256": "ba6683a0189f6f0642ef74a2d5c6e4b3ac59649ef8f5c38322173a266a94e4d1",
+          "width": 599,
+          "height": 722,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "bed",
+      "label": "床类",
+      "firstSlide": 312,
+      "lastSlide": 316,
+      "images": [
+        {
+          "id": "bed-001",
+          "slide": 312,
+          "filename": "001-s312.webp",
+          "sha256": "b871b92736e339e2d413358fd546429786cbcfa890c268f3ac4dcd108909c084",
+          "width": 2136,
+          "height": 926,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "bed-002",
+          "slide": 313,
+          "filename": "002-s313.webp",
+          "sha256": "d360324f1d1c2c9e45ea293ae66ee8cdac9bdb944bdff3937abfa16820e07e2a",
+          "width": 2029,
+          "height": 966,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "bed-003",
+          "slide": 314,
+          "filename": "003-s314.webp",
+          "sha256": "7e019bb21544ff1e3e36628880634930555218a5fecc7cf52afc89e50fa6d99e",
+          "width": 1962,
+          "height": 871,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "bed-004",
+          "slide": 315,
+          "filename": "004-s315.webp",
+          "sha256": "b2a4aa8967885ace0cc34828f8628c20120e6ab1f12da43a70f03bfe15855ed6",
+          "width": 2051,
+          "height": 1111,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "bed-005",
+          "slide": 316,
+          "filename": "005-s316.webp",
+          "sha256": "447f2e71a9de895e13014742d9af60cf7ae3494bcfe64fdcd57e9e10da55d484",
+          "width": 1953,
+          "height": 894,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "label": "桌类",
+      "firstSlide": 317,
+      "lastSlide": 331,
+      "images": [
+        {
+          "id": "table-001",
+          "slide": 317,
+          "filename": "001-s317.webp",
+          "sha256": "7f4180a8f3fa93e8bf4a52c4873348e6030929a8f14ef81a8648ae56dc09c6ac",
+          "width": 1717,
+          "height": 762,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-002",
+          "slide": 318,
+          "filename": "002-s318.webp",
+          "sha256": "5307a54bb8d47a3f3368d9ce15784e41c8393fbcbb766e13db2911c8a38f076b",
+          "width": 1567,
+          "height": 940,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-003",
+          "slide": 319,
+          "filename": "003-s319.webp",
+          "sha256": "1fc124bc93b52ff90764a57bc30fec07a10ed1446ab7e733a6dd7d220d80d1c1",
+          "width": 1510,
+          "height": 814,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-004",
+          "slide": 320,
+          "filename": "004-s320.webp",
+          "sha256": "f04ceb72a224a41fb412d52e55d95562ce7aae28b7c3ccb1d61dd84accee3881",
+          "width": 1917,
+          "height": 813,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-005",
+          "slide": 321,
+          "filename": "005-s321.webp",
+          "sha256": "6407d494e19729deacf58016d2abee539de962d3d2dabd86b316d97fc61f8533",
+          "width": 1151,
+          "height": 736,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-006",
+          "slide": 322,
+          "filename": "006-s322.webp",
+          "sha256": "e6167b8e1c99806fcd1e2ec9c3041679c4cba93c50efaac87bacdf02e7d297e5",
+          "width": 1151,
+          "height": 728,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-007",
+          "slide": 323,
+          "filename": "007-s323.webp",
+          "sha256": "416256d97ffe366c902b4f787ba2be17fba037a261eeee942904c30cb3aaa612",
+          "width": 1102,
+          "height": 1085,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-008",
+          "slide": 324,
+          "filename": "008-s324.webp",
+          "sha256": "fe5b6a360f3829a7345b9daa2e45d34aea79edd7f947427ebd945895baec17ad",
+          "width": 1878,
+          "height": 895,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-009",
+          "slide": 325,
+          "filename": "009-s325.webp",
+          "sha256": "5c293b5909a8a192169fe4f9768e5db18d8b223a248f8c5ac4b4bd26ade78ee3",
+          "width": 1851,
+          "height": 750,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-010",
+          "slide": 326,
+          "filename": "010-s326.webp",
+          "sha256": "eca5b23e1df55752c632fea1f003a085407c8a1aedb214bec5202ec35534d91b",
+          "width": 1496,
+          "height": 756,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-011",
+          "slide": 327,
+          "filename": "011-s327.webp",
+          "sha256": "7cd447190eb4b97ca3c3dcce3b59045e92f644da343a4a51e17998f4b22d0267",
+          "width": 1662,
+          "height": 755,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-012",
+          "slide": 328,
+          "filename": "012-s328.webp",
+          "sha256": "08f7bbf4d17b9ad79d70c6e25747b215227adae60ed8f87878f5413be30a6e1c",
+          "width": 1888,
+          "height": 781,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-013",
+          "slide": 329,
+          "filename": "013-s329.webp",
+          "sha256": "6bdff1a1ec323eb021a17bd589cf401d922460ad8554f231dd98faa285e7ed0c",
+          "width": 2004,
+          "height": 772,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-014",
+          "slide": 330,
+          "filename": "014-s330.webp",
+          "sha256": "c2f50ed3869f48bc1ff4bfa87dd6c311f697af3a3eb4d3dd75249f7982aff4ca",
+          "width": 737,
+          "height": 1062,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "table-015",
+          "slide": 331,
+          "filename": "015-s331.webp",
+          "sha256": "81acac5f6c0d2babcbaf4ca374c915cf7556d11702385e5cacd4384a3b578c2f",
+          "width": 651,
+          "height": 820,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "rack",
+      "label": "置物架",
+      "firstSlide": 332,
+      "lastSlide": 333,
+      "images": [
+        {
+          "id": "rack-001",
+          "slide": 332,
+          "filename": "001-s332.webp",
+          "sha256": "e9bacd35788bfca4aa73c21e16ef201a8a24b1a88634d26ab8444c625f1b4234",
+          "width": 474,
+          "height": 1070,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        },
+        {
+          "id": "rack-002",
+          "slide": 333,
+          "filename": "002-s333.webp",
+          "sha256": "85e050ca25e0ce7d593759cb9189e8e0332a53d39381b349383c956524dc95ac",
+          "width": 451,
+          "height": 1431,
+          "sourceId": "poseena",
+          "sourceLabel": "POSEENA 普西纳"
+        }
+      ]
+    },
+    {
+      "id": "yanshan",
+      "label": "砚山",
+      "firstSlide": 334,
+      "lastSlide": 342,
+      "images": [
+        {
+          "id": "yanshan-001",
+          "slide": 334,
+          "filename": "001-s334.webp",
+          "sha256": "d255bdc988262b18e0c828c20e888e13092c31267e7328ac6c96c45b343b2e2b",
+          "width": 2524,
+          "height": 573,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-002",
+          "slide": 335,
+          "filename": "002-s335.webp",
+          "sha256": "34ec673fc6616c8ae4a522fe11fce7194b81d56cba79662922304d4359159e54",
+          "width": 1105,
+          "height": 945,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-003",
+          "slide": 336,
+          "filename": "003-s336.webp",
+          "sha256": "ea8091672e2e03bc8e4c73cbdbc588744990640ed799660ab3e2c945a03edaf3",
+          "width": 1115,
+          "height": 1172,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-004",
+          "slide": 337,
+          "filename": "004-s337.webp",
+          "sha256": "093cb10f9c68dcb925d269787472b694c98a7204c1f728383e308b8f426f989e",
+          "width": 2141,
+          "height": 573,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-005",
+          "slide": 338,
+          "filename": "005-s338.webp",
+          "sha256": "edbfe014e84281d684ec56805eb8d461e2c4102db270f0e7f500fbab686022fb",
+          "width": 1544,
+          "height": 624,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-006",
+          "slide": 339,
+          "filename": "006-s339.webp",
+          "sha256": "7ea57d6a6e08a3956358f59699ee7638449a2d52f85d38814d21e578f4ae0e0a",
+          "width": 2560,
+          "height": 652,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-007",
+          "slide": 340,
+          "filename": "007-s340.webp",
+          "sha256": "ab48f1414c4816fda60c02aa3f6f8f077ecb7c6845e8dc4f68e98ba54baf4cbc",
+          "width": 1334,
+          "height": 731,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-008",
+          "slide": 341,
+          "filename": "008-s341.webp",
+          "sha256": "b6e65cd581b629818a7f839f8fee2786246e58686dce8355ac056974e944981f",
+          "width": 1709,
+          "height": 650,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        },
+        {
+          "id": "yanshan-009",
+          "slide": 342,
+          "filename": "009-s342.webp",
+          "sha256": "0b3970dd9b8afb76728d68f8a331e128a50f90a5efe4f51bad138bacff6a93bd",
+          "width": 2332,
+          "height": 1044,
+          "sourceId": "yanshan",
+          "sourceLabel": "POSEENA · 砚山"
+        }
+      ]
+    },
+    {
+      "id": "panshi",
+      "label": "磐石",
+      "firstSlide": 343,
+      "lastSlide": 358,
+      "images": [
+        {
+          "id": "panshi-001",
+          "slide": 343,
+          "filename": "001-s343.webp",
+          "sha256": "82518a069a6c7b26e96f4331d96af175cdf091ea31ddc2da64e735088d341783",
+          "width": 982,
+          "height": 1229,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-002",
+          "slide": 344,
+          "filename": "002-s344.webp",
+          "sha256": "82f65d05dd8fea620ef38dc5c148cb5a70e146be65a7b4325dd3cb94beb19f20",
+          "width": 1890,
+          "height": 1050,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-003",
+          "slide": 345,
+          "filename": "003-s345.webp",
+          "sha256": "9814fd81e083c7cd54f862953c7de86e83c4976f6db48648d66779f20984d79f",
+          "width": 1047,
+          "height": 1248,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-004",
+          "slide": 346,
+          "filename": "004-s346.webp",
+          "sha256": "4f3151492c2603e8ab90eeff551bcf401ad94b9a7d8f928729cfed53213f43a1",
+          "width": 1826,
+          "height": 1223,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-005",
+          "slide": 347,
+          "filename": "005-s347.webp",
+          "sha256": "3dc1fe8f8d91885461416b06db089df189106ba994ea65e0848619865d111d06",
+          "width": 1068,
+          "height": 1295,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-006",
+          "slide": 348,
+          "filename": "006-s348.webp",
+          "sha256": "7f73456f84c5eb688fc3f7cb18167649b2db7fdf45984d72c3a8974925a8b72e",
+          "width": 1984,
+          "height": 886,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-007",
+          "slide": 349,
+          "filename": "007-s349.webp",
+          "sha256": "be73837429c82f914fe5b9433234ae9cfa74805f649630c5f3ec77d06a0d7a23",
+          "width": 837,
+          "height": 1133,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-008",
+          "slide": 350,
+          "filename": "008-s350.webp",
+          "sha256": "6777fa28ef5de7399988647737f687fa274346006825b17afd3279c7f5f71471",
+          "width": 2273,
+          "height": 1045,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-009",
+          "slide": 351,
+          "filename": "009-s351.webp",
+          "sha256": "895f57ac4b7e7b2139f1e66d904d760cd4b667a57c00383c71e8f166e40dfda7",
+          "width": 1560,
+          "height": 1264,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-010",
+          "slide": 352,
+          "filename": "010-s352.webp",
+          "sha256": "fa7fcf5a9c4b7d4ae9374ac47db07cb6d370e79b618b8485733f9b33c132f570",
+          "width": 2560,
+          "height": 684,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-011",
+          "slide": 353,
+          "filename": "011-s353.webp",
+          "sha256": "946bdc9bcede781a91974ee592ce6031fd51089f2f5b26d546d4177c89416975",
+          "width": 2255,
+          "height": 848,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-012",
+          "slide": 354,
+          "filename": "012-s354.webp",
+          "sha256": "1137b44cab03c22d4d8fe514b2c74fce3c74df2862674a5b4622131b0acd356f",
+          "width": 1023,
+          "height": 1062,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-013",
+          "slide": 355,
+          "filename": "013-s355.webp",
+          "sha256": "1ab9049b783afb90c6e88cb16557b7c395b7ef819dd1b0a3598a2bd53a87d09b",
+          "width": 2092,
+          "height": 930,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-014",
+          "slide": 356,
+          "filename": "014-s356.webp",
+          "sha256": "02a9bde194a705d062db49906fb641ebaee566958acc1ecbea36f31b8b10fb43",
+          "width": 2212,
+          "height": 934,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-015",
+          "slide": 357,
+          "filename": "015-s357.webp",
+          "sha256": "87bd3f2ec779c1bbf6597d809d3109576bce564d3a00cb4686b542b87c9a67d6",
+          "width": 615,
+          "height": 761,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        },
+        {
+          "id": "panshi-016",
+          "slide": 358,
+          "filename": "016-s358.webp",
+          "sha256": "9489741dbec2831110d6507726118a9518754289decead2f063ca4df30614b1b",
+          "width": 2458,
+          "height": 868,
+          "sourceId": "panshi",
+          "sourceLabel": "POSEENA · 磐石"
+        }
+      ]
+    },
+    {
+      "id": "customer-cases",
+      "label": "客户案例",
+      "firstSlide": 172,
+      "lastSlide": 218,
+      "images": [
+        {
+          "id": "customer-case-001",
+          "slide": 172,
+          "filename": "001-source-house-s172.webp",
+          "sha256": "e083762aa76214a23b69af52d8299dca6e7d27fee2765da1854c26138faf4fe7",
+          "width": 1649,
+          "height": 2560,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-002",
+          "slide": 173,
+          "filename": "002-source-house-s173.webp",
+          "sha256": "91082ec25aa114d1b04a7be159266f416a41eb985a8fd6fd893a695ccfc7677d",
+          "width": 2560,
+          "height": 1518,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-003",
+          "slide": 174,
+          "filename": "003-source-house-s174.webp",
+          "sha256": "ad9debc43014d0eeb0d36269b0d8a26bb272feacc5dff7e82b6a8e13ce1a566b",
+          "width": 2560,
+          "height": 1518,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-004",
+          "slide": 175,
+          "filename": "004-source-house-s175.webp",
+          "sha256": "75e8aa86d27eedfa4af56f5b9ae812e8a2f1a2c0549f6a27c04458293889a3bd",
+          "width": 2560,
+          "height": 1260,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-005",
+          "slide": 176,
+          "filename": "005-source-house-s176.webp",
+          "sha256": "becb022ddfe3d59c15516fbd5ca873ab7813c302868ea9eb65442e790b52506c",
+          "width": 2560,
+          "height": 1569,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-006",
+          "slide": 177,
+          "filename": "006-source-house-s177.webp",
+          "sha256": "408de461ac47dae20f24ace18816865b9ef36a97eb19cbeded3d5d06093791d6",
+          "width": 2560,
+          "height": 1569,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-007",
+          "slide": 178,
+          "filename": "007-source-house-s178.webp",
+          "sha256": "96d0f2c6b3c8081cb2d526ceb53cc4f4146d893f885ea2cbf15a6773927e1217",
+          "width": 1044,
+          "height": 2560,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-008",
+          "slide": 178,
+          "filename": "008-source-house-s178.webp",
+          "sha256": "f6097bbcc68dbc6973cef0cd78263847010ab8904efa46ffa4cca048625433f4",
+          "width": 1330,
+          "height": 788,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-009",
+          "slide": 179,
+          "filename": "009-source-house-s179.webp",
+          "sha256": "e8c407b4507a565c6c29c323faa5d7730a0becd7862dad938d9cfe0a6a97d1be",
+          "width": 2560,
+          "height": 1518,
+          "sourceId": "source-house",
+          "sourceLabel": "源邸壹号·合院"
+        },
+        {
+          "id": "customer-case-010",
+          "slide": 180,
+          "filename": "010-greenland-s180.webp",
+          "sha256": "77fdd3240c0edd69028fc25851eafd10c0a363bdcd1cf73b8aa9ed6ab22627ea",
+          "width": 1649,
+          "height": 2560,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-011",
+          "slide": 181,
+          "filename": "011-greenland-s181.webp",
+          "sha256": "e85cc051ab3865ed7ab3cb7b3d07e351a5a8780c10c3f7c286344659c9b9a389",
+          "width": 2560,
+          "height": 1884,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-012",
+          "slide": 182,
+          "filename": "012-greenland-s182.webp",
+          "sha256": "2e4b5635dafbdac314be6bc659e2c02f3419419a080737b1279cfcf2576d6bb7",
+          "width": 2560,
+          "height": 1260,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-013",
+          "slide": 183,
+          "filename": "013-greenland-s183.webp",
+          "sha256": "8acf29048bf9d58619011fe70b726fe99bc47549dc3be11c2acee6e7933899a8",
+          "width": 1994,
+          "height": 1003,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-014",
+          "slide": 184,
+          "filename": "014-greenland-s184.webp",
+          "sha256": "274f9abc65049055a94abd2e37d7e3c40b0f0dd4d817e093f6426e6dc0704862",
+          "width": 2560,
+          "height": 913,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-015",
+          "slide": 185,
+          "filename": "015-greenland-s185.webp",
+          "sha256": "67652b6a30bce127e68040f590efa7e2d2901f1426a87b27ea5a1511bf7d98d1",
+          "width": 2560,
+          "height": 1038,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-016",
+          "slide": 186,
+          "filename": "016-greenland-s186.webp",
+          "sha256": "e2d92aa1a7b997f7f7db251d55b2eed9490c5ef0cf2910a241033c8224cc0537",
+          "width": 2560,
+          "height": 1085,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-017",
+          "slide": 187,
+          "filename": "017-greenland-s187.webp",
+          "sha256": "b7b80e6b01dd64382283f49b7d4cf69130eb20e7a8d3dd32eb909de9d5884a4e",
+          "width": 2560,
+          "height": 1085,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-018",
+          "slide": 188,
+          "filename": "018-greenland-s188.webp",
+          "sha256": "e4359926df5566b77c98f5355ce63851b8eb94d48718a941d1a445a7356a5727",
+          "width": 2560,
+          "height": 1884,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-019",
+          "slide": 189,
+          "filename": "019-greenland-s189.webp",
+          "sha256": "1472d215b52c2bf66024555fb6f113b1a80697ff83c4712dc034504a057a8a2a",
+          "width": 2560,
+          "height": 1084,
+          "sourceId": "greenland",
+          "sourceLabel": "绿地集团"
+        },
+        {
+          "id": "customer-case-020",
+          "slide": 190,
+          "filename": "020-sunac-qujiang-s190.webp",
+          "sha256": "ebd567b141429cf2fefe357cc51472883eceb2266be457ba5eb4063d655ffded",
+          "width": 1649,
+          "height": 2560,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-021",
+          "slide": 191,
+          "filename": "021-sunac-qujiang-s191.webp",
+          "sha256": "460bb13efb109c087245f68c9d81029e1730f127ed06f2b1a7a488b6f64c1273",
+          "width": 2560,
+          "height": 1461,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-022",
+          "slide": 192,
+          "filename": "022-sunac-qujiang-s192.webp",
+          "sha256": "19175fd8f481b412ccb14c63803768c8b8dc8209df02feeb423a0f0207e77583",
+          "width": 2560,
+          "height": 966,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-023",
+          "slide": 193,
+          "filename": "023-sunac-qujiang-s193.webp",
+          "sha256": "f25fb924cc90a6d518f4305c1073484ab0f3300075098039c27ee696e248670c",
+          "width": 2560,
+          "height": 1258,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-024",
+          "slide": 194,
+          "filename": "024-sunac-qujiang-s194.webp",
+          "sha256": "a522f27978acfa0f874dc2334300573e9ddb3e6392b9798c73967b242fbcb63a",
+          "width": 1296,
+          "height": 1389,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-025",
+          "slide": 194,
+          "filename": "025-sunac-qujiang-s194.webp",
+          "sha256": "33704a4c1d5f1551158aeaa5d716d20460eab6ed2aa4107f47d1c89965f1cf63",
+          "width": 898,
+          "height": 2560,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-026",
+          "slide": 195,
+          "filename": "026-sunac-qujiang-s195.webp",
+          "sha256": "7f276c2687ce73c6b2ffd88cb8ee9269521ec3e694d7843a6cf83b2797a50f30",
+          "width": 2560,
+          "height": 1459,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-027",
+          "slide": 196,
+          "filename": "027-sunac-qujiang-s196.webp",
+          "sha256": "10177b69aae7b1903bb26376a405d752cf8a8439b1dfd1da9cb3edf54ee05158",
+          "width": 2486,
+          "height": 2301,
+          "sourceId": "sunac-qujiang",
+          "sourceLabel": "融创·曲江印"
+        },
+        {
+          "id": "customer-case-028",
+          "slide": 197,
+          "filename": "028-venice-wuxinhu-s197.webp",
+          "sha256": "3d8421d55d22f0498bc590398bfcdef8232f57b03442f4216dec7492f1632399",
+          "width": 1649,
+          "height": 2560,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-029",
+          "slide": 198,
+          "filename": "029-venice-wuxinhu-s198.webp",
+          "sha256": "7192bf5dd3c9520f9a54693e4612ec801c4f4593ff9527b65d8dccdaf6538198",
+          "width": 2560,
+          "height": 1084,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-030",
+          "slide": 199,
+          "filename": "030-venice-wuxinhu-s199.webp",
+          "sha256": "cbd354ca2fea1e0c497e7c9d2e937876aaca36899df2dc37f88ede9dfd91fa64",
+          "width": 2560,
+          "height": 1920,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-031",
+          "slide": 200,
+          "filename": "031-venice-wuxinhu-s200.webp",
+          "sha256": "e5e25e53646ebb210a033612b28c5a8e7dfc81aa5d4c0795dfb554783517bbbc",
+          "width": 2560,
+          "height": 1084,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-032",
+          "slide": 201,
+          "filename": "032-venice-wuxinhu-s201.webp",
+          "sha256": "307197db99f78df42b7bc93002f80bb25ab4e41a1009bccf25c8c3a8c3c36451",
+          "width": 2560,
+          "height": 1167,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-033",
+          "slide": 202,
+          "filename": "033-venice-wuxinhu-s202.webp",
+          "sha256": "9fe8bd937faac8306a82cce78cc357f79fb9fafc9f262fed9b3adb08e49786a7",
+          "width": 2560,
+          "height": 1121,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-034",
+          "slide": 203,
+          "filename": "034-venice-wuxinhu-s203.webp",
+          "sha256": "b3c58d011ae5d54f0ca653050b0df565811432107f4107fd8fb71bb6b6b0ad6d",
+          "width": 2560,
+          "height": 1225,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-035",
+          "slide": 204,
+          "filename": "035-venice-wuxinhu-s204.webp",
+          "sha256": "9817933d1ef610b84e3c4243a51e12681f89cb1506042ed6a40f539e970ca050",
+          "width": 2560,
+          "height": 1884,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-036",
+          "slide": 205,
+          "filename": "036-venice-wuxinhu-s205.webp",
+          "sha256": "f327da7c65512de8a082e496671898a7073b45ac404f7246c719b40d3d2e4dac",
+          "width": 2560,
+          "height": 1333,
+          "sourceId": "venice-wuxinhu",
+          "sourceLabel": "威尼斯·五鑫湖"
+        },
+        {
+          "id": "customer-case-037",
+          "slide": 206,
+          "filename": "037-baojie-villa-s206.webp",
+          "sha256": "ee9fe1ca4e8ba59399a9d16071f65e04360d4424e877f1d2cacc8285704571ea",
+          "width": 1649,
+          "height": 2560,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-038",
+          "slide": 207,
+          "filename": "038-baojie-villa-s207.webp",
+          "sha256": "91c4d483a1d98bdc86865bae33380584d4050cc5905fb89608c16c3d8a28c7ca",
+          "width": 2560,
+          "height": 1350,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-039",
+          "slide": 208,
+          "filename": "039-baojie-villa-s208.webp",
+          "sha256": "3f39eac1e6983e131ddd4318fb5bf74642c6212c8f9ce4a448505636e9fcb665",
+          "width": 2560,
+          "height": 1309,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-040",
+          "slide": 209,
+          "filename": "040-baojie-villa-s209.webp",
+          "sha256": "dd60a27bc721cde100357f9cb4114a9c6fc23926e18e7e1b0d35f216d91ff662",
+          "width": 2560,
+          "height": 1164,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-041",
+          "slide": 210,
+          "filename": "041-baojie-villa-s210.webp",
+          "sha256": "397d5a088b1fb286fda2593b9732ff86db1019bd5281dfc3dd226c213f8d3316",
+          "width": 2560,
+          "height": 1434,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-042",
+          "slide": 211,
+          "filename": "042-baojie-villa-s211.webp",
+          "sha256": "4d4b530497cf05ce835acd6679e397f93d62ebcb4622b38fc65e73445c4caa03",
+          "width": 2560,
+          "height": 1434,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-043",
+          "slide": 212,
+          "filename": "043-baojie-villa-s212.webp",
+          "sha256": "4b3140e0ce8baf4c2220dfee2b511e285d8fb1d9d144b643c422254773c9c77c",
+          "width": 1841,
+          "height": 1290,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-044",
+          "slide": 213,
+          "filename": "044-baojie-villa-s213.webp",
+          "sha256": "5e045405586deb92f9d2b6e3f4dd0d781af2b434ae55407adadcde2d2969374f",
+          "width": 2560,
+          "height": 1165,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-045",
+          "slide": 216,
+          "filename": "045-baojie-villa-s216.webp",
+          "sha256": "0f69f88531679b3f6318408732ffc4402c6c6f2ee521f55fc89661f48d5fdfd9",
+          "width": 2212,
+          "height": 2560,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-046",
+          "slide": 217,
+          "filename": "046-baojie-villa-s217.webp",
+          "sha256": "c0c009c8b02369b5c33ca0241dc07c1062669c5690c88ea360d4c10875e983da",
+          "width": 2560,
+          "height": 1334,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        },
+        {
+          "id": "customer-case-047",
+          "slide": 218,
+          "filename": "047-baojie-villa-s218.webp",
+          "sha256": "8cf3ddc9a27541f7486987e8a41d0637997a9246e047fc5bb41da192e8f87651",
+          "width": 2560,
+          "height": 1269,
+          "sourceId": "baojie-villa",
+          "sourceLabel": "宝界山庄"
+        }
+      ]
+    }
+  ],
+  "caseSources": [
+    {
+      "id": "source-house",
+      "label": "源邸壹号·合院",
+      "firstSlide": 172,
+      "lastSlide": 179
+    },
+    {
+      "id": "greenland",
+      "label": "绿地集团",
+      "firstSlide": 180,
+      "lastSlide": 189
+    },
+    {
+      "id": "sunac-qujiang",
+      "label": "融创·曲江印",
+      "firstSlide": 190,
+      "lastSlide": 196
+    },
+    {
+      "id": "venice-wuxinhu",
+      "label": "威尼斯·五鑫湖",
+      "firstSlide": 197,
+      "lastSlide": 205
+    },
+    {
+      "id": "baojie-villa",
+      "label": "宝界山庄",
+      "firstSlide": 206,
+      "lastSlide": 218
+    }
+  ]
+}

@@ -3,7 +3,6 @@ import type {
   FooterContact,
   NavItem,
   NewsItem,
-  SpaceSlide,
   SystemCard,
 } from "@/types/content";
 
@@ -118,57 +117,6 @@ export const systemCards: readonly SystemCard[] = [
 
 // export const systemsBrandImage = asset("65d4aba6-c8d4-423b-8c92-31873531456b.png");
 export const systemsBrandImage = asset("be694742-7722-48b8-ba2c-88b0ef0459d9.png");
-
-export const spaceSlides: readonly SpaceSlide[] = [
-  {
-    id: "entrance",
-    title: "Прихожая зона",
-    english: "入户空间",
-    image: asset("f281fbf9-7130-48bf-879a-a1ea5773eba7.jpg"),
-    icon: asset("864b361d-3601-4741-8780-cdfd494ca34c.png"),
-    href: "/home_decoration_p5.html",
-  },
-  {
-    id: "visitor",
-    title: "Гостиная зона",
-    english: "会客空间",
-    image: asset("f4bbb759-e522-4d10-bb9e-ff4fb4ca6afc.jpg"),
-    icon: asset("0da01016-91ee-4194-ad3c-a61a301cb75e.png"),
-    href: "/home_decoration_p5.html?p=1",
-  },
-  {
-    id: "dining",
-    title: "Кухня-столовая",
-    english: "餐厨空间",
-    image: asset("3d136554-13fe-4115-ae0f-489a4accee22.jpg"),
-    icon: asset("5995f086-6fc2-4779-939a-44484f734b56.png"),
-    href: "/home_decoration_p5.html?p=2",
-  },
-  {
-    id: "study",
-    title: "Кабинет и чайная зона",
-    english: "书茶空间",
-    image: asset("a8ec183b-0dfc-48d5-ad20-b50711b14083.jpg"),
-    icon: asset("5995f086-6fc2-4779-939a-44484f734b56.png"),
-    href: "/home_decoration_p5.html?p=3",
-  },
-  {
-    id: "sleep",
-    title: "Спальная зона",
-    english: "睡眠空间",
-    image: asset("71c4fbe8-3d35-4446-9ea3-a1f7b20ef437.jpg"),
-    icon: asset("11dafaa9-48ee-4194-9107-ab3d537a3698.png"),
-    href: "/home_decoration_p5.html?p=4",
-  },
-  {
-    id: "cloakroom",
-    title: "Гардеробная зона",
-    english: "衣帽空间",
-    image: asset("c2a6e713-2d06-49ea-822d-163acd81e723.jpg"),
-    icon: asset("8ef3ab73-8c66-4b4a-9156-4893a068c72e.png"),
-    href: "/home_decoration_p5.html?p=5",
-  },
-] as const;
 
 export const designerCards: readonly DesignerCard[] = [
   { id: "designer-1", image: asset("c59e253c-84e3-4565-bb96-89c639f66eed.jpg") },

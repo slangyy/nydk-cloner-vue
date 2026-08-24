@@ -20,12 +20,15 @@
 1. Existing shared `ProductPageShell` / `InnerPageHero`.
 2. `FinishedSeriesTabs` using six 320 × 240 sprite images.
 3. Centered introduction on the original pale texture.
-4. Full-width `FinishedSpaceShowcase`.
+4. POSEENA uses full-width `FinishedCatalogShowcase`; the other five series use
+   `FinishedSpaceShowcase`.
 5. Existing shared footer.
 
-The six routes must all render the same component and receive only a strict
-`variantKey` prop. The active series changes the Hero, introduction and all space
-images. Query parameter `p` does not control the variant.
+The six routes must all render the same page component and receive only a strict
+`variantKey` prop. The active series changes the Hero and introduction. POSEENA
+then renders the ten-group catalog specified in
+`docs/research/components/FinishedCatalogShowcase.spec.md`; other series retain
+their space data. Query parameter `p` does not control the variant.
 
 ## Introduction
 
